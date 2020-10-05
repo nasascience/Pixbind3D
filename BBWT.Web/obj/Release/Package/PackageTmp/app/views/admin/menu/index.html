@@ -1,0 +1,79 @@
+﻿<div permission="ManageMenu">
+    <div class="page-header">
+        <h1>{{title}}</h1>
+        <span>Drag and drop to re-order</span>        
+    </div>
+
+    <div class="container mm-container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-xs-10 col-sm-12 col-xs-offset-1 col-sm-offset-0">
+                            <div id="tvMenu"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-10 col-sm-12 col-xs-offset-1 col-sm-offset-0">
+                            <button class="k-button btn-pad-right" ng-click="ManageMenuCtrl.showAddItemDialog()">Add</button>
+                            <button class="k-button" ng-click="ManageMenuCtrl.removeMenuItem()" ng-disabled="ManageMenuCtrl.selectedItem == null">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12" ng-show="ManageMenuCtrl.selectedItem != null">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="textField" class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 control-label">Name:</label>
+                        <div class="label-content col-xs-10 col-sm-9 col-xs-offset-1 col-sm-offset-0 label-content">
+                            <input id="menuTitle" name="textField" type="text" class="form-control" ng-change="ManageMenuCtrl.onMenuItemChange()" ng-model="ManageMenuCtrl.selectedItem.text" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="selectTest" class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 control-label">Page:</label>
+                        <div class="label-content col-xs-10 col-sm-9 col-xs-offset-1 col-sm-offset-0 label-content">
+                            <input name="selectTest" kendo-auto-complete id="ddlRoutes" k-options="ManageMenuCtrl.pageOptions" ng-change="ManageMenuCtrl.onMenuItemChange()" ng-model="ManageMenuCtrl.selectedItem.value" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+                <div class="form-horizontal">
+                    <div class="form-group m-confirm-container">
+                        <button class="k-button btn-cancel btn-pad-right" ng-disabled="!ManageMenuCtrl.isChanged" ng-click="ManageMenuCtrl.cancel()">Cancel</button>
+                        <button class="k-button" ng-click="ManageMenuCtrl.saveAll()" ng-disabled="!ManageMenuCtrl.isChanged">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display: none;" id="bbwtAddItem">
+    <div class="popup-content">
+        <div class="">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="itemName" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label">Name:</label>
+                    <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 label-content">
+                        <input type="text" name="itemName" class="form-control" ng-model="ManageMenuCtrl.newMenuItem.name" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="itemPage" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label">Page:</label>
+                    <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 label-content">                        
+                        <input name="itemPage" kendo-auto-complete id="ddlRoutes2" k-options="ManageMenuCtrl.pageOptions" ng-model="ManageMenuCtrl.newMenuItem.value" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-footer">
+        <div class="col-sm-5 col-sm-offset-3">
+            <button class="k-button btn-ok col-sm-5 pull-left" ng-click="ManageMenuCtrl.addMenuItem()">Save</button>
+            <button class="k-button btn-cancel col-sm-5 pull-right">Cancel</button>
+        </div>
+    </div>
+</div>

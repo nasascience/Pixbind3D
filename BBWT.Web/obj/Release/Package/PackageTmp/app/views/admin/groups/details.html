@@ -1,0 +1,58 @@
+﻿<div permission="ManageGroups">
+    <div class="page-header">
+        <h1 ng-show="GroupDetailsCtrl.Group.Id == 0">Create Group</h1>
+        <h1 ng-show="GroupDetailsCtrl.Group.Id != 0">Edit Group <small>{{GroupDetailsCtrl.Group.Name}}</small></h1>
+        <span class="small">Use this form to edit group details</span>
+    </div>
+    <div id="errors" class="alert alert-danger" ng-show="form.$invalid && form.$dirty">
+        <div ng-show="form.name.$invalid">Name is required</div>
+        <!-- Placeholder to show validation summary-->
+    </div>
+    <form name="form" novalidate class="form-horizontal">
+        <div kendo-tab-strip k-animation="false">
+            <ul>
+                <li class="k-state-active">Basic details</li>
+                <li>Roles and permissions</li>
+            </ul>
+            <div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="name" class="col-xs-10 col-sm-4 control-label">Group Name:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input name="name" type="text" class="form-control" ng-model="GroupDetailsCtrl.Group.Name" required />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="form.name.$invalid">
+                            Name is required
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="container">
+                    <div class="col-sm-4">
+                        <h2>Roles</h2>
+                        <div ng-repeat="role in GroupDetailsCtrl.Group.Roles">                            
+                            <label for="GroupRole{{$index+1}}" class="checkbox">                                
+                                <input id="GroupRole{{$index+1}}" type="checkbox" ng-model="role.IsChecked" />                                
+                                {{GroupDetailsCtrl.AllRoles[role.Id].Name}}
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Permissions</h2>
+                        <div ng-repeat="permission in GroupDetailsCtrl.Group.Permissions">                            
+                            <label for="GroupPermission{{$index+1}}">
+                                <input id="GroupPermission{{$index+1}}" type="checkbox" ng-model="permission.IsChecked" />
+                                {{GroupDetailsCtrl.AllPermissions[permission.Id].Name}}
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <dic class="margin-bottom-15">
+            <input type="button" class="k-button margin-right-10" ng-disabled="form.$invalid" ng-click="GroupDetailsCtrl.Save(GroupDetailsCtrl.Group)" value="Save" />
+            <input type="button" class="k-button" ng-click="GroupDetailsCtrl.Cancel()" value="Cancel" />
+        </dic>
+    </form>
+</div>

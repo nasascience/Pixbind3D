@@ -1,0 +1,59 @@
+﻿<h3>Search</h3>
+<p>The preferred search control performs auto-completion. Type 'test' or 'foo' in the control below for a demonstration.</p>
+<p>Many Search controls will be found in grid filters (see below). When in a grid filter we use a different labelling technique to save space.</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="autocompleteSearch" class="col-xs-10 col-sm-4 control-label">Search:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input id="autocompleteSearch" kendo-auto-complete k-min-length="2" k-data-text-field="'Name'" k-ignore-case="true" k-data-source="GuidelinesCtrl.SearchData" />
+        </div>
+    </div>
+</div>
+<p>HTML will look like this:</p>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;autocompleteSearch&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Search:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;input id=&quot;Text1&quot; kendo-auto-complete k-min-length=&quot;2&quot; k-data-text-field=&quot;&#39;Name&#39;&quot; k-ignore-case=&quot;true&quot; k-data-source=&quot;GuidelinesCtrl.SearchData&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>No extra javascript needed, just datasource on your controller, like this:</p>
+<pre>
+this.SearchData = new kendo.data.DataSource({
+    type: &quot;odata&quot;,
+    transport: {
+        read:
+        {
+            url: &quot;odata/ProductsOData&quot;,
+            dataType: &quot;json&quot;
+        }
+    },
+    schema: {
+        data: function (data) {
+            return data[&quot;value&quot;];
+        },
+        total: function (data) {
+            return data[&quot;odata.count&quot;];
+        },
+        model: {
+            fields: {
+                Name: { type: &quot;string&quot; },
+            }
+        }
+    },
+    serverPaging: true,
+    serverFiltering: true,
+    pageSize: 20
+});
+
+this.ScrollTo = (id: string) =&gt; {
+    var old = $location.hash();
+    $location.hash(id);
+    $anchorScroll();
+    // Reset to old hash so routing won&#39;t start reload.
+    $location.hash(old);
+};
+</pre>

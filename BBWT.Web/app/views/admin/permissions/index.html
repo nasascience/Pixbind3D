@@ -1,0 +1,21 @@
+﻿<div permission="ManagePermissions">
+    <div class="page-header">
+        <h1>Manage Permissions</h1>
+    </div>    
+    <div class="k-grid-filter-container">
+        <div class="row">
+            <div class="col-sm-6">
+                <input name="permName" type="text" class="form-control" placeholder="Name" upper-hint ng-model="PermissionsCtrl.Filter.Name" />
+            </div>
+            <div class="col-sm-3 col-xs-row">
+                <input type="button" class="k-button margin-right-10" value="Search" ng-click="PermissionsCtrl.ApplyFilter()" />
+                <input type="button" class="k-button" value="Clear" ng-click="PermissionsCtrl.ResetFilter()" />
+            </div>
+        </div>
+    </div>
+    <div kendo-grid k-data-source="PermissionsCtrl.PermissionsDS" k-options="PermissionsCtrl.GridOptions">
+    </div>
+    <div class="margin-bottom-15">
+        <button class="k-button" ng-click="PermissionsCtrl.ViewDetails(0)">Create Permission</button>
+    </div>
+</div>

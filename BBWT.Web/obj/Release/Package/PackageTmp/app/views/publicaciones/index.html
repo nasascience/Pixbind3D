@@ -1,0 +1,45 @@
+﻿<div class="PublicacionContainer">
+    <div class="videoContainer" style='width:{{videoWidth}}; height:{{videoHeight}}px;'>
+        <iframe class="youtube-player" type="text/html" width="100%" height="100%" ng-src="{{VideoUrl}}" allowfullscreen="" frameborder="0"></iframe>
+    </div>
+
+    <div class="VideoTitle" style="width:{{TitleWidth}}">
+        <h1>{{Title}}</h1>
+        <span>{{Description}}</span>
+    </div>
+
+    <div style="width:{{videoWidth}}; height:60px; float: left; margin-top:5px;">
+        <a href='http://www.facebook.com/share.php?u=http://{{siteUrl}}'
+           onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+              'facebook-share-dialog',
+              'width=626,height=436');
+            return false;">
+            <div class="FBBtn">
+                <span class="SocialBtnText">Compartir</span>
+            </div>
+        </a>
+
+        <a href="https://twitter.com/share" onclick="window.open(this.href, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+            <div class="TwBtn" ng-click=Twittear()>
+                <span class="SocialBtnText">Twittear</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="VideoList">
+        <div data-ng-repeat="video in Videos" class="VideoInList">
+            <img class="VideoImg" ng-src="../../../Content/images/Uploads/{{video.VideoImage}}" ng-click="GotoVideoPage(video.Id)" />
+            <div class="VideoTitle"><a href="/publicaciones/{{video.Id}}" style="font-size:small; font-weight:bold">{{video.VideoTitulo}}</a></div>
+        </div>
+    </div>
+    <div class="fb-like" data-href="https://www.facebook.com/midayaday" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+</div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- diaadia -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5466683972619436"
+     data-ad-slot="7908641704"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>

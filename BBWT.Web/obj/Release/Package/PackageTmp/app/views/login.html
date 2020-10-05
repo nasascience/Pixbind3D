@@ -1,0 +1,62 @@
+﻿<div class="page-header">
+    <h1>Login</h1>
+    <p class="purpose">Please enter your email address and password.</p>
+</div>
+<div ng-show="LoginCtrl.IsAuthError">
+    <span class="text-danger">Authentication error.</span>
+    <div>&nbsp;</div>
+</div>
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="username" class="col-sm-2 control-label">Email:</label>
+        <div class="label-content col-sm-4 col-lg-3">
+            <input name="username" autocomplete="off" class="form-control" type="text" ng-model="data.name" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="pass" class="col-sm-2 control-label">Password:</label>
+        <div class="label-content col-sm-4 col-lg-3">
+            <input name="pass" autocomplete="off" class="form-control" type="password" ng-model="data.pass" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-5 col-lg-3 col-xs-12 col-sm-offset-2">
+            <label class="checkbox">
+                <input name="remember" type="checkbox" ng-model="data.save" />
+                Keep me logged in
+            </label>
+        </div>
+
+    </div>
+    <div class="form-group">
+        <div class="col-sm-4 col-lg-3 col-sm-offset-2">
+            <button class="k-button col-xs-12" ng-click="LoginCtrl.Login(data)" ng-disabled="LoginCtrl.IsLockOnRequest">Log In</button>
+        </div>
+    </div>
+    <div class="form-group">        
+        <div class="col-sm-4 col-lg-3 col-xs-12 col-sm-offset-2 clearfix">
+            Do you need to 
+            <a href="/recoverpassword">recover a forgotten password</a>
+            ?          
+            <br/>
+             <br/>
+            If you don’t have an account then
+            <a href="/register">sign up yourself</a>
+            or
+            <a href="/registercompany">your company.</a>
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        <div class="col-sm-6 col-lg-5 col-xs-12">
+            <h3>Demo Quick Login</h3>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-8 col-lg-5 col-xs-12">            
+            <button class="k-button margin-left-bottom-15" ng-click="LoginCtrl.LoginAsAdmin()" ng-disabled="LoginCtrl.IsLockOnRequest">Admin Login</button>
+            <button class="k-button margin-left-bottom-15" ng-click="LoginCtrl.LoginAsManager()" ng-disabled="LoginCtrl.IsLockOnRequest">Manager Login</button>
+            <button class="k-button margin-left-bottom-15" ng-click="LoginCtrl.LoginAsDemo()" ng-disabled="LoginCtrl.IsLockOnRequest">Demo Login</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,149 @@
+﻿body, input, label, td, th, div, span, textarea, a, button, select, legend, .form-control,
+input.form-control, textarea.form-control, select.form-control, .purpose {
+    font-size: 15px;
+    line-height: 1.466666666;
+    /*line-height: calc(22n / font-size);*/
+    /*line-height: -webkit-calc(22n / font-size);*/
+    /*line-height: -moz-calc(22n / font-size);*/
+}
+
+h1 {
+    font-size: 24pt; /*28pt*/
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+h4 {
+    font-size: 14pt;
+}
+
+h1 span a {
+    font-size: 100%;
+}
+
+h1 span
+{ 
+    font-size: 0.75em;
+}
+
+header
+{
+    font-size: 20px;
+}
+
+    header .title
+    {
+        font-size: 32px;
+    }
+
+    header .header-version
+    {
+        font-size: 12px;
+    }
+
+    header .userprofile
+    {
+        font-size: 14px;
+    }
+
+.k-button
+{
+    font-size: 14px;
+    line-height: 1.428571429;
+}
+
+footer
+{
+    font-size: 12px;
+}
+
+    footer .copyright
+    {
+        font-size: 18px;
+        line-height: 1.277778;
+    }
+
+    footer .version
+    {
+        font-size: 10px;
+    }
+
+    footer .version > span
+    {
+        font-size: inherit;
+    }
+
+    footer .time
+    {
+        font-size: 12px;
+    }
+
+.k-grid td
+{
+    font-size: 14px;
+}
+
+    .k-grid td a
+    {
+        font-size: 14px;
+    }
+
+.k-pager-numbers .k-link
+{
+    font-size: 14px !important;
+}
+
+.k-grid .k-grid-header a
+{
+    font-size: 14px;
+}
+
+.k-dropdown-wrap .k-input
+{
+    line-height: 1.91;
+    font-size: 14px;
+    padding: 3px 0px;
+}
+
+.label-upper-hint
+{
+    font-size: 12px;
+    line-height: 1.25;
+}
+
+.k-notify-window-title-info, .k-notify-window-title-success, .k-notify-window-title-warning, .k-notify-window-title-error
+{
+    font-size: 15px;
+}
+
+.m-label
+{
+    font-size: 15px;
+}
+
+.m-span
+{
+    font-size: 15px;
+}
+
+th, td
+{
+    font-size: 14px;
+}
+
+/*input[placeholder]
+{
+    font-size: 14px !important;
+}
+
+input::-webkit-input-placeholder
+{
+    font-size: 14px !important;
+}
+
+input:-moz-placeholder
+{
+    font-size: 14px !important;
+}*/

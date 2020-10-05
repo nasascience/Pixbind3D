@@ -1,0 +1,57 @@
+﻿<h3>AngularJS binding</h3>
+<p style="margin-top:25px;">Please input any text in text fields below:</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="textField1" class="col-xs-10 col-sm-4 control-label">Label1:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="textField1" type="text" class="form-control" placeholder="Text field1" ng-model="testModel.textField1" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="textField2" class="col-xs-10 col-sm-4 control-label">Label2:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="textField2" type="text" class="form-control" placeholder="Text field2" ng-model="testModel.textField2" />
+        </div>
+    </div>
+    <div class="form-group form-group-static">
+        <label class="col-xs-4 col-sm-3 control-label control-label-static">Value of Text field1: </label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <span class="form-control form-control-static">{{testModel.textField1}}</span>
+        </div>
+    </div>
+    <div class="form-group form-group-static">
+        <label class="col-xs-4 col-sm-3 control-label control-label-static">Value of Text field2: </label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <span class="form-control form-control-static">{{testModel.textField2}}</span>
+        </div>
+    </div>
+</div>
+<p style="margin-top:25px;">Code for this:</p>
+<pre ng-non-bindable>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;textField1&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Label1:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;textField1&quot; type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Text field1&quot; ng-model=&quot;testModel.textField1&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;textField2&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Label2:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;textField2&quot; type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Text field2&quot; ng-model=&quot;testModel.textField2&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group form-group-static&quot;&gt;
+        &lt;label class=&quot;col-xs-4 col-sm-3 control-label control-label-static&quot;&gt;Value of Text field1: &lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;span class=&quot;form-control form-control-static&quot;&gt;{{testModel.textField1}}&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group form-group-static&quot;&gt;
+        &lt;label class=&quot;col-xs-4 col-sm-3 control-label control-label-static&quot;&gt;Value of Text field2: &lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;span class=&quot;form-control form-control-static&quot;&gt;{{testModel.textField2}}&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>

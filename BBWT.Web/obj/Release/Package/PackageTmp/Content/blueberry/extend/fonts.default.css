@@ -1,0 +1,109 @@
+﻿header
+{
+    font-size: 20px;
+}
+
+    header .title
+    {
+        font-size: 32px;
+    }
+
+    header .header-version
+    {
+        font-size: 12px;
+    }
+
+    header .userprofile
+    {
+        font-size: 14px;
+    }
+
+.k-button
+{
+    font-size: 14px;
+}
+
+footer
+{
+    font-size: 12px;
+}
+
+    footer .copyright
+    {
+        font-size: 18px;
+    }
+
+    footer .version
+    {
+        font-size: 10px;
+    }
+
+    footer .time
+    {
+        font-size: 12px;
+    }
+
+.k-grid td
+{
+    font-size: 14px;
+}
+
+    .k-grid td a
+    {
+        font-size: 14px;
+    }
+
+.k-pager-numbers .k-link
+{
+    font-size: 14px !important;
+}
+
+.k-grid .k-grid-header a
+{
+    font-size: 14px;
+}
+
+.k-dropdown-wrap .k-input
+{
+    font-size: 14px;
+}
+
+.label-upper-hint
+{
+    font-size: 12px;
+}
+
+.k-notify-window-title-info, .k-notify-window-title-success, .k-notify-window-title-warning, .k-notify-window-title-error
+{
+    font-size: 15px;
+}
+
+.m-label
+{
+    font-size: 15px;
+}
+
+.m-span
+{
+    font-size: 15px;
+}
+
+th, td
+{
+    font-size: 14px;
+}
+
+input[placeholder]
+{
+    font-size: 14px !important;
+}
+
+input::-webkit-input-placeholder
+{
+    font-size: 14px !important;
+}
+
+input:-moz-placeholder
+{
+    font-size: 14px !important;
+}

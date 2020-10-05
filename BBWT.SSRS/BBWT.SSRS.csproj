@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0E5E726-BEDC-4E33-A83C-968B440D8452}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BBWT.SSRS</RootNamespace>
+    <AssemblyName>BBWT.SSRS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportingServices.Designer.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>BinRefs\Microsoft.ReportingServices.Designer.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportingServices.RdlObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>BinRefs\Microsoft.ReportingServices.RdlObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportingServices.RichText, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>BinRefs\Microsoft.ReportingServices.RichText.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\SsrsParameterValues.cs" />
+    <Compile Include="Models\SsrsReport.cs" />
+    <Compile Include="Models\SsrsParameter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RdlSerializer.cs" />
+    <Compile Include="ReportingService2010.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="BinRefs\Microsoft.ReportingServices.ChartWebControl.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ChartWinControl.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ComponentLibrary.Controls.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.DataExtensions.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.DataExtensions.Essbase.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.DataExtensions.SapBw.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.DataExtensions.XmlaClient.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.DataRendering.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Design.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Designer.Controls.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Designer.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Designer.Import.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Designer.Wizards.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Diagnostics.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.EssbaseMDXQueryGenerator.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ExcelRendering.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.GaugeWebControl.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.GaugeWinControl.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.HPBProcessing.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.HtmlRendering.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ImageRendering.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Interfaces.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ModelDesigner.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.Modeling.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ProcessingCore.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ProcessingObjectModel.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.QueryDesigners.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.QueryDesigners.Essbase.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.QueryDesigners.SapBw.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.QueryDesigners.SharePoint.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.RdlObjectModel.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ReportDesign.Common.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ReportDesign.Forms.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.ReportPreview.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.RichText.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.RPLObjectModel.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.RPLRendering.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.RsClient.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.SapBwMDXQueryGenerator.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.SemanticQueryDesign.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.SemanticQueryEngine.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.SPBProcessing.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.WebMap.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.WinMap.dll" />
+    <Content Include="BinRefs\Microsoft.ReportingServices.WordRendering.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

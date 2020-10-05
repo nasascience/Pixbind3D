@@ -1,0 +1,96 @@
+﻿<div>
+    <div class="page-header">
+        <h1>Create a New Account</h1>
+    </div>
+    <p>
+        Use the form below to create a new account.<br />
+        Passwords are required to be a minimum of 6 characters in length.
+    </p>
+    <div id="errors" class="alert alert-danger hidden">
+        <!-- Placeholder to show validation summary-->
+    </div>
+    <div class="alert alert-danger" ng-show="RegisterCtrl.ErrorMessage">{{RegisterCtrl.ErrorMessage}}</div>
+    <div>
+        <form name="form" class="form-horizontal" novalidate="" autocomplete="off">
+            <div class="form-group">
+                <label for="name" class="control-label col-sm-3 col-xs-10">Email:</label>
+                <div class="label-content col-sm-4 col-xs-10">
+                    <input id="name" name="name" autocomplete="off" class="form-control" type="email"
+                           ng-model="data.name" required validationmessage="Email is required"
+                           placeholder="myname@example.net"
+                           data-email-msg="Email format is not valid" />
+                </div>
+                <div class="col-sm-4 col-xs-10">
+                    <div class="k-invalid-msg" data-for="name"></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="firstName" class="control-label col-sm-3 col-xs-10">First Name:</label>
+                <div class="label-content col-sm-4 col-xs-10">
+                    <input id="firstName" name="firstName" autocomplete="off" class="form-control" type="text"
+                           ng-model="data.firstName" validationmessage="First Name is 0..8000 chars"
+                           placeholder="First Name" pattern="[a-zA-Z]{0,8000}" />
+                </div>
+                <div class="col-sm-4 col-xs-10">
+                    <div class="k-invalid-msg" data-for="firstName"></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="surname" class="control-label col-sm-3 col-xs-10">Surname:</label>
+                <div class="label-content col-sm-4 col-xs-10">
+                    <input name="surname" autocomplete="off" class="form-control" type="text"
+                           ng-model="data.surname" validationmessage="Surname is 0..8000 chars"
+                           placeholder="Surname" pattern="[a-zA-Z]{0,8000}" />
+                </div>
+                <div class="col-sm-4 col-xs-10">
+                    <div class="k-invalid-msg" data-for="surname"></div>
+                </div>                
+            </div>
+
+            <div class="form-group">
+                <label for="pass" class="control-label col-sm-3 col-xs-10">Password:</label>
+                <div class="label-content col-sm-4 col-xs-10">
+                    <input id="pass" name="pass" autocomplete="off" class="form-control" type="password"
+                        ng-model="data.pass"
+                        placeholder="Password"
+                        required
+                        validationmessage="Password is required"
+                        pass-meter="#passMeterContainer" />
+                </div>
+                <div class="col-xs-10 col-sm-4">
+                    <div class="k-invalid-msg" data-for="pass" style="float:left;"></div>
+                    <div id="passMeterContainer" style="float:left;"></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPass" class="control-label col-sm-3 col-xs-10">Re-enter Password:</label>
+                <div class="label-content col-sm-4 col-xs-10">
+                    <input id="confirmPass"
+                           name="confirmPass"
+                           autocomplete="off" class="form-control" type="password"
+                           ng-model="data.confirmPass"
+                           placeholder="Confirm Password"
+                           required
+                           validationmessage="Confirm Password is required" />
+                </div>
+                <div class="col-sm-4 col-xs-10">
+                    <div class="k-invalid-msg" data-for="confirmPass"></div>
+                    <!--<span ng-show="form.confirmPass.$error.match" 
+                          class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                          role="alert">
+                        <span class="k-icon k-warning"></span>Passwords must match
+                    </span>-->
+                </div>
+
+            </div>
+
+            <div class="margin-bottom-15">
+                <button class="k-button margin-right-10" ng-click="RegisterCtrl.Save(data)">Create</button>
+                <button class="k-button" ng-click="RegisterCtrl.Cancel()">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>

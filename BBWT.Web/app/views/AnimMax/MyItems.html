@@ -1,0 +1,95 @@
+﻿<div class="kk-body">
+    <div class="col-md-12 HeaderContainer">
+        <div class="InnerShadow"></div>
+        <img src="../../../Content/images/Pixbind/animations.jpg" class="ImgHeader" />
+    </div>
+    <nav class="b-generic-nav" data-role="pagenav" style="box-shadow: 0px 1px 5px #B17E34; z-index: 1;">
+        <!--<input class="px-search" ng-mouseenter="ShowCategoryPanel()" type="text" name="name" placeholder="Search" />
+        <img class="px-search-lupa" src="../../../Content/images/Pixbind/lupa.png" />
+        <div class="cat-panel" style="display:none" ng-mouseleave="HideCategoryPanel()">
+            <div class="filters-list">
+                <h5>Assets type</h5>
+                <ul class="list-unstyled">
+                    <li ng-repeat="afilter in Assetsfilters">
+                        <label>
+                            <input type="checkbox" value="{{afilter.Name}}" ng-click="FilterCheck($event)" checked>
+                            <span>{{afilter.Name}}</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>-->
+
+        <div style="position: absolute; right: 5%; text-align: center; top: 10px; z-index: 10;" ng-if="AuthSvc.User">
+            <span style="position: absolute; color: white; margin-left: -30px; margin-top: 6px; text-align: center; background-color: #A80404; border-radius: 50px; width: 22px; height: 22px; background-color: #E68017; box-shadow: inset 0 0 10px red"></span>
+            <span ng-click="CartView()" style="cursor:pointer; position: absolute; color: white; margin-left: -34px; margin-top: 10px; width: 30px; font-size: 16px;">{{AuthSvc.CartProducts.length}}</span>
+            <img ng-click="CartView()" style="cursor:pointer; /*position: absolute;*/ width: 25px; height: 25px; top: 0; margin-top: 4px; left: 0;" src="../../../Content/images/Pixbind/cart2.png" />
+        </div>
+
+        <div class="b-generic-nav-con" data-role="pagenav-con">
+            <div class="b-generic-nav-main">
+                <ul>
+                    <li>
+                        <a href="/" data-role="people-anchor" data-alias="construction,fitout,quality">Home</a>
+                    </li>
+                    <li>
+                        <a href="/environment" data-role="people-anchor" data-alias="construction,fitout,quality">Environments</a>
+                    </li>
+                    <li>
+                        <a href="/games" data-role="people-anchor" data-alias="construction,fitout,quality">Games</a>
+                    </li>
+                    <li>
+                        <a href="/projects" data-role="people-anchor" data-alias="engineering">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/anim" data-role="people-anchor" data-alias="design">Animations</a>
+                    </li>
+                    <li>
+                        <a href="/assets" data-role="people-anchor" data-alias="business,administrative">Assets</a>
+                    </li>
+                    <li class="_Selected">
+                        <a href="/myitems" data-role="people-anchor" data-alias="mytems">My Items</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="col-md-12 BodyContainer">
+
+        <div kendo-list-view id="anim-listView" k-data-source="MyItemsSource">
+            <div class="anim-product" k-template>
+                <img ng-src="../../../Content/images/Uploads/{{dataItem.File}}" alt=" {{dataItem.Title}} image" />
+                <!--<h3>{ dataItem.Title }</h3>-->
+                <!--<span ng-show="({{dataItem.Price}} > 0)">{{ dataItem.Price | currency }}</span>-->
+                <!--<span ng-show="({{dataItem.Price}} <= 0)">Free</span>-->
+                <p>{{dataItem.Title}}</p>
+                <!--<div ng-if="dataItem.Price > 0" ng-show="{{dataItem.Price > 0}}" class="item-add-to-cart ng-hide" ng-click="AddToCart(dataItem)">
+                    <div class="cartDiv">
+                        <div class="cartImg"></div>
+                    </div>
+                    Add
+                </div>-->
+                <!--<div ng-if="dataItem.Price > 0" ng-show="{{dataItem.Price > 0}}" class="item-buy ng-hide" ng-click="AuthSvc.DirectPay(dataItem)">Direct Buy</div>-->
+                <div class="item-download" ng-click="AuthSvc.increaseDownload(dataItem)">
+                    Direct Download
+                    <!--<a style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" href="{{dataItem.URLDownload}}"></a>-->
+                </div>
+
+
+            </div>
+        </div>
+        <div kendo-pager k-data-source="MyItemsSource"></div>
+    </div>
+</div>
+
+<form id="PaydirectForm" action='https://www.2checkout.com/checkout/purchase' method='post' style="display:none">
+    <input type='hidden' name='sid' value='202853627' />
+    <input type='hidden' name='mode' value='2CO' />
+    <input type='hidden' name='li_0_type' value='product' />
+    <input type='hidden' name='li_0_name' value='xxxx' />
+    <input type='hidden' name='li_0_price' value='12.5' />
+    <input type='hidden' name='email' value='nasa@ho.com' />
+    <input type='submit' value='Checkout' />
+</form>

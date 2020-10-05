@@ -1,0 +1,90 @@
+﻿<div class="page-header">
+    <h1>Grid filtering</h1>    
+</div>
+
+<div class="k-grid-filter-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div>
+                <label class="control-label">Grid filtering interface:</label>
+                <label class="checkbox-inline">
+                    <input type="radio" name="inlineRadios" id="Radio3" value="0" ng-checked="GridFilteringCtrl.FilterMode == 0" ng-model="GridFilteringCtrl.FilterMode">
+                    Simple
+                </label>
+                <label class="checkbox-inline">
+                    <input type="radio" name="inlineRadios" id="Radio4" value="1" ng-checked="GridFilteringCtrl.FilterMode == 1" ng-model="GridFilteringCtrl.FilterMode">
+                    Advanced
+                </label>                
+            </div>
+        </div>
+        <div id="validator" ng-show="GridFilteringCtrl.FilterMode == 0">
+            <div class="row">
+                <div class="col-lg-2 col-sm-2 col-xs-12">
+                    <input name="orderId" type="text" class="form-control" placeholder="Order ID" upper-hint auto-width ng-model="GridFilteringCtrl.Filter.ID"
+                           validationmessage="Order ID is only digits" pattern="[0-9]+" />
+                    <div class="k-invalid-msg" data-for="orderId"></div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-12">
+                    <input name="companyName" kendo-auto-complete k-min-length="2" k-data-text-field="'CompanyName'" upper-hint="Company Name"
+                           placeholder="Company name" ng-model="GridFilteringCtrl.Filter.CompanyName"
+                           k-ignore-case="true" k-data-source="GridFilteringCtrl.dsCustomers" />
+                </div>
+                <div class="col-lg-2 col-sm-3 col-xs-12">
+                    <input name="orderDate" type="text" kendo-date-picker k-options="{format: 'dd/MM/yyyy'}" class="form-control" upper-hint="Order Date"
+                           placeholder="Order date" ng-model="GridFilteringCtrl.Filter.OrderDate" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" validationmessage="Invalid date format" />
+                    <div class="k-invalid-msg" data-for="orderDate"></div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-12">
+                    <label for="reqDate" class="label-upper-hint" ng-show="GridFilteringCtrl.Filter.RequiredDate != null && GridFilteringCtrl.Filter.RequiredDate != ''">Required Date</label>
+                    <input name="reqDate" type="text" kendo-date-picker k-options="{format: 'dd/MM/yyyy'}" class="form-control" placeholder="Required date"
+                           pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" validationmessage="Invalid date format"
+                           ng-model="GridFilteringCtrl.Filter.RequiredDate" />
+                    <div class="k-invalid-msg" data-for="reqDate"></div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-12">
+                    <label for="shipDate" class="label-upper-hint" ng-show="GridFilteringCtrl.Filter.ShippedDate != null && GridFilteringCtrl.Filter.ShippedDate != ''">Shipped Date</label>
+                    <input name="shipDate" type="text" kendo-date-picker k-options="{format: 'dd/MM/yyyy'}" class="form-control" placeholder="Shipped date" ng-model="GridFilteringCtrl.Filter.ShippedDate"
+                           pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" validationmessage="Invalid date format" />
+                    <div class="k-invalid-msg" data-for="shipDate"></div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-12">
+                    <input type="button" class="k-button margin-right-5" value="Search" ng-click="GridFilteringCtrl.ApplyFilter()" />
+                    <input type="button" class="k-button" value="Clear" ng-click="GridFilteringCtrl.ResetFilter()" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div kendo-grid k-data-source="GridFilteringCtrl.OrdersDS" k-options="GridFilteringCtrl.GridOptions" ng-show="GridFilteringCtrl.FilterMode == 0">
+</div>
+<div kendo-grid k-data-source="GridFilteringCtrl.OrdersDS" k-options="GridFilteringCtrl.GridOptionsAdv" ng-show="GridFilteringCtrl.FilterMode == 1">
+</div>
+
+<style>
+    /*small screen style*/
+    @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+        .k-grid td:nth-of-type(1):before {
+            content: "Order ID";
+        }
+
+        .k-grid td:nth-of-type(2):before {
+            content: "Company Name";
+        }
+
+        .k-grid td:nth-of-type(3):before {
+            content: "Order Date";
+        }
+
+        .k-grid td:nth-of-type(4):before {
+            content: "Required Date";
+        }
+
+        .k-grid td:nth-of-type(5):before {
+            content: "Shipped Date";
+        }
+    }
+</style>

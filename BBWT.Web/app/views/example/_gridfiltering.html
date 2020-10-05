@@ -1,0 +1,47 @@
+﻿<div class="page-header">
+    <h1>Grid Filtering</h1>
+</div>
+<div class="k-grid-filter-container">    
+    <div class="container-fluid">        
+        <div class="row">
+            <div class="grid-filtering-container">
+                <label class="control-label">Grid filtering interface:</label>                        
+                <label class="checkbox-inline">
+                    <input type="radio" name="inlineRadios" id="Radio3" value="0" ng-checked="GridFilteringCtrl.FilterMode == 0" ng-model="GridFilteringCtrl.FilterMode">
+                    Simple
+                </label>
+                <label class="checkbox-inline">
+                    <input type="radio" name="inlineRadios" id="Radio4" value="1" ng-checked="GridFilteringCtrl.FilterMode == 1" ng-model="GridFilteringCtrl.FilterMode">
+                    Advanced
+                </label>                
+            </div>
+        </div>
+        <div class="row" ng-show="GridFilteringCtrl.FilterMode == 0">
+            <div class="col-lg-2 col-sm-3 col-xs-12">
+                <label for="orderId" class="label-upper-hint" ng-show="OrdersCtrl.Filter.ID != null && OrdersCtrl.Filter.ID != ''">Order ID</label>
+                <input name="orderId" type="text" class="form-control" placeholder="Order ID" ng-model="OrdersCtrl.Filter.ID" />
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <label for="companyName" class="label-upper-hint" ng-show="OrdersCtrl.Filter.CompanyName != null && OrdersCtrl.Filter.CompanyName != ''">Company Name</label>
+                <input name="companyName" kendo-auto-complete k-min-length="2" k-data-text-field="'CompanyName'"
+                       placeholder="Company name" ng-model="OrdersCtrl.Filter.CompanyName" 
+                       k-ignore-case="true" k-data-source="GridFilteringCtrl.dsCustomers" />
+            </div>
+
+            <div class="col-sm-3 col-xs-12">                
+                <label for="orderDate" class="label-upper-hint" ng-show="OrdersCtrl.Filter.OrderDate != null && OrdersCtrl.Filter.OrderDate != ''">Order Date</label>
+                <input name="orderDate" type="text" kendo-date-picker k-options="{format: 'dd/MM/yyyy'}" class="form-control" placeholder="Order date" ng-model="OrdersCtrl.Filter.OrderDate" />
+            </div>            
+            
+            <div class="col-lg-3 col-xs-12">                
+                <input type="button" class="k-button" value="Search" ng-click="OrdersCtrl.ApplyFilter()" />                                    
+                <input type="button" class="k-button" value="Clear" ng-click="OrdersCtrl.ResetFilter()" />
+            </div>
+        </div>
+    </div>    
+</div>
+<div kendo-grid k-data-source="GridFilteringCtrl.OrdersDS" k-options="GridFilteringCtrl.GridOptionsSimple" ng-show="GridFilteringCtrl.FilterMode == 0">
+</div>
+<div kendo-grid k-data-source="GridFilteringCtrl.OrdersDS" k-options="GridFilteringCtrl.GridOptionsAdv" ng-show="GridFilteringCtrl.FilterMode == 1">
+</div>

@@ -1,0 +1,59 @@
+﻿<div class="page-header">
+    <h1>{{title}}</h1>
+    <span class="purpose">An example of a master-detail grid.</span>
+</div>
+
+<div class="k-grid-filter-container">    
+    <div id="validator" class="container-fluid">
+        <div class="row">
+            <div class="form-group col-lg-2 col-sm-2 col-xs-12">
+                <input name="orderId" type="text" class="form-control" placeholder="Order ID" upper-hint="auto" ng-model="OrdersCtrl.Filter.ID"
+                       validationmessage="Please enter only digits" pattern="[0-9]+" />
+                <div class="k-invalid-msg" data-for="orderId"></div>
+            </div>
+
+            <div class="form-group col-lg-2 col-sm-3 col-xs-12">
+                <input name="companyName" class="" kendo-auto-complete k-min-length="2" k-data-text-field="'CompanyName'" upper-hint
+                       placeholder="Company name" ng-model="OrdersCtrl.Filter.CompanyName"
+                       k-ignore-case="true" k-data-source="OrdersCtrl.dsCustomers" />
+            </div>
+
+            <div class="form-group col-lg-2 col-sm-3 col-xs-12">
+                <input name="orderDate" type="text" kendo-date-picker k-options="{format: 'dd/MM/yyyy'}" class="form-control" upper-hint
+                       placeholder="Order date" ng-model="OrdersCtrl.Filter.OrderDate" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" validationmessage="Please enter a valid date. E.g. 1/1/2014" />
+                <div class="k-invalid-msg" data-for="orderDate"></div>
+            </div>
+
+            <div class="form-group col-lg-2 col-sm-3 col-xs-12">
+                <input name="reqDate" type="text" kendo-date-picker k-options="{format: 'dd/MM/yyyy'}" class="form-control" placeholder="Required date" upper-hint
+                       pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" validationmessage="Please enter a valid date. E.g. 1/1/2014"
+                       ng-model="OrdersCtrl.Filter.RequiredDate" />
+                <div class="k-invalid-msg" data-for="reqDate"></div>
+            </div>
+
+            <div class="form-group col-lg-2 col-sm-3 col-xs-12">
+                <input name="shipDate" type="text" kendo-date-picker k-options="{format: 'dd/MM/yyyy'}" class="form-control" placeholder="Shipped date" upper-hint ng-model="OrdersCtrl.Filter.ShippedDate"
+                       pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" validationmessage="Please enter a valid date. E.g. 1/1/2014" />
+                <div class="k-invalid-msg" data-for="shipDate"></div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 col-xs-12">
+                <input type="button" class="k-button margin-right-10" value="Search" ng-click="OrdersCtrl.ApplyFilter()" />
+                <input type="button" class="k-button" value="Clear" ng-click="OrdersCtrl.ResetFilter()" />
+            </div>
+        </div>
+    </div>
+</div>
+<div kendo-grid-plus kendo-grid k-data-source="OrdersCtrl.OrdersDS" k-options="OrdersCtrl.GridOptions">        
+</div>    
+<style>
+    
+    /*small screen style*/
+     @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+         .k-grid td:nth-of-type(1):before { content: "Order ID"; }
+         .k-grid td:nth-of-type(2):before { content: "Company Name"; }
+         .k-grid td:nth-of-type(3):before { content: "Order Date"; }
+         .k-grid td:nth-of-type(4):before { content: "Required Date"; }
+         .k-grid td:nth-of-type(5):before { content: "Shipped Date"; }
+     }
+</style>

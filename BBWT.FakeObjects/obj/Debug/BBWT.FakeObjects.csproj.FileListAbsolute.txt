@@ -1,0 +1,35 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.FakeObjects\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.FakeObjects\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Animmax\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Animmax\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Animmax\BBWT.FakeObjects\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Animmax\BBWT.FakeObjects\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Animmax\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Animmax\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Animmax\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind\BBWT.FakeObjects\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind\BBWT.FakeObjects\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.FakeObjects\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.FakeObjects\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.FakeObjects\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.FakeObjects\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.FakeObjects\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.FakeObjects\obj\Debug\BBWT.FakeObjects.csprojResolveAssemblyReference.cache

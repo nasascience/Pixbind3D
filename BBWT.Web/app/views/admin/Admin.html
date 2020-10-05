@@ -1,0 +1,277 @@
+﻿<div class="kk-body">
+    <!--<div class="kk-container">
+        <ul id="mainMenu" ng-controller="MenuCtrl"></ul>
+    </div>-->
+
+    <div class="logo-container">
+        <img ng-click="GoHome()" class="logo-img" src="../../../Content/images/AnimMax/PixbindLogo1.jpg" />
+        <!--<div ng-click="GoHome()" class="logo-company-name">Pixbind</div>
+        <div ng-click="GoHome()" class="logo-slogan">Game Development</div>-->
+    </div>
+    <searchbar></searchbar>
+    <div class="MainDiv2" style="margin-top: 240px; margin-left: 100px;">
+
+        <div class="page-header">
+            <h1>New Product</h1>
+        </div>
+        <form name="form" novalidate class="form-horizontal" method="post" action="Upload/Save" enctype="multipart/form-data" runat="server">
+
+            <div class="form-horizontal">
+                <div class="form-group" style="width:95%;">
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="TitletextField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Title</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input name="TitletextField" type="text" class="form-control" ng-model="Product.Title" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="selectType" class="col-xs-10 col-sm-4 control-label" style="text-align: left;">Product Type</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <select ng-change="FilterCategory(Product.Type)" name="selectType" id="selectType" class="form-control" kendo-drop-down-list k-data-source="TypeList" k-data-text-field="'Name'" k-data-value-field="'Name'" ng-model="Product.Type"></select>
+                            </div>
+                        </div>
+                        <!--<div class="form-group" style="position: absolute; margin-top: -47px; margin-left: 410px;">
+                        <label for="selectType" class="col-xs-10 col-sm-4 control-label" style="text-align: left;">New Type</label>
+                        <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0" style="margin-left: -40px; margin-top: -7px;">
+                            <input name="TitletextField" type="text" class="form-control" ng-model="New.Type" style="width: 150px;" />
+                        </div>
+                        <button class="RegisterBtn" ng-click="NewType(New)" style="position: absolute; top: 0px; left: 300px;">Add</button>
+                    </div>-->
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="selectCategory" class="col-xs-10 col-sm-4 control-label" style=" text-align: left;">Product Category</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <select name="selectCategory" id="selectCategory" class="form-control" kendo-drop-down-list k-data-source="CategoriesList" k-data-text-field="'Name'" k-data-value-field="'Name'" ng-model="Product.Category"></select>
+                            </div>
+                        </div>
+                        <div class="form-group" style="position: absolute; margin-top: -47px; margin-left: 410px;">
+                            <label for="selectType" class="col-xs-10 col-sm-4 control-label" style="text-align: left;">New Category</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0" style="margin-left: -40px; margin-top: -7px;">
+                                <input name="TitletextField" type="text" class="form-control" ng-model="New.Category" style="width: 150px;" />
+                            </div>
+                            <div class="RegisterBtn" ng-click="NewCategory(New)" style="position: absolute; top: 0px; left: 300px; text-align: center; font-size: 1.5em; padding-top: 8px;">Add</div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="PricetextField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Price</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input name="PricetextField" type="number" class="form-control" ng-model="Product.Price" min="0" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="VideoCodeField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Download Link</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input id="DownloadLinkInput" style="width: 700px; margin-top: 0px;" name="URLDownloadField" type="text" class="form-control" ng-model="Product.URLDownload" placeholder="If not, then leave in blank" />
+                            </div>
+                            <div class="GdriveLinkBtn" ng-click="AddGDriveLink()">GDrive Link</div>
+                        </div>
+                    </div>
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="VideoCodeField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Demo Download Link</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input id="DemoDownloadLinkInput" style="width: 700px; margin-top: 0px;" name="DemoURLDownloadField" type="text" class="form-control" ng-model="Product.DemoURLDownload" placeholder="If not, then leave in blank" />
+                            </div>
+                            <div class="GdriveLinkBtn" ng-click="AddDemoGDriveLink()">GDrive Link</div>
+                        </div>
+                    </div>
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="VideoCodeField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Video Code(No Url)</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input name="VideoCodetextField" type="text" class="form-control" ng-model="Product.VideoCode" placeholder="If not, then leave in blank" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="PricetextField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Description</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <textarea name="PricetextField" class="form-control" ng-model="Product.Description" maxlength="1000" style="resize: none; height:110px;" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group" style="font-size: 1.4em;">
+                            <label for="dsMaxField">Product Availability</label>
+                            <ul>
+                                <li>
+                                    <label>
+                                        <input name="YoutubeField" type="checkbox" ng-model="Product.Youtube">
+                                        <span>Youtube</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="UnityField" type="checkbox" ng-model="Product.Unity">
+                                        <span>Unity</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="UnrealField" type="checkbox" ng-model="Product.Unreal">
+                                        <span>Unreal</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="FbxField" type="checkbox" ng-model="Product.Fbx">
+                                        <span>Fbx</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="dsMaxField" type="checkbox" ng-model="Product.dsMax">
+                                        <span>dsMax</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="PCField" type="checkbox" ng-model="Product.PC">
+                                        <span>PC</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="MacField" type="checkbox" ng-model="Product.Mac">
+                                        <span>Mac</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="LinuxField" type="checkbox" ng-model="Product.Linux">
+                                        <span>Linux</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="AndroidField" type="checkbox" ng-model="Product.Android">
+                                        <span>Android</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="iOSField" type="checkbox" ng-model="Product.iOS">
+                                        <span>iOS</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="PS3Field" type="checkbox" ng-model="Product.PS3">
+                                        <span>PS3</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="PS4Field" type="checkbox" ng-model="Product.PS4">
+                                        <span>PS4</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="XBOXField" type="checkbox" ng-model="Product.XBOX">
+                                        <span>XBOX</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="CompleteField" type="checkbox" ng-model="Product.Complete">
+                                        <span>Complete</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="HasDemoField" type="checkbox" ng-model="Product.HasDemo">
+                                        <span>HasDemo</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input name="IsGameField" type="checkbox" ng-model="Product.IsGame">
+                                        <span>IsGame</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="width: 90%;">
+                    <input id="productUpload" name="files"
+                           type="file"
+                           kendo-upload
+                           k-async="{ saveUrl: 'api/Uploads/PostFormData', removeUrl: '/upload/remove', autoUpload: true }"
+                           k-select="onSelect" />
+                    <span id="UploadPercent" style="display:none">0%</span>      
+                <!--<button class="k-button" ng-click="Cancel()" style="position: absolute; top: 751px; left: 380px;">Close</button>-->
+            </div>
+
+   
+
+
+
+                <!--<button class="k-button btn-pad-right" ng-click="Save()">Save</button>-->
+
+            </div>
+        </form>
+
+        <!--<form action="/api/Uploads/Post" method="post" enctype="multipart/form-data">
+            <label for="somefile">File</label>
+            <input name="somefile" type="file" />
+            <input type="submit" value="Submit" />
+        </form>-->
+
+        <!--<form name="form1" method="post" enctype="multipart/form-data" action="api/Uploads/PostFormData">
+            <div>
+                <label for="caption">Image Caption</label>
+                <input name="caption" type="text" />
+            </div>
+            <div>
+                <label for="image1">Image File</label>
+                <input name="image1" type="file" />
+            </div>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>-->
+
+        <!--<form method="post" enctype="multipart/form-data" runat="server">
+                <div class="fileuploadDiv">
+                    <div class="status"></div>
+                    <h3>Upload Multiple Images</h3>
+                    <h3>Optional Upload</h3>
+                    <input type="file" onchange="angular.element(this).scope().fileNameChanged(this)" id="fub" class="btn" />
+                    <input type="text" id="fub" class="btn" />
+                    <input type="button" value="upload" class="btn" id="btnUpload" />
+                </div>
+        </form>-->
+
+        <!--<form name="form1" method="post" enctype="multipart/form-data" action="api/Uploads/PostFormData">
+            <div>
+                <label for="caption">Image Caption</label>
+                <input name="caption" type="text" />
+            </div>
+            <div>
+                <label for="image1">Image File</label>
+                <input name="image1" type="file" />
+            </div>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>-->
+    </div>
+</div>

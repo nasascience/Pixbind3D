@@ -1,0 +1,5 @@
+﻿<div class="userprofile">
+    <span class="username" ng-show="LoginDirCtrl.User"><a ng-href="/profile">Welcome, {{LoginDirCtrl.User.Name}}</a>&nbsp;</span>
+    <a href="/login" class="hidden-print"><button class="k-button" ng-hide="LoginDirCtrl.User">Login</button></a>
+    <button class="k-button hidden-print" ng-show="LoginDirCtrl.User" ng-click="LoginDirCtrl.Logout()">Logout</button>
+</div>

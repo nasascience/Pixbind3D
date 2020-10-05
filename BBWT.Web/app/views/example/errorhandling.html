@@ -1,0 +1,17 @@
+﻿<div class="page-header">
+    <h1>Error Handling</h1>
+    <span class="purpose">This page allows us to test that all exceptions are handled by the “Report a Problem” page.</span>
+</div>
+<div class="form-horizontal">
+    <div class="label-content col-xs-10 col-sm-4">
+        <select name="selectTest" id="selectHandlerError" ng-model="ErrorHandlingCtrl.exceptionValue" class="form-control" kendo-drop-down-list>
+            <option value="1">Handle Timeout</option>
+            <option value="2">Handle Internal Server Error</option>
+            <option value="3">Handle Unauthorized Status</option>
+            <option value="4">Handle Bad Request Status</option>
+            <option value="5">Handle Forbidden Status</option>
+            <option value="6">Handle Not Found Status</option>
+        </select>
+    </div>
+    <button class="k-button" ng-click="ErrorHandlingCtrl.throwException()">Throw Exception</button>
+</div>    

@@ -1,0 +1,136 @@
+﻿<div class="kk-body">
+    <div class="col-md-12 HeaderContainer">
+        <div class="InnerShadow"></div>
+        <img src="../../../Content/images/Pixbind/animations.jpg" class="ImgHeader" />
+    </div>
+    <nav class="b-generic-nav" data-role="pagenav" style="box-shadow: 0px 1px 5px #B17E34; z-index: 1;">
+        <input class="px-search" ng-mouseenter="ShowCategoryPanel()" type="text" name="name" placeholder="Search" />
+        <img class="px-search-lupa" src="../../../Content/images/Pixbind/lupa.png" />
+        <div class="cat-panel" style="display:none" ng-mouseleave="HideCategoryPanel()">
+            <div class="filters-list">
+                <h5>Animation Genre</h5>
+                <ul class="list-unstyled">
+                    <li ng-repeat="afilter in Animfilters">
+                        <label>
+                            <input type="checkbox" value="{{afilter.Name}}" ng-click="FilterCheck($event)" checked>
+                            <!--<span> </span>-->
+                            <span>{{afilter.Name}}</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="position: absolute; right: 5%; text-align: center; top: 10px; z-index: 10;" ng-if="AuthSvc.User">
+            <span style="position: absolute; color: white; margin-left: -30px; margin-top: 6px; text-align: center; background-color: #A80404; border-radius: 50px; width: 22px; height: 22px; background-color: #E68017; box-shadow: inset 0 0 10px red"></span>
+            <span ng-click="CartView()" style="cursor:pointer; position: absolute; color: white; margin-left: -34px; margin-top: 10px; width: 30px; font-size: 16px;">{{AuthSvc.CartProducts.length}}</span>
+            <img ng-click="CartView()" style="cursor:pointer; /*position: absolute;*/ width: 25px; height: 25px; top: 0; margin-top: 4px; left: 0;" src="../../../Content/images/Pixbind/cart2.png" />
+        </div>
+
+        <div class="b-generic-nav-con" data-role="pagenav-con">
+            <div class="b-generic-nav-main">
+                <ul>
+                    <li>
+                        <a href="/" data-role="people-anchor" data-alias="construction,fitout,quality">Home</a>
+                    </li>
+                    <li>
+                        <a href="/environment" data-role="people-anchor" data-alias="construction,fitout,quality">Environments</a>
+                    </li>
+                    <li>
+                        <a href="/games" data-role="people-anchor" data-alias="construction,fitout,quality">Games</a>
+                    </li>
+                    <li>
+                        <a href="/projects" data-role="people-anchor" data-alias="engineering">Projects</a>
+                    </li>
+                    <li class="_Selected">
+                        <a href="/anim" data-role="people-anchor" data-alias="design">Animations</a>
+                    </li>
+                    <li>
+                        <a href="/assets" data-role="people-anchor" data-alias="business,administrative">Assets</a>
+                    </li>
+                    <li ng-if="AuthSvc.User">
+                        <a href="/myitems" data-role="people-anchor" data-alias="mytems">My Items</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="col-md-12 BodyContainer">
+
+        <div kendo-list-view id="anim-listView" k-data-source="AnimSource">
+            <div class="anim-product" k-template>
+                <img ng-src="../../../Content/images/Uploads/{{dataItem.File}}" alt=" {{dataItem.Title}} image" />
+                <!--<h3>{ dataItem.Title }</h3>-->
+                <span style="color: rgb(199, 10, 10) !important; text-shadow: 0 0 5px rgb(128, 128, 128);" ng-show="({{dataItem.Price}} > 0)">{{ dataItem.Price | currency }}</span>
+                <span style="color: rgb(199, 10, 10) !important; text-shadow: 0 0 5px rgb(128, 128, 128);" ng-show="({{dataItem.Price}} <= 0)">Free</span>
+                <p ng-click="ProducDetails(dataItem)">{{ dataItem.Title }}</p>
+                <div ng-if="dataItem.Price > 0" ng-show="{{dataItem.Price > 0}}" class="item-add-to-cart ng-hide" ng-click="AddToCart(dataItem)">
+                    <div class="cartDiv">
+                        <div class="cartImg"></div>
+                    </div>
+                    Add
+                </div>
+                <div ng-if="dataItem.Price > 0" ng-show="{{dataItem.Price > 0}}" class="item-buy ng-hide" ng-click="AuthSvc.DirectPay(dataItem)">Direct Buy</div>
+                <div ng-if="dataItem.Price <= 0" ng-show="{{dataItem.Price <= 0}}" class="item-download ng-hide" ng-click="AuthSvc.increaseDownload(dataItem)">
+                    Direct Download
+                </div>
+            </div>
+
+        </div>
+        <div kendo-pager k-data-source="AnimSource"></div>
+    </div>
+</div>
+
+<form id="PaydirectForm" action='https://www.2checkout.com/checkout/purchase' method='post' style="display:none">
+    <input type='hidden' name='sid' value='202853627' />
+    <input type='hidden' name='mode' value='2CO' />
+    <input type='hidden' name='li_0_type' value='product' />
+    <input type='hidden' name='li_0_name' value='xxxx' />
+    <input type='hidden' name='li_0_price' value='12.5' />
+    <input type='hidden' name='email' value='nasa@ho.com' />
+    <input type='submit' value='Checkout' />
+</form>
+
+<!--<form id="myForm" action="form_action.asp">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br><br>
+    <input type="button" value="Submit form">
+</form>-->
+
+<!--<div id="AnimView" style="position: absolute; left: 10%; top:170px; margin-top: -5px; z-index: 100; ">
+    <input id="AnimItems" data-role="multiselectbox" style="width: 300px; margin-top: 17px;" data-option-label="" data-text-field="Name" data-value-field="Id" data-bind="source: testItemSource, value: testItems" />
+    <img ng-click="FilterSearch(AnimVM.testItems)" style="position: absolute; margin-right: -20px; margin-top: -20px; right: 0;" class="showtrayBtn" src="../../Content/images/AnimMax/magnifying-glass.png" />
+</div>-->
+<!--<div class="kk-container">
+    <ul id="mainMenu" ng-controller="MenuCtrl"></ul>
+</div>
+
+<div class="logo-container">
+    <img ng-click="GoHome()" class="logo-img" src="../../../Content/images/AnimMax/PixbindLogo1.jpg" />
+</div>
+<searchbar></searchbar>
+<div class="MainDiv2">
+    <h1 style=" margin-top: 35px; margin-left: 5%;">Animations</h1>
+    <div id="AnimView" style="position: absolute; left: 10%; top:170px; margin-top: -5px; z-index: 100; ">
+        <input id="AnimItems" data-role="multiselectbox" style="width: 300px; margin-top: 17px;" data-option-label="" data-text-field="Name" data-value-field="Id" data-bind="source: testItemSource, value: testItems" />
+        <img ng-click="FilterSearch(AnimVM.testItems)" style="position: absolute; margin-right: -20px; margin-top: -20px; right: 0;" class="showtrayBtn" src="../../Content/images/AnimMax/magnifying-glass.png" />
+    </div>
+
+    <div class="VideoList">
+        <h1 style="text-align: center; font-size: 38px; color: #717171;" ng-hide="filteredAnim.length > 0">There are not items in this stock yet.</h1>
+        <div ng-repeat="product in filteredAnim = (AnimProducts | filterWithOr:{Category:filterConditions })" class="VideoInList">
+            <div class="cartDiv" ng-click="AddToCart(product)">
+                <div class="cartImg"></div>
+                <span style="font-size: 12px; color: red !important; font-weight: bold; background-color: rgba(255, 255, 255, 0.68); border-radius: 4px; margin-left: -8px;">{{product.Price}}$</span>
+            </div>
+            <div class="ItemOverlay" ng-click="ProducDetails(product)"></div>
+            <div ng-if="AuthSvc.IsAdmin" ng-click="AuthSvc.DeleteProduct(product.Id)" class="kk-delete"></div>
+            <img class="VideoImg" ng-src="../../../Content/images/Uploads/{{product.File}}" />
+            <div class="VideoTitle">
+                <span class="ProductTitle">{{product.Title}}</span>
+            </div>
+        </div>
+    </div>
+</div>-->

@@ -1,0 +1,1 @@
+﻿The purpose of this project is storing of all entities to use them as persistence objects of EF Code First

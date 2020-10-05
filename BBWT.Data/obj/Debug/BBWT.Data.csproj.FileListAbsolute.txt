@@ -1,0 +1,39 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\obj\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\obj\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\obj\Debug\BBWT.Data.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Aninmax\BBWT.Data\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Aninmax\BBWT.Data\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Aninmax\BBWT.Data\obj\Debug\BBWT.Data.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Aninmax\BBWT.Data\obj\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Aninmax\BBWT.Data\obj\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Animmax\BBWT.Data\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Animmax\BBWT.Data\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Animmax\BBWT.Data\obj\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Animmax\BBWT.Data\obj\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Animmax\BBWT.Data\obj\Debug\BBWT.Data.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.Data\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Data\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Data\obj\Debug\BBWT.Data.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.Data\obj\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Data\obj\Debug\BBWT.Data.pdb
+C:\Projects\Pixbind\Pixbind\BBWT.Data\bin\Debug\BBWT.Data.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Data\bin\Debug\BBWT.Data.pdb
+C:\Projects\Pixbind\Pixbind\BBWT.Data\obj\Debug\BBWT.Data.csprojResolveAssemblyReference.cache
+C:\Projects\Pixbind\Pixbind\BBWT.Data\obj\Debug\BBWT.Data.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Data\obj\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Data\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Data\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Data\obj\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Data\obj\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.Data\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Data\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.Data\obj\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Data\obj\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.Data\obj\Debug\BBWT.Data.csprojResolveAssemblyReference.cache
+H:\Nasa\Projects\Pixbind 3D\BBWT.Data\bin\Debug\BBWT.Data.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Data\bin\Debug\BBWT.Data.pdb
+H:\Nasa\Projects\Pixbind 3D\BBWT.Data\obj\Debug\BBWT.Data.csprojAssemblyReference.cache
+H:\Nasa\Projects\Pixbind 3D\BBWT.Data\obj\Debug\BBWT.Data.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Data\obj\Debug\BBWT.Data.pdb

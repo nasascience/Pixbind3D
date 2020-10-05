@@ -1,0 +1,53 @@
+﻿<div class="page-header">    
+    <h1>View <span> Order #{{OrderDetailsCtrl.Header.Id}}</span></h1>
+    <span class="purpose">An example of a detail form.</span>
+</div>
+
+<div class="form-horizontal">
+    <div class="form-group form-group-static">
+        <label class="control-label control-label-static col-sm-3 col-xs-12">Customer Code:</label> 
+        <div class="col-sm-3 col-xs-12">
+            <span class="form-control form-control-static">{{OrderDetailsCtrl.Header.CustomerCode}}</span>
+        </div> 
+    </div>
+    <div class="form-group form-group-static">
+        <label class="control-label control-label-static col-sm-3 col-xs-12">Order Date:</label>
+        <div class="col-sm-3 col-xs-12">
+            <span class="form-control form-control-static">{{OrderDetailsCtrl.Header.OrderDate | date:'dd/MM/yyyy'}}</span>
+        </div>
+    </div>
+    <div class="form-group form-group-static">
+        <label class="control-label control-label-static col-sm-3 col-xs-12">Required Date:</label>
+        <div class="col-sm-3 col-xs-12">
+            <span class="form-control form-control-static">{{OrderDetailsCtrl.Header.RequiredDate | date:'dd/MM/yyyy'}}</span>
+        </div>
+    </div>
+    <div class="form-group form-group-static">
+        <label class="control-label control-label-static col-sm-3 col-xs-12">Shipped Date:</label>
+        <div class="col-sm-3 col-xs-12">
+            <span class="form-control form-control-static">{{OrderDetailsCtrl.Header.ShippedDate | date:'dd/MM/yyyy'}}</span>
+        </div>
+    </div>
+    <div class="form-group form-group-static">
+        <label class="control-label control-label-static col-sm-3 col-xs-12">Total Amount:</label>
+        <div class="col-sm-3 col-xs-12">
+            <span class="form-control form-control-static">{{OrderDetailsCtrl.InvoiceTotal | currency}}</span>
+        </div>
+    </div>    
+</div>
+
+<div kendo-grid k-data-source="OrderDetailsCtrl.OrdersDetailsDS" k-options="OrderDetailsCtrl.GridDetailsOptions">        
+</div>    
+
+<button class="k-button margin-bottom-15" ng-click="OrderDetailsCtrl.Back()">Back</button>
+
+<style>        
+
+    /*small screen style*/
+    @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+        .k-grid td:nth-of-type(1):before { content: "Product"; }
+        .k-grid td:nth-of-type(2):before { content: "Quantity"; }
+        .k-grid td:nth-of-type(3):before { content: "Price"; }
+        .k-grid td:nth-of-type(4):before { content: "Amount"; }        
+    }    
+</style>

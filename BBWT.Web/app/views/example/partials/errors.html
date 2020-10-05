@@ -1,0 +1,101 @@
+﻿<h3>Error Messages</h3>
+
+<p>We show an error message to the right of form fields that fail to meet criteria:</p>
+<form name="testForm" novalidate class="form-horizontal">
+    <div class="form-group">
+        <label for="requiredField" class="col-xs-10 col-sm-4 control-label">First name:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="requiredField" type="text" class="form-control" ng-model="test.requiredField" required />
+        </div>
+        <div class="col-xs-10 col-sm-4">
+            <p class="form-control-static text-danger" ng-show="testForm.requiredField.$dirty && testForm.requiredField.$error.required">
+                Please enter 'First name'
+            </p>
+        </div>
+    </div>
+</form>
+<pre>
+&lt;form name=&quot;testForm&quot; novalidate class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;requiredField&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;First Name:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;requiredField&quot; type=&quot;text&quot; class=&quot;form-control&quot; ng-model=&quot;test.requiredField&quot; required /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-4&quot;&gt;
+            &lt;p class=&quot;form-control-static text-danger&quot; ng-show=&quot;testForm.requiredField.$dirty &amp;&amp; testForm.requiredField.$error.required&quot;&gt;
+                Please enter 'First name'
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+</pre>
+<p>An appropriate error message to display might be ‘Please enter a whole number’.</p>
+<p>
+    A mandatory field on a form that contains both mandatory and optional fields should
+    be marked with a purple asterisk.
+</p>
+<p>
+    An appropriate error message to display for a mandatory field that was not completed is "Please enter '&lt;label&gt;'".
+</p>
+<form name="surnameForm" novalidate class="form-horizontal">
+    <div class="form-group">
+        <label for="surname" class="col-xs-10 col-sm-4 control-label"><span class="required-asterisk">*</span>Surname:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="surname" type="text" class="form-control" ng-model="test.surname" required />
+        </div>
+        <div class="col-xs-10 col-sm-4">
+            <p class="form-control-static text-danger" ng-show="surnameForm.surname.$dirty && surnameForm.surname.$error.required">
+                Please enter surname
+            </p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="emailAddress" class="col-xs-10 col-sm-4 control-label"><span class="required-asterisk">*</span>Email:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="emailAddress" type="email" class="form-control" ng-model="test.emailAddress" required placeholder="mail@example.com" />
+        </div>
+        <div class="col-xs-10 col-sm-4">
+            <p class="form-control-static text-danger" ng-show="surnameForm.emailAddress.$dirty && surnameForm.emailAddress.$error.required">
+                Please enter email
+            </p>
+            <p class="form-control-static text-danger" ng-show="surnameForm.emailAddress.$dirty && surnameForm.emailAddress.$error.email">
+                Wrong email format
+            </p>
+        </div>
+    </div>
+</form>
+<pre>
+&lt;form name=&quot;surnameForm&quot; novalidate class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;surname&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;
+            &lt;span class=&quot;required-asterisk&quot;&gt;*&lt;/span&gt;Surname:
+        &lt;/label&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;surname&quot; type=&quot;text&quot; class=&quot;form-control&quot; ng-model=&quot;test.surname&quot; required /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;p class=&quot;form-control-static text-danger&quot; ng-show=&quot;surnameForm.surname.$dirty &amp;&amp; surnameForm.surname.$error.required&quot;&gt;
+                Please enter surname
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;emailAddress&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;
+            &lt;span class=&quot;required-asterisk&quot;&gt;*&lt;/span&gt;Email:
+        &lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;emailAddress&quot; type=&quot;email&quot; class=&quot;form-control&quot; ng-model=&quot;test.emailAddress&quot; required placeholder=&quot;mail@example.com&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-4&quot;&gt;
+            &lt;p class=&quot;form-control-static text-danger&quot; ng-show=&quot;surnameForm.emailAddress.$dirty &amp;&amp; surnameForm.emailAddress.$error.required&quot;&gt;
+                Please enter email
+            &lt;/p&gt;
+            &lt;p class=&quot;form-control-static text-danger&quot; ng-show=&quot;surnameForm.emailAddress.$dirty &amp;&amp; surnameForm.emailAddress.$error.email&quot;&gt;
+                Wrong email format
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+</pre>
+<span>See also the <a href="" ng-click="GuidelinesCtrl.ScrollTo('popups')">Popups and Dialogs</a> section below for the style of an accompanying
+message drawing the user’s attention to the fact that they have invalid entries.</span>

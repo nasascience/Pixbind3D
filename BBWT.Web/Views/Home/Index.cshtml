@@ -1,0 +1,229 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html ng-app="bbwt" ng-controller="mainAppCtrl" class="mod-no-touchdevice mod-supportreal3d mod-acceptableperf">
+<head prefix="og: http://ogp.me/ns#">
+    <meta name="viewport" content="width=device-width" />
+    <link class="favicon" rel="icon" href="~/small.ico" type="image/x-icon">
+    <title ng-bind="title">Pixbind</title>
+    <base href="/">
+    @* Do not add any styles directly! Use CSS bundles instead. *@
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/blueberry/wizard/wizard.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/3DTemplate/css/style.css">
+</head>
+<body data-status="{{status}}" ng-click="$emit('BodyClicked')">
+    <div id="wrap">
+        @*<cookie-banner></cookie-banner>*@
+        <div class="site-counter">
+            <!-- hitwebcounter Code START -->
+            <a href="http://www.hitwebcounter.com" target="_blank">
+                <img src="http://hitwebcounter.com/counter/counter.php?page=6325665&style=0038&nbdigits=5&type=page&initCount=0" title="my widget for counting" alt="my widget for counting" border="0">
+            </a>                                        <br />
+            <!-- hitwebcounter.com -->
+            <a href="http://www.hitwebcounter.com" title="MyVisits Counter"
+               target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+                font-size: 11px; color: #9C9E94; text-decoration: none ;">
+                <strong>MyVisits Counter</strong>
+            </a>
+        </div>
+        <div ng-show="AuthSvc.dlgbck" class="dlgbackground cssFade ng-hide"></div>
+        <logind ng-show="AuthSvc.LoginForm" class="LoginDiv cssFade ng-hide"></logind>
+        <register ng-show="AuthSvc.RegisterForm" class="RegisterDiv cssFade ng-hide"></register>
+        <productview ng-show="AuthSvc.ProductView" class="ProductViewDiv cssFade ng-hide"></productview>
+        <cart ng-show="AuthSvc.CartView" class="CartDiv cssFade ng-hide"></cart>
+        <checkoutform ng-show="AuthSvc.CheckoutForm" class="CheckoutDiv cssFade ng-hide"></checkoutform>
+        <div id="LoadSpin" class="LoginSpin" style="display:none"></div>
+        
+        <!-- Header -->
+        <div id="js-sidebar" class="b-sidebar js-sidebar _indexpage _active" style="right: 16px; display:none">
+            <div class="b-sidebar-i">
+                <div class="b-sidebar-overlay" data-role="overlay"></div>
+                <div class="b-sidebar-main" data-role="main">
+                    <div class="b-sidebar-main-i">
+                        <div class="b-sidebar-back" data-role="back" style="transform: translateY(0px);"><div class="image" id="js-sidebar-backimage" style="width: 1903px; height: 1142px; margin: -197px 0px;"><svg width="100%" height="125%" xmlns="http://www.w3.org/2000/svg"><defs>	<filter id="blur">	<feGaussianBlur x="-2%" y="-2%" width="54%" height="104%" in="SourceGraphic" stdDeviation="10"></feGaussianBlur>	</filter></defs><g filter="url(#blur)"><rect x="0" y="0" width="100%" height="100%" fill="#F2F3F5"></rect><image id="js-sidebar-backimage-svgimage" width="100%" height="80%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{AuthSvc.ImgSrc}}"></image></g></svg></div></div>
+                        <div class="b-sidebar-front" style="width: 45rem !important;">
+                            <nav class="b-sidebar-nav">
+                                <ul class="b-sidebar-nav-list">
+                                    <li><a href="/" ng-click="AuthSvc.Home()" data-role="pagelink">Home</a></li>
+                                    <li ng-if="AuthSvc.User"><a href="/myitems" ng-click="AuthSvc.PrivacyPolicy()" data-role="pagelink">My Items</a></li>
+                                    @*<li><a href="/assets" ng-click="AuthSvc.Projects()" data-role="pagelink">Assets</a></li>*@
+                                    @*<li><a href="/games" ng-click="AuthSvc.WhyChooseUs()" data-role="pagelink">Games</a></li>*@
+                                    <li><a href="/projects" ng-click="AuthSvc.Projects()" data-role="pagelink">Projects</a></li>
+                                    <li><a href="/environment" ng-click="AuthSvc.WhyChooseUs()" data-role="pagelink">Environments</a></li>
+                                    <li><a href="/anim" ng-click="AuthSvc.WhyChooseUs()" data-role="pagelink">Animations</a></li>
+                                    <li><a href="/about" ng-click="AuthSvc.About()" data-role="pagelink">About us</a></li>
+                                    <li><a href="/about/contact" ng-click="AuthSvc.Contact()" data-role="pagelink">Contact</a></li>
+                                    <li><a href="/about/privacy" ng-click="AuthSvc.PrivacyPolicy()" data-role="pagelink">Privacy Policy</a></li>
+                                    <li><a href="/about/terms" ng-click="AuthSvc.TermsAndConditions()" data-role="pagelink">Terms & Conditions</a></li>
+                                    <li><a href="/about/specialservice" ng-click="AuthSvc.Contact()" data-role="pagelink">Special Service Payment</a></li>
+                                </ul>
+
+                            </nav>
+
+                            @*<div class="b-sidebar-lang">
+                                <span>ENG</span><a href="index9ed2.html?lang=en">ESP</a>
+                            </div>*@
+
+                            <div class="b-sidebar-social">
+                                <a href="https://www.facebook.com/pixbind/"><span class="_fb"></span></a>
+                                @*<a href="http://instagram.com/midayaday"><span class="_in"></span></a>*@
+                                <a href="https://twitter.com/pixbindteam"><span class="_tw"></span></a>
+                                @**<a href="http://www.youtube.com/user/midayaday"><span class="_yt"></span></a>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div ng-click="AuthSvc.SlideToggleMenu()" class="b-sidebar-toggle" data-role="toggle"><i></i><i></i><i></i><b style="padding-left: 17px;">Menu</b></div>
+
+            <a ng-show="AuthSvc.User" class="b-sidebar-projectsicon" href="" ng-click="AuthSvc.Logout()" data-role="pagelink">
+                @*<a ng-href="/profile" style="color: black;">Welcome, {{AuthSvc.User.Name}}</a>*@
+                <span><i></i><i></i><i></i><b>LogOut</b></span>
+            </a>
+            <a ng-hide="AuthSvc.User" class="b-sidebar-projectsicon" href="" ng-click="AuthSvc.LoginFn()" data-role="pagelink">
+                <span><i></i><i></i><i></i><b>Login</b></span>
+            </a>
+            <a ng-hide="AuthSvc.User" class="b-sidebar-projectsicon" href="" ng-click="AuthSvc.RegisterFn()" data-role="pagelink">
+                <span style="margin-left: -70px;"><b>Register</b></span>
+            </a>
+
+            <a class="pb-logo _active _current" href="index.html" data-role="pagelink"><img src="../../../Content/images/pixbindLogo.png" style="width:70%; height:70%"></a>
+        </div>
+        @*<header>
+
+                <a href="/newpub/new" class="hidden-print"><img class="SettingsBtn" src='@this.Url.Content("~/Content/images/settingsBtn.png")' /></a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 col-xs-5">
+                            <span class="title hidden-xs">
+                                <span style="margin-left: 30px; font-size: 18px;">ANIMMAX</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div ng-click="$emit('GoHome')" class="AnimMaxLogo"></div>
+                    <div class="TopBarSeparator"></div>
+                </div>
+                <searchbar></searchbar>
+            </header>*@
+        <div class="kk-header">
+            @*<div ng-hide="AuthSvc.User">
+                <button class="LoginBtn" ng-click="AuthSvc.LoginFn()">Login</button>
+                <button class="RegisterBtn" ng-click="AuthSvc.RegisterFn()">Register</button>
+            </div>
+            <div ng-show="AuthSvc.User" style=" position: absolute; top: 15px; right: 10px;">
+                <span style="position: absolute; right: 150px; top: 50px; width: 450px; text-align: end;" class="username" ng-show="AuthSvc.User"><a ng-href="/profile" style="color: black;">Welcome, {{AuthSvc.User.Name}}</a>&nbsp;</span>
+                <button class="LogOutBtn" ng-click="LoginCtrl.Logout()">LogOut</button>
+            </div>*@
+        </div>
+        @*<nav class="hidden-print">
+
+            </nav>*@
+
+        <div class="containerAnimmax" style="padding-left:0; padding-right: 0;" ng-controller="LoginCtrl">
+            <a ng-show="AuthSvc.IsAdmin" ng-if="AuthSvc.IsAdmin" href="/admin" style="position: absolute; top: 0; left: 1%; z-index: 100;" class="ng-hide">admin</a>
+            <ng-view></ng-view>
+        </div>
+    </div>
+    <span id="notification" style="display:none;"></span>
+
+    @*<footer id="footer">
+            <div class="container">
+                <span class="links hidden-print">
+                    <a href="/main">Terms & Conditions</a> &nbsp;|&nbsp;
+                    <a href="/about/privacy">Privacy Policy</a> &nbsp;|&nbsp;
+                    <a href="/about/cookie">Cookie Policy</a> &nbsp;|&nbsp;
+                    <a href="/about/contact">Contact Us</a> &nbsp;|&nbsp;
+                    <a href="/about/reportaproblem">Report a Problem</a>
+                </span>
+                <span class="copyright">
+                    <img class="info-icon" ng-controller="SettingsCtrl" ng-click="SettingsCtrl.ShowInfo()"
+                        src='@this.Url.Content("~/Content/images/info-icon.png")' />
+                    <b>BB</b>&nbsp;Web&nbsp;Template
+                    <span class="version">
+                        <span>&nbsp;Version:&nbsp;</span>2.0.0.0</span>
+                </span>
+            </div>
+        </footer>*@
+
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/passmeter")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/kendo")
+    @Scripts.Render("~/bundles/application")
+    @*@Scripts.Render("~/bundles/application")*@
+
+    @this.Html.Raw(JSNLog.JavascriptLogging.Configure())
+
+    <style>
+        .k-menu .k-item, .k-widget.k-menu-horizontal > .k-item {
+            /*float:right !important;*/
+        }
+        #overlay {
+            width: 100%;
+            height: 100%;
+            background: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10000;
+            background: #EDE9DF !important;
+        }
+
+        #LoadingOverlay {
+            display:none;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgba(58, 58, 58, 0.65);
+            z-index: 10000;
+            left: 0;
+            top: 0;
+        }
+
+    </style>
+    <div id="overlay">
+        <img style="left: 50%; position: fixed; margin-left: -400px; top: 50%; margin-top: -300px;" src="~/Content/images/Pixbind/animation-loading.gif" />
+        @*<img style="left: 50%; position: absolute; margin-left: -300px; top: 50%; margin-top: -200px;" src="~/Content/images/Pixbind/loader1.gif" />*@
+    </div>
+    <div id="LoadingOverlay">
+        @*<img style="left: 50%; position: absolute; margin-left: -400px; top: 50%; margin-top: -300px;" src="~/Content/images/Pixbind/animation-loading.gif" />*@
+    </div>
+    <script type="text/javascript">
+        $(window).on("load", function() {
+            $('#overlay').fadeOut(3000);
+            $('#js-sidebar').fadeIn();
+        });
+
+        $(function () {
+            window.onerror = function (msg, url, linenumber) {
+                JL("exceptionlogger").fatal(
+                    'Message: ' + msg + '\nURL: ' + url + '\nLine: ' + linenumber);
+                return true;
+            };
+        });
+
+        @{
+                <text>
+        var currentUser = @Html.Raw(ViewBag.currentUser);
+        var currentPermissions = [@Html.Raw(ViewBag.currentPermissions)];
+        </text>
+            }
+
+    </script>
+
+    <form id="CheckOutForm" action='https://www.2checkout.com/checkout/purchase' method='post' style="display:none">
+        <input type='hidden' name='sid' value='202853627' />
+        <input type='hidden' name='mode' value='2CO' />
+        <input type='hidden' name='li_0_type' value='product' />
+        <input type='hidden' name='li_0_name' value='xxxx' />
+        <input type='hidden' name='li_0_quantity' value='1' />
+        <input type='hidden' name='li_0_price' value='12.5' />
+        <input type='hidden' name='email' value='nasa@ho.com' />
+        <input type='submit' value='Checkout' />
+    </form>
+
+</body>
+</html>
+ 

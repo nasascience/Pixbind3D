@@ -1,0 +1,540 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\phantomjs.exe
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Phantom.js
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\phantomjs-license.txt
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll.config
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\AutoMapper.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.DTO.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Services.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Web.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Moq.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\nunit.framework.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Http.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Optimization.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\WebActivatorEx.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Unity.Mvc4.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Unity.WebApi.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\NLog.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Spatial.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.DTO.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Services.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.Web.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\AutoMapper.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Moq.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\nunit.framework.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Http.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Optimization.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\NLog.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\System.Spatial.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\de\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\es\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\fr\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\it\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ja\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ko\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\ru\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.UnitTests\bin\Debug\AutoMapper.Net4.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\phantomjs.exe
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Phantom.js
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\phantomjs-license.txt
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\AutoMapper.Net4.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll.config
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\AutoMapper.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.DTO.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Services.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Web.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Moq.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\nunit.framework.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Http.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Optimization.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\WebActivatorEx.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Unity.Mvc4.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Unity.WebApi.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\NLog.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Spatial.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.DTO.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Services.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.Web.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\AutoMapper.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Moq.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\nunit.framework.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Http.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Optimization.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\NLog.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\System.Spatial.xml
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\de\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\es\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\fr\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\it\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ja\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ko\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\ru\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Animmax\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\phantomjs.exe
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Phantom.js
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\phantomjs-license.txt
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\AutoMapper.Net4.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll.config
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\AutoMapper.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.DTO.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Services.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Web.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Moq.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\nunit.framework.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Http.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Optimization.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\WebActivatorEx.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Unity.Mvc4.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Unity.WebApi.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\NLog.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Spatial.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.DTO.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Services.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.Web.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\AutoMapper.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Moq.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\nunit.framework.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Http.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Optimization.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\NLog.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\System.Spatial.xml
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\de\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\es\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\fr\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\it\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ja\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ko\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\ru\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Pixbind\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\phantomjs.exe
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Phantom.js
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\phantomjs-license.txt
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\AutoMapper.Net4.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll.config
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\AutoMapper.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.DTO.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Services.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Web.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Moq.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\nunit.framework.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Http.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Optimization.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\WebActivatorEx.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Unity.Mvc4.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Unity.WebApi.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\TwoCheckout.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\NLog.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Spatial.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.DTO.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Services.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.Web.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\AutoMapper.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Moq.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\nunit.framework.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Http.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Optimization.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\NLog.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\System.Spatial.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\de\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\es\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\fr\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\it\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ja\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ko\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\ru\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\phantomjs.exe
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Phantom.js
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\phantomjs-license.txt
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll.config
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\AutoMapper.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.DTO.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Services.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Web.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Moq.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\nunit.framework.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Http.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Optimization.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\WebActivatorEx.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Unity.Mvc4.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Unity.WebApi.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\TwoCheckout.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\NLog.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Spatial.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.DTO.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.FakeObjects.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Services.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.Web.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\AutoMapper.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Moq.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\nunit.framework.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Http.OData.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Http.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Optimization.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\NLog.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Data.Edm.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Microsoft.Data.OData.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\System.Spatial.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\de\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\es\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\fr\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\it\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ja\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ko\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\ru\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\obj\Debug\BBWT.UnitTests.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\Newtonsoft.Json.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.UnitTests\bin\Debug\AutoMapper.Net4.dll

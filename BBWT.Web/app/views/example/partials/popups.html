@@ -1,0 +1,186 @@
+﻿<h3>Popups and Dialogs</h3>
+An example of a tab control:
+<div kendo-tab-strip k-animation="false">
+    <ul>
+        <li class="k-state-default k-state-active" k-state-disabled>Input</li>
+        <li>Information</li>
+        <li>Error</li>
+        <li>Success</li>
+        <li>Warning</li>
+        <li>Confirmation</li>
+        <li>Helper</li>
+        <!--<li>Waiting indicator</li>-->
+    </ul>
+    <div>
+        <div class="panel-body">
+            <div>
+                <img nocache="/Content/images/input_dialog.png" class="image-width-limit" alt="Dialog Screenshot" />
+            </div>
+            <ul>		
+                <li>Dialogs should be no bigger than 65% of the screen size</li>
+                <li>Dialogs should not contain expandable content that might, when expanded, force it to be bigger than 65% of the screen</li>
+                <li>When displayed, the screen behind the dialog should be greyed out, and should not respond to any mouse clicks.</li>
+                <li>Prefer a new page to a popup for requesting information that will be stored to the database.</li>
+                <li>When a popup does immediately commit a change to the database, ensure the button is titled ‘Save’, not ‘OK’.</li>
+            </ul>
+            <pre>
+&lt;button class=&quot;k-button&quot; ng-click=&quot;GuidelinesCtrl.ShowInput()&quot;&gt;Show Me&lt;/button&gt;
+            &lt;div style=&quot;display: none;&quot; id=&quot;Div1&quot;&gt;
+                &lt;div class=&quot;popup-content&quot;&gt;
+                    &lt;div class=&quot;&quot;&gt;
+                        &lt;div class=&quot;form-horizontal&quot;&gt;
+                            &lt;div class=&quot;form-group&quot;&gt;
+                                &lt;label for=&quot;popupFirstName&quot; class=&quot;col-sm-4 col-sm-offset-1 control-label&quot;&gt;First Name:&lt;/label&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;
+                                    &lt;input type=&quot;text&quot; name=&quot;popupFirstName&quot; class=&quot;form-control&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;form-group&quot;&gt;
+                                &lt;label for=&quot;popupLastName&quot; class=&quot;col-sm-4 col-sm-offset-1 control-label&quot;&gt;Last Name:&lt;/label&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;
+                                    &lt;input type=&quot;text&quot; name=&quot;popupLastName&quot; class=&quot;form-control&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;popup-footer&quot;&gt;
+                    &lt;div class=&quot;col-sm-5 col-sm-offset-3&quot;&gt;
+                        &lt;button class=&quot;k-button btn-ok col-sm-5 pull-left&quot;&gt;OK&lt;/button&gt;
+                        &lt;button class=&quot;k-button btn-cancel col-sm-5 pull-right&quot;&gt;Cancel&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowInput = () => Dialogs.showCustom({ winId: 'bbwtInputDlg', width: '500px', title: 'Input Box' });
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowInput()">Show Me</button>
+            <div style="display: none;" id="bbwtInputDlg">
+                <div class="popup-content">
+                    <div class="">
+                        <div class="form-horizontal">
+                            <div class="form-group">
+                                <label for="popupFirstName" class="col-sm-4 col-sm-offset-1 control-label">First Name:</label>
+                                <div class="col-sm-4">
+                                    <input type="text" name="popupFirstName" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="popupLastName" class="col-sm-4 col-sm-offset-1 control-label">Last Name:</label>
+                                <div class="col-sm-4">
+                                    <input type="text" name="popupLastName" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-footer">
+                    <div class="col-sm-5 col-xs-5 col-sm-offset-3 col-xs-offset-3">
+                        <button class="k-button btn-ok col-sm-5 col-xs-5 pull-left">OK</button>
+                        <button class="k-button btn-cancel col-sm-5 col-xs-5 pull-right">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            <div>
+                <img nocache="/Content/images/info_message.png" class="image-width-limit" alt="Info Message Screenshot" />
+            </div>
+            <pre>
+&lt;button class="k-button" ng-click="GuidelinesCtrl.ShowInfo()"&gt;Show Me&lt;/button&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowInfo = () =&gt; Dialogs.showInfo({ message: 'Info message' });
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowInfo()">Show Me</button>
+
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            <div>
+                <img nocache="/Content/images/error_message.png" class="image-width-limit" alt="Error Message Screenshot" />
+            </div>
+            <pre>
+&lt;button class="k-button" ng-click="GuidelinesCtrl.ShowError()"&gt;Show Me&lt;/button&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowError = () =&gt; Dialogs.showError({ message: 'Error message' });
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowError()">Show Me</button>
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            <div>
+                <img nocache="/Content/images/success_message.png" class="image-width-limit" alt="Success Message Screenshot" />
+            </div>
+            <pre>
+&lt;button class="k-button" ng-click="GuidelinesCtrl.ShowSuccess)"&gt;Show Me&lt;/button&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowSuccess = () =&gt; Dialogs.showSuccess({ message: 'Success message' });
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowSuccess()">Show Me</button>
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            <div>
+                <img nocache="/Content/images/warning_message.png" class="image-width-limit" alt="Warning Message Screenshot" />
+            </div>
+            <pre>
+&lt;button class="k-button" ng-click="GuidelinesCtrl.ShowWarning()"&gt;Show Me&lt;/button&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowWarning = () =&gt; Dialogs.showWarning({ message: 'Warning message' });
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowWarning()">Show Me</button>
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            <div>
+                <img nocache="/Content/images/confirmation_message.png" class="image-width-limit" alt="Confirmation Message Screenshot" />
+            </div>
+            <pre>
+&lt;button class="k-button" ng-click="GuidelinesCtrl.ShowConfirmation()"&gt;Show Me&lt;/button&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowConfirmation = () =&gt; Dialogs.showConfirmation({ message: 'Confirmation message' });
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowConfirmation()">Show Me</button>
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            <div>
+                <img nocache="/Content/images/helper_message.png" class="image-width-limit" alt="Helper Message Screenshot" />
+            </div>
+            <pre>
+&lt;button class="k-button" ng-click="GuidelinesCtrl.ShowHelper()"&gt;Show Me&lt;/button&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowHelper = () =&gt; Dialogs.showHelper({ message: "Test helper message" });
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowHelper()">Show Me</button>
+        </div>
+    </div>
+    <!--<div>
+        <div class="panel-body">
+            <div>
+                <img src="/Content/images/waiting_message.png" class="image-width-limit" alt="Waiting Message Screenshot" />
+            </div>
+            <pre>
+&lt;button class="k-button" ng-click="GuidelinesCtrl.ShowWaiting()"&gt;Show Me&lt;/button&gt;
+                
+                ...Somewhere in angular controller...
+this.ShowWaiting = () =&gt; Dialogs.showWaiting({});
+</pre>
+            <button class="k-button" ng-click="GuidelinesCtrl.ShowWaiting()">Show Me</button>
+        </div>
+    </div>-->
+</div>

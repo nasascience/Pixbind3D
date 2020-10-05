@@ -1,0 +1,60 @@
+﻿<h3>Basic Page Structure</h3>
+Here is the basic layout of a page:
+<!--Inline style for this basic structure are used to simulate out page template inside real page, code show to
+    visitor is the right one. Probably could change it to a picture. -->
+<div style="margin: 20px; border: #e0e0e0 1px solid;">
+    <header style="padding: 0">
+        <div class="bb-header" style="line-height: 50px;">
+            <span style="padding-left: 20px; line-height: 50px; display: block; height: 50px">Header</span>
+            <div class="menu" style="line-height: 30px; background-color: rgb(243,243,243)">
+                <ul class="k-menu" style="color: black; padding-left: 20px;">
+                    <li>Menu</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="page-header" style="padding-left: 20px">
+        <h1>Page Title</h1>
+        <span class="purpose">A page description.</span>
+    </div>
+    <div style="padding: 20px">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label for="testText" class="col-xs-10 col-sm-4 control-label">Label Sample:</label>
+                <div class="label-content col-xs-10 col-sm-4">
+                    <input id="testText" class="form-control" type="text" />
+                </div>
+            </div>
+            ...etc...
+        </div>
+        <button class="k-button btn-pad-right">Save</button>
+        <button class="k-button">Close</button>
+    </div>
+
+</div>
+<ul>
+    <li>Everything between the menu and footer has 20px space on all sides.</li>
+    <li>An optional page description under the page title.</li>
+    <li>Some space before the main content of the page.</li>
+</ul>
+<p>HTML for basic page is:</p>
+<pre>
+&lt;div class=&quot;page-header&quot;&gt;
+    &lt;h1&gt;Page Title&lt;/h1&gt;
+    &lt;span class=&quot;purpose&quot;&gt;A page description.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;testText&quot; class=&quot;col-sm-3 control-label&quot;&gt;Label sample:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-sm-4&quot;&gt;
+            &lt;input id=&quot;testText&quot; class=&quot;form-control&quot; type=&quot;text&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    ...etc...
+
+    &lt;button class=&quot;k-button btn-pad-right&quot;&gt;Save&lt;/button&gt;
+    &lt;button class=&quot;k-button&quot;&gt;Close&lt;/button&gt;
+&lt;/div&gt;
+</pre>
+<p>Consider whether the page needs a description line. Description lines should be preferred when the use of a page is non-obvious, or when most of the user-base of the page will not be familiar with the page. Typically, Edit and Manage pages should not require a description line.</p>

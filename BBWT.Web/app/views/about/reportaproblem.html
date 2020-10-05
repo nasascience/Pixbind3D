@@ -1,0 +1,94 @@
+﻿<div class="page-header">
+    <h1>Report a Problem</h1>
+</div>
+
+<form role="form" class="form-horizontal" name="form">
+    <div class="form-group">
+        <label for="user" class="col-sm-3 control-label">User:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" placeholder="User" name="user" ng-model="ReportaProblemCtrl.data.FullName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="col-sm-3 control-label">Email:</label>
+        <div class="col-sm-4">
+            <input type="email" class="form-control" placeholder="Email" name="email" ng-model="ReportaProblemCtrl.data.Name" required />
+        </div>
+        <div class="col-sm-4" ng-show="form.email.$dirty && form.email.$invalid">
+            <span ng-show="form.email.$error.required" class="k-widget k-tooltip k-tooltip-validation k-invalid-msg" role="alert">
+                <span class="k-icon k-warning"> </span>  Email is required
+            </span>
+            <span ng-show="form.email.$error.email" class="k-widget k-tooltip k-tooltip-validation k-invalid-msg" role="alert">
+                <span class="k-icon k-warning"> </span>  Email format is not valid
+            </span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="time" class="col-sm-3 control-label">Time of problem:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" placeholder="Time of problem" name="time" ng-model="ReportaProblemCtrl.data.Time" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="subject" class="col-sm-3 control-label">Subject:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" placeholder="Subject" name="subject" ng-model="ReportaProblemCtrl.data.Subject" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="description" class="col-sm-3 control-label">Problem description:</label>
+        <div class="col-sm-9">
+            <textarea class="form-control" placeholder="Problem description" name="description" rows="10" ng-model="ReportaProblemCtrl.data.Description"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Problem severity:</label>
+        <div class="col-sm-9">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="ProblemSeverity" checked ng-model="ReportaProblemCtrl.data.Severity" value="SystemFailure">
+                    System Failure
+                </label>
+                <span class="help-block">Multiple users not able to access the system and perform normal work.</span>
+            </div>
+            <div class="radio">
+                <label class="control-label">
+                    <input type="radio" name="ProblemSeverity" ng-model="ReportaProblemCtrl.data.Severity" value="SystemMalfunction">
+                    System Malfunction
+                </label>
+                <span class="help-block">The system is still considered operational with some functionality disabled.</span>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="ProblemSeverity" ng-model="ReportaProblemCtrl.data.Severity" value="OperationImpaired">
+                    Operation Impaired
+                </label>
+                <span class="help-block">System operation is impaired, slow running or prints not being produced. Core functionality is operational.</span>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="ProblemSeverity" ng-model="ReportaProblemCtrl.data.Severity" value="DataIssue">
+                    Data Issue
+                </label>
+                <span class="help-block">System operates normally but incorrect data items or an individual user not able to access the system etc.</span>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="ProblemSeverity" ng-model="ReportaProblemCtrl.data.Severity" value="CosmeticIssue">
+                    Cosmetic Issue
+                </label>
+                <span class="help-block">Cosmetic error, e.g. spelling screen layout, non-critical drop down selected. User enhancement request.</span>
+            </div>
+            <br />
+            <button type="submit" class="k-button" ng-click="ReportaProblemCtrl.Send()" ng-disabled="form.email.$invalid">Submit</button>
+        </div>
+    </div>
+    <div class="form-group" ng-show="ReportaProblemCtrl.data.ErrorLog">
+        <p>
+            Stack Trace (for developers):
+        </p>
+        <div ng-repeat="item in ReportaProblemCtrl.data.ErrorLog track by $index">
+            <p>{{item}} </p>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,258 @@
+﻿<div class="page-header">
+    <h1>Wizard</h1>
+    <span class="purpose">This is a sample page used for demonstrating the use of the Wizard.</span>
+</div>
+
+<div>
+    <div class="wizard-containter">
+
+        <div class="wizard-header">
+            <span><b>Step {{ WizardCtrl.step + 1 }}</b></span>
+        </div>
+
+        <div class="wizard-step-container">
+
+            <!--step 0-->
+            <div ng-show="WizardCtrl.step == 0">
+                <div class="wizard-step-content">
+
+                    <!--select an account type-->
+                    <div class="form-group">                        
+                        <div class="col-xs-12 col-sm-7 col-sm-offset-3">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="Radios1" id="radio1" value="0" ng-model="WizardCtrl.accountType">
+                                    I'd like to create a personal account                                    
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="Radios1" id="radio2" value="1" ng-model="WizardCtrl.accountType">
+                                    I'd like to create an account for a company                                    
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--step 1-->
+            <div ng-show="WizardCtrl.step == 1">
+                <div class="wizard-step-content">
+
+                    <!--individual account-->
+                    <div ng-show="WizardCtrl.accountType == 0">
+
+                        <form class="form-horizontal" name="formUser" novalidate autocomplete="off">
+                            <!--email-->
+                            <div class="form-group">
+                                <label for="name" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                                <div class="label-content col-xs-10 col-sm-4">
+                                    <input name="name" autocomplete="off" class="form-control" type="email"
+                                        ng-model="WizardCtrl.user.name" required validationmessage="Email is required"
+                                        placeholder="myname@example.net"
+                                        data-email-msg="Email format is not valid" />
+                                </div>
+                                <div class="col-xs-10 col-sm-4">
+                                    <div class="k-invalid-msg" data-for="name"></div>
+                                </div>
+                            </div>
+
+                            <!--firstname-->
+                            <div class="form-group">
+                                <label for="firstName" class="col-xs-10 col-sm-4 control-label">First Name:</label>
+                                <div class="label-content col-xs-10 col-sm-4">
+                                    <input name="firstName" autocomplete="off" class="form-control" type="text"
+                                        ng-model="WizardCtrl.user.firstName" validationmessage="First Name is 0..8000 chars"
+                                        placeholder="First Name" pattern="[a-zA-Z]{0,8000}" />
+                                </div>
+                                <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0">
+                                    <div class="k-invalid-msg" data-for="firstName"></div>
+                                </div>
+                            </div>
+
+                            <!--surname-->
+                            <div class="form-group">
+                                <label for="surname" class="col-xs-10 col-sm-4 control-label">Surname:</label>
+                                <div class="label-content col-xs-10 col-sm-4">
+                                    <input name="surname" autocomplete="off" class="form-control" type="text"
+                                        ng-model="WizardCtrl.user.surname" validationmessage="Surname is 0..8000 chars"
+                                        placeholder="Surname" pattern="[a-zA-Z]{0,8000}" />
+                                </div>
+                                <div class="col-xs-10 col-sm-4">
+                                    <div class="k-invalid-msg" data-for="surname"></div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <!--company account-->
+                    <div ng-show="WizardCtrl.accountType == 1">
+
+                        <form class="form-horizontal" name="formCompany" novalidate autocomplete="off">
+
+                            <!--company name-->
+                            <div class="form-group">
+                                <label for="companyName" class="col-xs-10 col-sm-4 control-label">Company Name:</label>
+                                <div class="label-content col-xs-10 col-sm-4">
+                                    <input name="companyName" autocomplete="off" class="form-control" type="text"
+                                        ng-model="WizardCtrl.user.companyName" required validationmessage="Company Name is 2..50 chars"
+                                        placeholder="Company Name" pattern="[a-zA-Z]{2,50}" />
+                                </div>
+                                <div class="col-xs-10 col-sm-4">
+                                    <div class="k-invalid-msg" data-for="companyName"></div>
+                                </div>
+                            </div>
+
+                            <!--firstname-->
+                            <div class="form-group">
+                                <label for="firstName" class="col-xs-10 col-sm-4 control-label">First Name:</label>
+                                <div class="label-content col-xs-10 col-sm-4">
+                                    <input name="firstName" autocomplete="off" class="form-control" type="text"
+                                        ng-model="WizardCtrl.user.firstName" validationmessage="First Name is 0..8000 chars"
+                                        placeholder="First Name" pattern="[a-zA-Z]{2,10}" />
+                                </div>
+                                <div class="col-xs-10 col-sm-4">
+                                    <div class="k-invalid-msg" data-for="firstName"></div>
+                                </div>
+                            </div>
+
+                            <!--surname-->
+                            <div class="form-group">
+                                <label for="surname" class="col-xs-10 col-sm-4 control-label">Surname:</label>
+                                <div class="label-content col-xs-10 col-sm-4">
+                                    <input name="surname" autocomplete="off" class="form-control" type="text"
+                                        ng-model="WizardCtrl.user.surname" validationmessage="Surname is 0..8000 chars"
+                                        placeholder="Surname" pattern="[a-zA-Z]{2,10}" />
+                                </div>
+                                <div class="col-xs-10 col-sm-4">
+                                    <div class="k-invalid-msg" data-for="surname"></div>
+                                </div>
+                            </div>
+
+                            <!--email-->
+                            <div class="form-group">
+                                <label for="name" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                                <div class="label-content col-xs-10 col-sm-4">
+                                    <input name="name" autocomplete="off" class="form-control" type="email"
+                                        ng-model="WizardCtrl.user.name" required validationmessage="Email is required"
+                                        placeholder="myname@example.net"
+                                        data-email-msg="Email format is not valid" />
+                                </div>
+                                <div class="col-xs-10 col-sm-4">
+                                    <div class="k-invalid-msg" data-for="name"></div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--step 2-->
+            <div ng-show="WizardCtrl.step == 2">
+                <div class="wizard-step-content">
+                    
+                    <!--user password-->
+                    <form class="form-horizontal" name="formPasswordValidation" novalidate autocomplete="off">
+                        <div class="form-group">
+                            <label for="pass" class="col-xs-10 col-sm-4 control-label">Password:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input id="pass" name="pass" autocomplete="off" class="form-control" type="password"
+                                       ng-model="WizardCtrl.user.pass"
+                                       placeholder="Password"
+                                       validationmessage="Password is required"
+                                       />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="pass"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmPass" class="col-xs-10 col-sm-4 control-label">Re-enter password:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input id="confirmPass"
+                                       name="confirmPass"
+                                       autocomplete="off" class="form-control" type="password"
+                                       ng-model="WizardCtrl.user.confirmPass"
+                                       required
+                                       placeholder="Confirm Password"
+                                       match="pass"
+                                       validationmessage="Passwords must match" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="confirmPass"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!--step 3-->
+            <div ng-show="WizardCtrl.step == 3">
+                <div class="wizard-step-content">                                        
+                    <table class="col-xs-offset-1 col-sm-offset-4">
+                        <tr>
+                            <td>
+                                <label class="m-label">Account type:</label>
+                            </td>
+                            <td>
+                                <span class="m-span">{{WizardCtrl.getAccountType(WizardCtrl.accountType)}}</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-label">First name:</label>
+                            </td>
+                            <td>
+                                <span class="m-span">{{WizardCtrl.user.firstName}}</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-label">Surname:</label>
+                            </td>
+                            <td>
+                                <span class="m-span">{{WizardCtrl.user.surname}}</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-label">Email:</label>
+                            </td>
+                            <td>
+                                <span class="m-span">{{WizardCtrl.user.name}}</span>
+                            </td>
+                        </tr>
+                        <tr ng-show="WizardCtrl.user.companyName != null && WizardCtrl.user.companyName != ''">
+                            <td>
+                                <label class="m-label">Company name:</label>
+                            </td>
+                            <td>
+                                <span class="m-span">{{WizardCtrl.user.companyName}}</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wizard-action-bar">
+        <div class="row">
+            <div class="pull-left">
+                <a href="/" class="k-button">Cancel</a>
+            </div>            
+            <div class="pull-right">                
+                <button class="k-button" ng-click="WizardCtrl.handleNext()" ng-disabled="!WizardCtrl.pageIsValid()">{{ WizardCtrl.getNextLabel() }}</button>                                    
+            </div>
+            <div class="pull-right">
+                <button class="k-button btn-pre" ng-click="WizardCtrl.handlePrevious()" ng-show="!WizardCtrl.isFirstStep()">Previous</button>
+            </div>            
+        </div>       
+    </div>
+</div>
+<br /><p>Generally, prefer tabs to wizards. However, if the users are expected to be inexperienced with the page over a long time, and three-quarters of the sections are mandatory, then consider wizards. For instance, it is reasonable for the company sign-up page to be a wizard because we expect it to be used by a user once and then never again.</p>
+

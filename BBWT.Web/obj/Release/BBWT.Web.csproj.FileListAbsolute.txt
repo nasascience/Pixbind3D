@@ -1,0 +1,248 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\phantomjs.exe
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Phantom.js
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\phantomjs-license.txt
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\AutoMapper.Net4.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Web.dll.config
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Web.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Web.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\AutoMapper.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Domain.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.DTO.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Services.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.SSRS.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Common.Logging.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Common.Logging.NLog20.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\EntityFramework.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\JSNLog.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Data.Edm.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Data.OData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Practices.Unity.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Web.Helpers.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\MvcReportViewer.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Newtonsoft.Json.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\NLog.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Net.Http.Formatting.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Spatial.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Helpers.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Http.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Http.OData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Http.WebHost.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Mvc.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Optimization.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.WebPages.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.WebPages.Razor.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Unity.Mvc4.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Unity.WebApi.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\WebActivatorEx.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\WebGrease.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\WebMatrix.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\WebMatrix.WebData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Domain.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.DTO.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.Services.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\BBWT.SSRS.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\AutoMapper.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Common.Logging.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Common.Logging.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Common.Logging.NLog20.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Common.Logging.NLog20.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\EntityFramework.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Data.Edm.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Data.OData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Practices.Unity.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\Newtonsoft.Json.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\NLog.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Net.Http.Formatting.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Spatial.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Helpers.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Http.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Http.OData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Http.WebHost.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Optimization.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.Mvc.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.WebPages.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\System.Web.WebPages.Razor.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\WebMatrix.Data.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\WebMatrix.WebData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\de\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\es\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\fr\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\it\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ja\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ko\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\ru\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\obj\Release\BBWT.Web.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\obj\Release\BBWT.Web.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Web\obj\Release\BBWT.Web.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\phantomjs.exe
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Phantom.js
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\phantomjs-license.txt
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\AutoMapper.Net4.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Web.dll.config
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Web.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Web.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\AutoMapper.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.DTO.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Services.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Common.Logging.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Common.Logging.NLog20.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\EntityFramework.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\JSNLog.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Data.Edm.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Data.OData.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Practices.Unity.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Web.Helpers.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\MvcReportViewer.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Newtonsoft.Json.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\NLog.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Net.Http.Formatting.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Spatial.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Helpers.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Http.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Http.OData.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Http.WebHost.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Mvc.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Optimization.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.WebPages.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.WebPages.Razor.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Unity.Mvc4.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Unity.WebApi.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\WebActivatorEx.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\WebGrease.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\WebMatrix.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\WebMatrix.WebData.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.DTO.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.Services.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\AutoMapper.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Common.Logging.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Common.Logging.NLog20.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Common.Logging.NLog20.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\EntityFramework.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Data.Edm.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Data.OData.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Practices.Unity.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\Newtonsoft.Json.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\NLog.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Net.Http.Formatting.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Spatial.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Helpers.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Http.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Http.OData.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Http.WebHost.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Optimization.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.Mvc.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.WebPages.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\System.Web.WebPages.Razor.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\WebMatrix.Data.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\WebMatrix.WebData.xml
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\de\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\es\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\fr\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\it\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ja\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ko\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\ru\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\obj\Release\BBWT.Web.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.Web\obj\Release\BBWT.Web.dll
+D:\Nasa\Projects\Pixbind\BBWT.Web\obj\Release\BBWT.Web.pdb

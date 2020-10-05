@@ -1,0 +1,143 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html ng-app="bbwt" ng-controller="mainAppCtrl">
+<head prefix="og: http://ogp.me/ns#">
+    <meta name="viewport" content="width=device-width" />
+    <link class="favicon" rel="icon" href="~/small.ico" type="image/x-icon">
+    <title ng-bind="title">Pixbind</title>
+    <base href="/">
+    @* Do not add any styles directly! Use CSS bundles instead. *@
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/blueberry/wizard/wizard.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/3DTemplate/css/style.css">
+</head>
+<body data-status="{{status}}" ng-click="$emit('BodyClicked')">
+    <div id="wrap">
+        @*<cookie-banner></cookie-banner>*@
+        <div class="site-counter">
+            <!-- hitwebcounter Code START -->
+            <a href="http://www.hitwebcounter.com" target="_blank">
+                <img src="http://hitwebcounter.com/counter/counter.php?page=6325665&style=0038&nbdigits=5&type=page&initCount=0" title="my widget for counting" alt="my widget for counting" border="0">
+            </a>                                        <br />
+            <!-- hitwebcounter.com -->
+            <a href="http://www.hitwebcounter.com" title="MyVisits Counter"
+               target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+                font-size: 11px; color: #9C9E94; text-decoration: none ;">
+                <strong>MyVisits Counter</strong>
+            </a>
+        </div>
+        <div ng-show="AuthSvc.dlgbck" class="dlgbackground cssFade ng-hide"></div>
+        <logind ng-show="AuthSvc.LoginForm" class="LoginDiv cssFade ng-hide"></logind>
+        <register ng-show="AuthSvc.RegisterForm" class="RegisterDiv cssFade ng-hide"></register>
+        <productview ng-show="AuthSvc.ProductView" class="ProductViewDiv cssFade ng-hide"></productview>
+        <cart ng-show="AuthSvc.CartView" class="CartDiv cssFade ng-hide"></cart>
+        <checkoutform ng-show="AuthSvc.CheckoutForm" class="CheckoutDiv cssFade ng-hide"></checkoutform>
+        <div id="LoadSpin" class="LoginSpin" style="display:none"></div>
+        
+        @*<header>
+
+            <a href="/newpub/new" class="hidden-print"><img class="SettingsBtn" src='@this.Url.Content("~/Content/images/settingsBtn.png")' /></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 col-xs-5">
+                        <span class="title hidden-xs">
+                            <span style="margin-left: 30px; font-size: 18px;">ANIMMAX</span>
+                        </span>                    
+                    </div>
+
+                </div>
+                <div ng-click="$emit('GoHome')" class="AnimMaxLogo"></div>
+                <div class="TopBarSeparator"></div>
+            </div>
+            <searchbar></searchbar>
+        </header>*@
+        <div class="kk-header">
+            
+            <div ng-hide="AuthSvc.User">
+                <button class="LoginBtn" ng-click="AuthSvc.LoginFn()">Login</button>
+                <button class="RegisterBtn" ng-click="AuthSvc.RegisterFn()">Register</button>
+            </div>
+            <div ng-show="AuthSvc.User" style=" position: absolute; top: 15px; right: 10px;">
+                <span style="position: absolute; right: 150px; top: 50px; width: 450px; text-align: end;" class="username" ng-show="AuthSvc.User"><a ng-href="/profile" style="color: black;">Welcome, {{AuthSvc.User.Name}}</a>&nbsp;</span>
+                <button class="LogOutBtn" ng-click="LoginCtrl.Logout()">LogOut</button>
+            </div>
+        </div>
+        @*<nav class="hidden-print">
+                
+            </nav>*@
+
+        <div class="containerAnimmax" style="padding-left:0; padding-right: 0;" ng-controller="LoginCtrl">
+            <a ng-if="AuthSvc.IsAdmin" href="/admin" style="position: absolute; top: 0; left: 1%; z-index: 100;">admin</a>
+            <ng-view></ng-view>
+        </div>
+    </div>
+    <span id="notification" style="display:none;"></span>
+
+    @*<footer id="footer">
+            <div class="container">
+                <span class="links hidden-print">
+                    <a href="/main">Terms & Conditions</a> &nbsp;|&nbsp;
+                    <a href="/about/privacy">Privacy Policy</a> &nbsp;|&nbsp;
+                    <a href="/about/cookie">Cookie Policy</a> &nbsp;|&nbsp;
+                    <a href="/about/contact">Contact Us</a> &nbsp;|&nbsp;
+                    <a href="/about/reportaproblem">Report a Problem</a>
+                </span>
+                <span class="copyright">
+                    <img class="info-icon" ng-controller="SettingsCtrl" ng-click="SettingsCtrl.ShowInfo()"
+                        src='@this.Url.Content("~/Content/images/info-icon.png")' />
+                    <b>BB</b>&nbsp;Web&nbsp;Template
+                    <span class="version">
+                        <span>&nbsp;Version:&nbsp;</span>2.0.0.0</span>
+                </span>
+            </div>
+        </footer>*@
+
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/passmeter")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/kendo")
+    @Scripts.Render("~/bundles/application")
+    @*@Scripts.Render("~/bundles/application")*@
+
+    @this.Html.Raw(JSNLog.JavascriptLogging.Configure())
+
+    <style>
+        .k-menu .k-item, .k-widget.k-menu-horizontal > .k-item {
+        /*float:right !important;*/
+        }
+    </style>
+    <script type="text/javascript">
+
+        /*function appendText(FbUrl, FbImg) {
+
+            alert(FbUrl);
+            alert(FbImg);
+
+            var meta1 = "<meta property='og:url' content='" + FbUrl + "'/>";
+            var meta2 = "<meta property='og:title' content='Chocolate Pecan Pie' />";
+            var meta3 = "<meta property='og:description' content='This pie is delicious!'/>";
+            var meta4 = "<meta property='og:image' content='" + FbImg + "' />";
+
+            $("head").append(meta1, meta2, meta3, meta4);     // Append meta
+        }*/
+
+        $(function () {
+            window.onerror = function (msg, url, linenumber) {
+                JL("exceptionlogger").fatal(
+                    'Message: ' + msg + '\nURL: ' + url + '\nLine: ' + linenumber);
+                return true;
+            };
+        });
+
+        @{
+                <text>
+        var currentUser = @Html.Raw(ViewBag.currentUser);
+        var currentPermissions = [@Html.Raw(ViewBag.currentPermissions)];
+        </text>
+            }
+
+    </script>
+</body>
+</html>
+ 

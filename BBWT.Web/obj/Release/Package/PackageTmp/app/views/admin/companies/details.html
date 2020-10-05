@@ -1,0 +1,189 @@
+﻿<div permission="ManageCompanies">
+    <div class="page-header">
+        <h1 ng-show="CompanyDetailsCtrl.Company.Id == 0">Create Company</h1>
+        <h1 ng-show="CompanyDetailsCtrl.Company.Id != 0">Edit Company <small>{{CompanyDetailsCtrl.Company.CompanyName}}</small></h1>
+        <span class="small">Use this form to edit company details</span>
+    </div>
+    <div id="errors" class="alert alert-danger" ng-show="form.$invalid && form.$dirty">
+        <!-- Placeholder to show validation summary-->
+        <div ng-show="form.name.$invalid">Name is required</div>
+        <div ng-show="form.contactemail.$invalid">Contact Email is not valid</div>
+        <div ng-show="form.billingemail.$invalid">Billing Email is not valid</div>
+    </div>
+    <form name="form" novalidate class="form-horizontal">
+    <div kendo-tab-strip k-animation="false">
+        <ul>
+            <li class="k-state-active">Basic details</li>
+            <li>Main contact</li>
+            <li>Billing contact</li>
+            <li>Comments</li>
+            <li>Users</li>
+            <li>Groups and permissions</li>
+        </ul>
+        <div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="name" class="col-xs-10 col-sm-4 control-label">Company Name:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="name" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.CompanyName" required maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static" ng-show="form.name.$invalid">
+                        Name is required
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="contactname" class="col-xs-10 col-sm-4 control-label">Main Contact Name:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="contactname" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.MainContactName" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger  form-control-static" ></div>
+                </div>
+                <div class="form-group">
+                    <label for="contactaddress1" class="col-xs-10 col-sm-4 control-label">Address 1:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="contactaddress1" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.MainContactAddress1" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static"></div>
+                </div>
+                <div class="form-group">
+                    <label for="contactaddress2" class="col-xs-10 col-sm-4 control-label">Address 2:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="contactaddress2" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.MainContactAddress2" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static" ></div>
+                </div>
+                <div class="form-group">
+                    <label for="contactpostcode" class="col-xs-10 col-sm-4 control-label">Postcode:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="contactpostcode" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.MainContactPostcode" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static" ></div>
+                </div>
+                <div class="form-group">
+                    <label for="contactphone" class="col-xs-10 col-sm-4 control-label">Phone Number:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="contactphone" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.MainContactPhoneNumber" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static" ></div>
+                </div>
+                <div class="form-group">
+                    <label for="contactmobile" class="col-xs-10 col-sm-4 control-label">Mobile Number:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="contactmobile" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.MainContactMobileNumber" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static" ></div>
+                </div>
+                <div class="form-group">
+                    <label for="contactemail" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="contactemail" type="email" class="form-control" ng-model="CompanyDetailsCtrl.Company.MainContactEmail" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static" ng-show="form.contactemail.$invalid">
+                        Contact Email is not valid
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="billingname" class="col-xs-10 col-sm-4 control-label">Billing Contact Name:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="billingname" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.BillingContactName" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static" ></div>
+                </div>
+                <div class="form-group">
+                    <label for="billingaddress1" class="col-xs-10 col-sm-4 control-label">Address 1:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="billingaddress1" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.BillingContactAddress1" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static"></div>
+                </div>
+                <div class="form-group">
+                    <label for="billingaddress2" class="col-xs-10 col-sm-4 control-label">Address 2:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="billingaddress2" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.BillingContactAddress2" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static"></div>
+                </div>
+                <div class="form-group">
+                    <label for="billingpostcode" class="col-xs-10 col-sm-4 control-label">Postcode:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="billingpostcode" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.BillingContactPostcode" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static"></div>
+                </div>
+                <div class="form-group">
+                    <label for="billingphone" class="col-xs-10 col-sm-4 control-label">Phone Number:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="billingphone" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.BillingContactPhoneNumber" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static"></div>
+                </div>
+                <div class="form-group">
+                    <label for="billingmobile" class="col-xs-10 col-sm-4 control-label">Mobile Number:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="billingmobile" type="text" class="form-control" ng-model="CompanyDetailsCtrl.Company.BillingContactMobileNumber" maxlength="256" />
+                    </div>
+                    <div class="col-sm-4 text-danger form-control-static"></div>
+                </div>
+                <div class="form-group">
+                    <label for="billingemail" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                    <div class="col-xs-10 col-sm-4 label-content">
+                        <input name="billingemail" type="email" class="form-control" ng-model="CompanyDetailsCtrl.Company.BillingContactEmail" maxlength="256" />
+                    </div>
+                </div>
+                <div class="col-sm-4 text-danger form-control-static" ng-show="form.billingemail.$invalid">
+                    Billing Email is not valid
+                </div>
+            </div>
+        </div>
+    <div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="comments" class="col-xs-10 col-sm-4 control-label">Comment:</label>
+                <div class="col-sm-7">
+                    <textarea name="comments" class="form-control" ng-model="CompanyDetailsCtrl.Company.Comment" rows="12" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            List of Users
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            <div class="col-sm-4">
+                <h2>Groups</h2>
+                <div ng-repeat="group in CompanyDetailsCtrl.Company.Groups">                        
+                    <label for="CompanyGroup{{$index+1}}">
+                        <input id="CompanyGroup{{$index+1}}" type="checkbox" ng-model="group.IsChecked" />
+                        {{CompanyDetailsCtrl.AllGroups[group.Id].Name}}
+                    </label>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h2>Permissions</h2>
+                <div ng-repeat="permission in CompanyDetailsCtrl.Company.Permissions">                        
+                    <label for="CompanyPermission{{$index+1}}">
+                        <input id="CompanyPermission{{$index+1}}" type="checkbox" ng-model="permission.IsChecked" />
+                        {{CompanyDetailsCtrl.AllPermissions[permission.Id].Name}}
+                    </label>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        <div class="margin-bottom-15">
+            <button class="k-button margin-right-10" ng-disabled="form.$invalid" ng-click="CompanyDetailsCtrl.Save(CompanyDetailsCtrl.Company)">Save</button>
+            <button class="k-button" ng-click="CompanyDetailsCtrl.Cancel()">Cancel</button>
+        </div>
+    </form>
+</div>

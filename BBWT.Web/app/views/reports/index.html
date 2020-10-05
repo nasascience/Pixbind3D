@@ -1,0 +1,32 @@
+<div class="page-header">
+    <h1>Manage Reports</h1>   
+</div>
+
+<div class="k-grid-filter-container">    
+    <div class="row"> 
+        <div class="col-lg-3 col-sm-4 col-xs-12">
+            <input name="reportName" class="form-control" type="text" placeholder="Report name" upper-hint data-ng-model="ReportsCtrl.Filter.ReportName"/>
+        </div>
+        <div class="col-lg-9 col-xs-12 col-xs-row">                
+            <input type="button" class="k-button margin-right-10" value="Search" data-ng-click="ReportsCtrl.ApplyFilter()" />                                    
+            <input type="button" class="k-button" value="Clear" data-ng-click="ReportsCtrl.ResetFilter()" />
+        </div>
+    </div>
+</div>
+<div kendo-grid-plus kendo-grid k-data-source="ReportsCtrl.ReportsDS" k-options="ReportsCtrl.GridOptions">        
+</div>    
+ <div class="margin-bottom-15">
+        <button class="k-button" ng-click="ReportsCtrl.CreateReport()">Add</button>
+    </div>
+<style>
+    /*small screen style*/
+    @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+        td:nth-of-type(1):before {
+            content: "Report ID";
+        }
+
+        td:nth-of-type(2):before {
+            content: "Report Name";
+        }
+    }
+</style>

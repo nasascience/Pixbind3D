@@ -1,0 +1,106 @@
+﻿<h3>Adjusting Label and Input Widths</h3>
+
+<p>
+    You can alter the label widths using "col-sm-x" class. E.g. col-sm-5 sets the label 5/12 of container width.
+</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="col3" class="col-xs-10 col-sm-3 col-lg-3 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-3 col-lg-3">
+            <input name="col3" type="text" class="form-control" value="col-sm-3 width" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="col4" class="col-xs-10 col-sm-4 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="col4" type="text" class="form-control" value="col-sm-4 width" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="col5" class="col-xs-10 col-sm-5 col-lg-5 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-5 col-lg-5">
+            <input name="col5" type="text" class="form-control" value="col-sm-5 width" />
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;col3&quot; class=&quot;col-xs-10 col-sm-3 col-lg-3 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-3 col-lg-3&quot;&gt;
+            &lt;input name=&quot;col3&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;col-sm-3 width&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;col4&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;col4&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;col-sm-4 width&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;col5&quot; class=&quot;col-xs-10 col-sm-5 col-lg-5 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-5 col-lg-5&quot;&gt;
+            &lt;input name=&quot;col5&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;col-sm-5 width&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<!--<p>Example of form:</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="col3" class="col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0 control-label">First name:</label>
+        <div class="label-content col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0">
+            <input name="col3" type="text" class="form-control" value="Foo" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="col4" class="col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0 control-label">Last name:</label>
+        <div class="label-content col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0">
+            <input name="col4" type="text" class="form-control" value="Bar" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="col5" class="col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0 control-label">Company name:</label>
+        <div class="label-content col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0">
+            <input name="col5" type="text" class="form-control" value="Baz" />
+        </div>
+    </div>
+    <div class="form-group">        
+        <div class="col-sm-3 col-xs-offset-1 col-sm-offset-3 col-lg-offset-3">
+            <label class="checkbox">
+                <input type="checkbox" />
+                Child:
+            </label>
+        </div>
+    </div>    
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;col3&quot; class=&quot;col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0 control-label&quot;&gt;First name:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0&quot;&gt;
+            &lt;input name=&quot;col3&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;Foo&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;col4&quot; class=&quot;col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0 control-label&quot;&gt;Last name:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0&quot;&gt;
+            &lt;input name=&quot;col4&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;Bar&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;col5&quot; class=&quot;col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0 control-label&quot;&gt;Company name:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-3 col-lg-3 col-xs-offset-1 col-sm-offset-0&quot;&gt;
+            &lt;input name=&quot;col5&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;Baz&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;        
+        &lt;div class=&quot;col-sm-3 col-xs-offset-1 col-sm-offset-3 col-lg-offset-3&quot;&gt;
+            &lt;label class=&quot;checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; /&gt;
+                Child:
+            &lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;    
+&lt;/div&gt;
+</pre>-->

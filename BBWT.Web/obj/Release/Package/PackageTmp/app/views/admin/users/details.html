@@ -1,0 +1,124 @@
+﻿<div permission="ManageUsers">
+    <div class="page-header">
+        <h1 ng-show="UserDetailsCtrl.User.Id == 0">Create User</h1>
+        <h1 ng-show="UserDetailsCtrl.User.Id != 0">Edit User <small>{{UserDetailsCtrl.User.Name}}</small></h1>
+    </div>
+    <div id="errors" class="alert alert-danger" ng-show="userEditor.$invalid && userEditor.$dirty">
+        <!-- Placeholder to show validation summary-->
+        <div ng-show="userEditor.email.$invalid">Email is invalid</div>
+        <div ng-show="userEditor.firstName.$invalid">First Name is required</div>
+        <div ng-show="userEditor.surname.$invalid">First Name is required</div>
+        <!--<div ng-show="userEditor.password.$invalid">Password is required</div>-->
+    </div>
+    <form name="userEditor" class="form-horizontal" novalidate>
+        <div kendo-tab-strip k-animation="false">
+            <ul>
+                <li class="k-state-active">Basic details</li>
+                <li>Groups, roles and permissions</li>
+            </ul>
+            <div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="email" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input class="form-control" type="email" name="email" ng-model="UserDetailsCtrl.User.Name" required ng-maxlength="50" ng-minlength="5" />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="userEditor.email.$invalid">
+                            Email is invalid
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName" class="col-xs-10 col-sm-4 control-label">First Name:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input type="text" class="form-control" name="firstName" ng-model="UserDetailsCtrl.User.FirstName" required ng-maxlength="20" ng-minlength="1" />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="userEditor.firstName.$invalid">
+                            First Name is required
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname" class="col-xs-10 col-sm-4 control-label">Surname:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input type="text" class="form-control" name="surname" ng-model="UserDetailsCtrl.User.Surname" required ng-maxlength="20"  ng-minlength="1" />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="userEditor.surname.$invalid">
+                            Surname is required
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password" class="col-xs-10 col-sm-4 control-label">User Password:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input class="form-control" name="password" type="password" autocomplete="off" 
+                                ng-model="UserDetailsCtrl.User.Password" ng-maxlength="20" />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="userEditor.password.$invalid">
+                           
+                        </div>
+                    </div>
+                    <div class="margin-bottom-15">
+                        <input type="button" class="k-button margin-right-10" ng-click="UserDetailsCtrl.SendPasswordReset(UserDetailsCtrl.User)" value="Send password reset mail to user" />
+                    </div>
+                    <div class="col-sm-4 text-info form-control-static" ng-show="UserDetailsCtrl.PasswordResetSent">
+                            The email has been sent to user
+                    </div>
+
+                                                            
+                    <!--<div class="form-group">
+                        <label for="chIsEmailUserToRegister" class="col-sm-2 control-label">Email user to register</label>                        
+                        <div class="col-sm-4 checkbox">
+                            <input name="chIsEmailUserToRegister" type="checkbox" ng-model="UserDetailsCtrl.User.IsEmailUserToRegister" />                            
+                        </div>
+                    </div>                                      -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2>Groups</h2>
+                    <div ng-repeat="group in UserDetailsCtrl.User.Groups">                                                        
+                        <label for="UserGroup{{$index+1}}">
+                            <input id="UserGroup{{$index+1}}" type="checkbox" ng-model="group.IsChecked" />
+                            {{UserDetailsCtrl.AllGroups[group.Id].Name}}
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <h2>Roles</h2>
+                    <div ng-repeat="role in UserDetailsCtrl.User.Roles">                            
+                        <label for="UserRole{{$index+1}}">
+                            <input id="UserRole{{$index+1}}" type="checkbox" ng-model="role.IsChecked" />
+                            {{UserDetailsCtrl.AllRoles[role.Id].Name}}
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Permissions</h2>
+                    <div class="row">
+                        <div class="" ng-repeat="permission in UserDetailsCtrl.User.Permissions | filter:UserDetailsCtrl.IsChecked">
+                            <label for="UserPermission{{$index+1}}">{{UserDetailsCtrl.AllPermissions[permission.Id].Name}}<span ng-hide="!UserDetailsCtrl.AllPermissions[permission.Id].HasParameter">({{permission.Param}})</span></label>
+                            <a style="cursor: pointer" ng-click="UserDetailsCtrl.DeletePermission(permission.Id)">X</a>
+                        </div>
+                        <select class="clearfix col-sm-8" ng-model="selectedPermission" ng-options="permission.Id as UserDetailsCtrl.AllPermissions[permission.Id].Name for permission in UserDetailsCtrl.User.Permissions | filter:UserDetailsCtrl.IsNotChecked">
+                            <option value=""></option>
+                        </select>
+                        <button ng-disabled="!selectedPermission" class="k-button col-sm-2" ng-click="UserDetailsCtrl.SetChecked(selectedPermission)">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="margin-bottom-15">
+            <input type="button" class="k-button margin-right-10" ng-disabled="userEditor.$invalid" type="submit" ng-click="UserDetailsCtrl.Save(UserDetailsCtrl.User)" value="Save" />
+            <input type="button" class="k-button" ng-click="UserDetailsCtrl.Cancel()" value="Cancel" />
+        </div>
+    </form>
+</div>
+
+<div class="hide">
+    <div kendo-window id="valueListWindow" k-options="{width: '400px', title: 'Select Parameter', modal: true}">
+        <label>Parameter value:</label>
+        <select ng-model="selectedValue" ng-options="val.Key as val.Value for val in UserDetailsCtrl.PermissionValues">
+            <option value="">All</option>
+        </select>
+        <button ng-click="UserDetailsCtrl.AddPermission(selectedValue)">Apply</button>
+    </div>
+</div>

@@ -1,0 +1,193 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Debug\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+D:\Nasa\Projects\Aninmax\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+D:\Nasa\Projects\Aninmax\BBWT.Domain\obj\Debug\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Aninmax\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Aninmax\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Aninmax\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Aninmax\BBWT.Domain\obj\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+D:\Nasa\Projects\Animmax\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+D:\Nasa\Projects\Animmax\BBWT.Domain\obj\Debug\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Animmax\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Animmax\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Animmax\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Animmax\BBWT.Domain\obj\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.Helpers.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.Razor.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.Helpers.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.Razor.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\BBWT.Data.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\Common.Logging.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.Razor.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\Common.Logging.pdb
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\Common.Logging.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.Razor.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.Cache
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+C:\Projects\Pixbind\Pixbind\BBWT.Domain\obj\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\obj\Debug\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.Domain\obj\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\Common.Logging.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\Common.Logging.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.pdb
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Domain.dll.config
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Domain.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Domain.pdb
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Data.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\Common.Logging.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.Data.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.WebData.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\BBWT.Data.pdb
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\Common.Logging.pdb
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\Common.Logging.xml
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.xml
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\EntityFramework.SqlServer.xml
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.Data.xml
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\bin\Debug\WebMatrix.WebData.xml
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.csprojAssemblyReference.cache
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.Notifications.resources
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.GenerateResource.cache
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.csproj.CopyComplete
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.Domain\obj\Debug\BBWT.Domain.pdb

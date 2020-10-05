@@ -1,0 +1,321 @@
+﻿<div class="page-header">
+    <h1>Create a New Company</h1>
+</div>
+<div ng-hide="RegisterCompanyCtrl.isRegistered">
+
+    <div class="wizard-containter">
+
+        <div class="wizard-header">
+            <span><b>Step {{ RegisterCompanyCtrl.step + 1 }}</b></span>
+        </div>
+
+        <div class="wizard-step-container">
+
+            <!--step 0-->
+            <div ng-show="RegisterCompanyCtrl.step == 0">
+                <div class="wizard-step-content">
+                    <form class="form-horizontal" name="form" novalidate autocomplete="off">
+
+                        <!--company name-->
+                        <div class="form-group">
+                            <label for="companyName" class="col-xs-10 col-sm-4 control-label">Company Name:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="companyName" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.companyName" required validationmessage="Company Name is required"
+                                    placeholder="Company Name" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="companyName"></div>
+                            </div>
+                        </div>
+
+                        <!--firstname-->
+                        <div class="form-group">
+                            <label for="firstName" class="col-xs-10 col-sm-4 control-label">First Name:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input id="firstName" name="firstName" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.firstName" validationmessage="First Name is required" required
+                                    placeholder="First Name" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="firstName"></div>
+                            </div>
+                        </div>
+
+                        <!--surname-->
+                        <div class="form-group">
+                            <label for="surname" class="col-xs-10 col-sm-4 control-label">Surname:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="surname" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.surname" validationmessage="Surname is required" required
+                                    placeholder="Surname" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="surname"></div>
+                            </div>
+                        </div>
+
+                        <!--email-->
+                        <div class="form-group">
+                            <label for="name" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input id="name" name="name" autocomplete="off" class="form-control" type="email"
+                                    ng-model="RegisterCompanyCtrl.data.email" required validationmessage="Email is required"
+                                    placeholder="myname@example.net"
+                                    data-email-msg="Email format is not valid" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="name"></div>
+                            </div>
+                        </div>
+
+                        <!--password-->
+                        <div class="form-group">
+                            <label for="pass" class="col-xs-10 col-sm-4 control-label">Password:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input id="pass" name="pass" autocomplete="off" class="form-control" type="password"
+                                       ng-model="RegisterCompanyCtrl.data.password"
+                                       placeholder="Password"
+                                       required
+                                       validationmessage="Password is required"
+                                       pass-meter="#passMeterContainer" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="pass" style="float:left;"></div>
+                                <div id="passMeterContainer" style="float:left;"></div>
+                            </div>
+                        </div>
+
+                        <!--confirm password-->
+                        <div class="form-group">
+                            <label for="confirmPass" class="col-xs-10 col-sm-4 control-label">Re-enter password:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input id="confirmPass"
+                                       name="confirmPass"
+                                       autocomplete="off" class="form-control" type="password"
+                                       ng-model="RegisterCompanyCtrl.data.confirmPassword"
+                                       placeholder="Confirm Password"
+                                       required
+                                       validationmessage="Confirm Password is required" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <!--<span ng-show="form.confirmPass.$error.match"
+                                      class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                                      role="alert">
+                                    <span class="k-icon k-warning"></span>Passwords must match
+                                </span>-->
+                                <div class="k-invalid-msg" data-for="confirmPass"></div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <!--step 1-->
+            <div ng-show="RegisterCompanyCtrl.step == 1">
+                <div class="wizard-step-content">
+
+                    <div class="form-horizontal">
+
+                        <!--main contact name-->
+                        <div class="form-group">
+                            <label for="fcCompanyName" class="col-xs-10 col-sm-4 control-label">Main contact name:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="fcCompanyName" autocomplete="off" class="form-control" type="text"
+                                       ng-model="RegisterCompanyCtrl.data.mainContactName" placeholder="Main contact name" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="fcCompanyName"></div>
+                            </div>
+                        </div>
+
+                        <!--address 1-->
+                        <div class="form-group">
+                            <label for="mcAddress1" class="col-xs-10 col-sm-4 control-label">Address 1:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="mcAddress1" autocomplete="off" class="form-control" type="text"
+                                       ng-model="RegisterCompanyCtrl.data.mainContactAddress1" placeholder="Address 1" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="mcAddress1"></div>
+                            </div>
+                        </div>
+
+                        <!--address 2-->
+                        <div class="form-group">
+                            <label for="mcAddress2" class="col-xs-10 col-sm-4 control-label">Address 2:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="mcAddress2" autocomplete="off" class="form-control" type="text"
+                                       ng-model="RegisterCompanyCtrl.data.mainContactAddress2" placeholder="Address 2" />
+                            </div>
+                            <div class="col-xs-10 col-sm-">
+                                <div class="k-invalid-msg" data-for="mcAddress2"></div>
+                            </div>
+                        </div>
+
+                        <!--postcode-->
+                        <div class="form-group">
+                            <label for="mcPostcode" class="col-xs-10 col-sm-4 control-label">Postcode:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="mcPostcode" autocomplete="off" class="form-control" type="text"
+                                       ng-model="RegisterCompanyCtrl.data.mainContactPostcode" placeholder="Postcode" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="mcPostcode"></div>
+                            </div>
+                        </div>
+
+                        <!--telephone number-->
+                        <div class="form-group">
+                            <label for="mcPhoneNumber" class="col-xs-10 col-sm-4 control-label">Phone number:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="mcPhoneNumber" autocomplete="off" class="form-control" type="text"
+                                       ng-model="RegisterCompanyCtrl.data.mainContactPhoneNumber" placeholder="Phone number" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="mcPhoneNumber"></div>
+                            </div>
+                        </div>
+
+                        <!--mobile number-->
+                        <div class="form-group">
+                            <label for="mcMobileNumber" class="col-xs-10 col-sm-4 control-label">Mobile number:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="mcMobileNumber" autocomplete="off" class="form-control" type="text"
+                                       ng-model="RegisterCompanyCtrl.data.mainContactMobileNumber" placeholder="Mobile number" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="mcMobileNumber"></div>
+                            </div>
+                        </div>
+
+                        <!--email-->
+                        <div class="form-group">
+                            <label for="mcEmail" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="mcEmail" autocomplete="off" class="form-control" type="email"
+                                       ng-model="RegisterCompanyCtrl.data.mainContactEmail" validationmessage="Email is not valid"
+                                       placeholder="myname@example.net" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="mcEmail"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--step 2-->
+            <div ng-show="RegisterCompanyCtrl.step == 2">
+                <div class="wizard-step-content">
+
+                    <div class="form-horizontal">
+
+                        <!--billing contact name-->
+                        <div class="form-group">
+                            <label for="bcCompanyName" class="col-xs-10 col-sm-4  control-label">Billing contact name:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="bcCompanyName" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.billingContactName" placeholder="Billing contact name" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="bcCompanyName"></div>
+                            </div>
+                        </div>
+
+                        <!--address 1-->
+                        <div class="form-group">
+                            <label for="bcAddress1" class="col-xs-10 col-sm-4 control-label">Address 1:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="bcAddress1" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.billingContactAddress1" placeholder="Address 1" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="bcAddress1"></div>
+                            </div>
+                        </div>
+
+                        <!--address 2-->
+                        <div class="form-group">
+                            <label for="bcAddress2" class="col-xs-10 col-sm-4 control-label">Address 2:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="bcAddress2" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.billingContactAddress2" placeholder="Address 2" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="bcAddress2"></div>
+                            </div>
+                        </div>
+
+                        <!--postcode-->
+                        <div class="form-group">
+                            <label for="bcPostcode" class="col-xs-10 col-sm-4 control-label">Postcode:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="bcPostcode" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.billingContactPostcode" placeholder="Postcode" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="bcPostcode"></div>
+                            </div>
+                        </div>
+
+                        <!--telephone number-->
+                        <div class="form-group">
+                            <label for="bcPhoneNumber" class="col-xs-10 col-sm-4 control-label">Phone number:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="bcPhoneNumber" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.billingContactPhoneNumber" placeholder="Phone number" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="bcPhoneNumber"></div>
+                            </div>
+                        </div>
+
+                        <!--mobile number-->
+                        <div class="form-group">
+                            <label for="bcMobileNumber" class="col-xs-10 col-sm-4 control-label">Mobile number:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="bcMobileNumber" autocomplete="off" class="form-control" type="text"
+                                    ng-model="RegisterCompanyCtrl.data.billingContactMobileNumber" placeholder="Mobile number" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="bcMobileNumber"></div>
+                            </div>
+                        </div>
+
+                        <!--email-->
+                        <div class="form-group">
+                            <label for="bcEmail" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="bcEmail" autocomplete="off" class="form-control" type="email"
+                                    ng-model="RegisterCompanyCtrl.data.billingContactEmail" validationmessage="Email is not valid"
+                                    placeholder="myname@example.net" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="bcEmail"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wizard-action-bar">
+        <div class="row">
+            <div class="pull-left">
+                <a href="/" class="k-button">Cancel</a>
+            </div>
+            <div class="pull-right">
+                <button class="k-button margin-right-15" ng-click="RegisterCompanyCtrl.handleNext()" ng-disabled="!RegisterCompanyCtrl.pageIsValid()">{{ RegisterCompanyCtrl.getNextLabel() }}</button>
+            </div>
+            <div class="pull-right">
+                <button class="k-button" ng-click="RegisterCompanyCtrl.handlePrevious()" ng-show="!RegisterCompanyCtrl.isFirstStep()">Previous</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-show="RegisterCompanyCtrl.isRegistered">
+    '{{ data.companyName }}' has been registered successfully. Please <a href="/login">log in</a> as a company administrator
+</div>

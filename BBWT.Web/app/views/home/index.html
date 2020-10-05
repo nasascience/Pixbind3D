@@ -1,0 +1,166 @@
+﻿<div id="main-page-container" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" ng-mousemove="CatchRotation($event)" ng-click="GetFrstYPos($event)" ng-mouseup="FixAngle()">
+    <div id="arrowUp" ng-click="ScrollUp()" class="arrowUp"></div>
+    <div id="arrowDown" ng-click="ScrollDown()" class="arrowDown"></div>
+    <div class="b-container js-container">
+
+        <div class="b-main js-main _showgrid" style="right: 17px;">
+            <!-- <div class="b-grid _hid"><i></i><i></i><i></i></div> -->
+
+            <div class="b-page _contentvisible" data-role="page" style="right: -17px;">
+                <div class="b-index _active" data-role="pagecontent" data-name="index" data-title="Pixbind" data-sharettl="Pixbind" data-shareurl="index.html" id="js-index">
+                    <div class="b-index-content">
+                        <div class="b-cube js-cube _active" style="perspective: 2992px;">
+                            <div id="b-cube-wrap" class="b-cube-wrap" data-role="wrap" style="transform-style: preserve-3d; transform: translateZ(-{{halfScren}}px); ">
+                                <div id="b-cube-main" class="b-cube-main" data-role="main" style="transform-style: preserve-3d; transition: all 1s; transform: rotateX(0deg); "><!--transform: rotateX({{degree}}deg)-->
+                                    <div id="side-front" class="b-cube-side _active _visible" data-role="side-front" data-src="../../../Content/images/Pixbind/environments.jpg" style="transform: translateZ({{halfScren}}px); background-image: url('../../../Content/images/Pixbind/environments.jpg'); ">
+                                        <!-- <div class="b-grid _inv"><i></i><i></i><i></i></div> -->
+                                        <div class="b-cube-side-content" data-role="side-content">
+                                            <h2 style="color: white;">Environments</h2>
+                                            <p>
+                                                Stop modeling environments yourself.<br>
+                                                Let us do this job for you and save time in your projects.
+                                            </p>
+                                            <a href="" ng-click="Environments()" class="btn" data-role="pagelink">Browse</a>
+                                        </div>
+                                    </div>
+                                    <div id="side-bottom" class="b-cube-side _visible" data-role="side-bottom" data-src="../../../Content/images/Pixbind/projects.jpg" style="transform: rotateX(-90deg) translateY({{halfScren}}px); transform-origin: center bottom 0px; background-image: url('../../../Content/images/Pixbind/projects.jpg'); ">
+                                        <!-- <div class="b-grid _inv"><i></i><i></i><i></i></div> -->
+                                        <div class="b-cube-side-content" data-role="side-content">
+                                            <h2 style="color: white;">Projects</h2>
+                                            <p>
+                                                Pixbind offers you Unity 3D projects allowing you to save a lot of time<br>
+                                                building your game.
+                                            </p>
+                                            <a href="" ng-click="Projects()" class="btn" data-role="pagelink">Browse</a>
+                                        </div>
+                                    </div>
+                                    <div id="side-back" class="b-cube-side _visible" data-role="side-back" data-src="../../../Content/images/Pixbind/animations.jpg" style="transform: translateZ(-{{halfScren}}px) rotateX(180deg); background-image: url('../../../Content/images/Pixbind/animations.jpg'); ">
+                                        <!-- <div class="b-grid _inv"><i></i><i></i><i></i></div> -->
+                                        <div class="b-cube-side-content" data-role="side-content">
+                                            <h2 style="color: white;">Animations</h2>
+                                            <p>
+                                                Do you need Characters for your project?<br>
+                                                Dont worry. Pixbind offers you Characters that are already rigged <br>
+                                                and ready to annimate.
+                                            </p>
+                                            <a href="" ng-click="Animations()" class="btn" data-role="pagelink">Browse</a>
+                                        </div>
+                                    </div>
+                                    <div id="side-top" class="b-cube-side _visible" data-role="side-top" data-src="../../../Content/images/Pixbind/games.jpg" style="transform: rotateX(-270deg) translateY(-{{halfScren}}px); transform-origin: center top 0px; background-image: url('../../../Content/images/Pixbind/games.jpg'); ">
+                                        <!-- <div class="b-grid _inv"><i></i><i></i><i></i></div> -->
+                                        <div class="b-cube-side-content" data-role="side-content">
+                                            <h2 class="_sm" style="color: white;">Games</h2>
+                                            <p>
+                                                Pixbind offers you a variaety of more competitive products such as games.<br>
+                                                In the field of Education, Action, Strategy and more.<br>
+                                                Developed to run in a variaety of platforms. In a very affordable price.
+                                            </p>
+                                            <a href="" ng-click="Games()" class="btn" data-role="pagelink">Browse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div id="js-rotator" ng-mouseenter="openRotator()" ng-mouseleave="openRotator()" ng-mousedown="draggableRotator()" ng-mouseup="draggableRotator()" class="b-rotator js-rotator _active _closed">
+                            <div class="b-rotator-container" data-role="container" style="perspective: 35rem;">
+                                <div class="b-rotator-wrap" data-role="wrap" style="transform-style: preserve-3d; transform: translateZ(14rem) scale(0.5);">
+                                    <div id="b-rotator-main" class="b-rotator-main" data-role="main" style="transform-style: preserve-3d; transition: all 1s; transform: rotateX(0deg);">
+                                        <div class="b-rotator-side _active" data-role="side-front" style="transform: translateZ(3.5rem);"><span>Environments</span></div>
+                                        <div class="b-rotator-side" data-role="side-bottom" style="transform: rotateX(-90deg) translateY(3.5rem); transform-origin: center bottom 0px;"><span>Projects</span></div>
+                                        <div class="b-rotator-side" data-role="side-back" style="transform: translateZ(-3.5rem) rotateX(180deg);"><span>Animations</span></div>
+                                        <div class="b-rotator-side" data-role="side-top" style="transform: rotateX(-270deg) translateY(-3.5rem); transform-origin: center top 0px;"><span>Games</span></div>
+                                    </div>
+                                </div>
+                                <div class="b-rotator-arr" data-role="arr-up"></div>
+                                <div class="b-rotator-arr" data-role="arr-down"></div>
+                            </div>
+                        </div>-->
+                        <div class="b-index-services">
+                            <a href="" data-role="pagelink" ng-click="Assets()"><span>Assets</span><b>Assets</b></a>
+                            <a href="" data-role="pagelink" ng-click="Games()"><span>Games</span><b>Games</b></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="b-loader js-loader _real3d" data-step="0">
+                <div class="b-loader-container">
+                    <div class="b-loader-wrap">
+                        <div class="b-loader-main">
+                            <div class="b-loader-side" data-role="side-front"><span>Environments</span></div>
+                            <div class="b-loader-side" data-role="side-bottom"><span>Projects</span></div>
+                            <div class="b-loader-side" data-role="side-back"><span>Animations</span></div>
+                            <div class="b-loader-side" data-role="side-top"><span>Games</span></div>
+                        </div>
+                    </div>
+                    <div class="b-loader-icon"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="b-sidebar js-sidebar _indexpage _active" style="right: 16px;">
+            <div class="b-sidebar-i">
+                <div class="b-sidebar-overlay" data-role="overlay"></div>
+                <div class="b-sidebar-main" data-role="main">
+                    <div class="b-sidebar-main-i">
+                        <div class="b-sidebar-back" data-role="back" style="transform: translateY(0px);"><div class="image" id="js-sidebar-backimage" style="width: 1903px; height: 1142px; margin: -197px 0px;"><svg width="100%" height="125%" xmlns="http://www.w3.org/2000/svg"><defs>	<filter id="blur">	<feGaussianBlur x="-2%" y="-2%" width="54%" height="104%" in="SourceGraphic" stdDeviation="10"></feGaussianBlur>	</filter></defs><g filter="url(#blur)"><rect x="0" y="0" width="100%" height="100%" fill="#F2F3F5"></rect><image id="js-sidebar-backimage-svgimage" width="100%" height="80%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ImgSrc}}"></image></g></svg></div></div>
+                        <div class="b-sidebar-front">
+                            <nav class="b-sidebar-nav">
+                                <ul class="b-sidebar-nav-list">
+                                    <li><a href="index.html" class="_active _current" data-role="pagelink">Home</a></li>
+                                    <li><a href="projects/index.html" data-role="pagelink">Recent Projects</a></li>
+                                    <li><a href="press/index.html" data-role="pagelink">In what are we working now.</a></li>
+                                    <li><a href="team/index.html" data-role="pagelink">Why Choose Us</a></li>
+                                    <li><a href="about/index.html" data-role="pagelink">About us</a></li>
+                                    <li><a href="contacts/index.html" data-role="pagelink">Contact</a></li>
+                                </ul>
+
+                            </nav>
+
+                            <div class="b-sidebar-lang">
+                                <span>ENG</span><a href="index9ed2.html?lang=en">ESP</a>
+                            </div>
+
+                            <div class="b-sidebar-social">
+                                <a href="https://www.facebook.com/pages/RD-Construction/256111387781503"><span class="_fb"></span></a>
+                                <a href="http://instagram.com/rdconstruction"><span class="_in"></span></a>
+                                <a href="https://twitter.com/RDCM_RU"><span class="_tw"></span></a>
+                                <a href="http://www.youtube.com/user/RDCMRUS"><span class="_yt"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div ng-click="SlideToggleMenu()" class="b-sidebar-toggle" data-role="toggle"><i></i><i></i><i></i><b style="padding-left: 17px;">Menu</b></div>
+            <a class="b-sidebar-projectsicon" href="" ng-click="AuthSvc.LoginFn()" data-role="pagelink"><span><i></i><i></i><i></i><b>Login</b></span></a>
+
+            <a class="pb-logo _active _current" href="index.html" data-role="pagelink"><img src="../../../Content/images/pixbindLogo.png" style="width:100%; height:100%"></a>
+        </div>-->        
+        <div class="b-search js-search _active">
+            <div class="b-search-i">
+                <div class="b-search-form">
+                    <form data-role="form" action="#" data-action="ajax/search.html">
+                        <label for="search-query">Ð§Ñ‚Ð¾ Ð±ÑƒÐ´ÐµÐ¼ Ð¸ÑÐºÐ°Ñ‚ÑŒ?</label>
+                        <input data-role="query" id="search-query" type="text" name="query" value="" autocomplete="off">
+                    </form>
+                </div>
+
+                <div class="b-search-content" data-role="content" data-baron-v="inited">
+                    <div class="scroller" data-role="scroller" style="height: 440px;">
+                        <div class="nolist">
+                            <h3>Digame donde esta jiji.<br>No tengo idea donde es esto</h3>
+                        </div>
+
+                        <div class="loader"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="track"><div class="bar" style="height: 0px; top: 0px;"></div></div>
+                </div>
+
+                <div class="b-search-close xclose" data-role="close"><i></i></div>
+
+            </div>
+        </div>
+    </div>
+</div>

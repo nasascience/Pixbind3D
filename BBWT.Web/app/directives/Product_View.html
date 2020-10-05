@@ -1,0 +1,33 @@
+﻿<span ng-click="CloseProductView()" class="CloseX">x</span>
+<img class="ProductImage" ng-src="../../Content/images/Uploads/{{AuthSvc.SelectedProduct.File}}" />
+<span style=" position: absolute; color: #D70606; top: 298px; font-size: 30px; left: 35px;">{{AuthSvc.SelectedProduct.Title}}</span>
+<span style="  position: absolute; color: #D70606; top: 30px; Left: 350px; font-size: 20px;" ng-if="AuthSvc.SelectedProduct.Price > 0">Price: {{AuthSvc.SelectedProduct.Price}}$</span>
+<span style="  position: absolute; color: #D70606; top: 55px; Left: 350px; font-size: 20px;">Downloads: {{AuthSvc.SelectedProduct.Downloads + AuthSvc.SelectedProduct.FakeDownloads }}</span> <!--ng-if="{AuthSvc.SelectedProduct.Downloads > 0"-->
+<textarea style="border-style: none; resize: none; position: absolute; top: 340px; width: 425px; left: 35px; border-radius: 3px; height: 70px;" readonly>{{AuthSvc.SelectedProduct.Description}}</textarea>
+<hr style="margin-bottom: 12px; position: absolute; bottom: 136px; width: 488px;" />
+<button id="view_addcartbtn" ng-show="{{AuthSvc.SelectedProduct.Price > 0}}" ng-if="AuthSvc.SelectedProduct.Price > 0" class="AnimmaxBtn ng-hide" ng-click="AddToCart(AuthSvc.SelectedProduct)" style="position:absolute; width: 120px; top: 420px; right: 35px;">Add to Cart</button>
+<div id="view_download" ng-show="{{AuthSvc.SelectedProduct.Price <= 0}}" ng-if="AuthSvc.SelectedProduct.Price <= 0" class="AnimmaxBtn ng-hide" ng-click="AuthSvc.increaseDownload(AuthSvc.SelectedProduct)" style="position: absolute; width: 120px; top: 420px; right: 35px; line-height: 30px; font-size: 1.5em; ">
+    Download
+    <!--<a style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" href="{{AuthSvc.SelectedProduct.URLDownload}}"></a>-->
+</div>
+<div id="agglomerations" class="AvailabilityIconsContainer">
+    <img title="Watch to Youtube" ng-show="AuthSvc.SelectedProduct.Youtube" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/Youtube_Icon.png" />
+    <img title="Unity3D Engine" ng-show="AuthSvc.SelectedProduct.Unity" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/Unity_Logo.png" />
+    <img title="Unreal Engine" ng-show="AuthSvc.SelectedProduct.Unreal" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/UE4_Logo.png" />
+    <img title="3ds Max" ng-show="AuthSvc.SelectedProduct.dsMax" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/Max_Logo.jpg" />
+    <img title="Universal FBX Format" ng-show="AuthSvc.SelectedProduct.Fbx" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/FBX_Logo.png" />
+    <img title="Windows" ng-show="AuthSvc.SelectedProduct.PC" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/PC_Logo.png" />
+    <img title="MacOs" ng-show="AuthSvc.SelectedProduct.Mac" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/apple_Logo.png" />
+    <img title="Linux" ng-show="AuthSvc.SelectedProduct.Linux" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/Linux_Logo.png" />
+    <img title="Android" ng-show="AuthSvc.SelectedProduct.Android" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/Android_Logo.png" />
+    <img title="iOS" ng-show="AuthSvc.SelectedProduct.iOS" ng-click="ShowVideo()" class="ProductAvailabilityIcons" src="../../Content/images/Pixbind/IOS_Logo.png" />
+</div>
+<div style="display: none; overflow:hidden;" id="YoutubeDlg">
+    <div id="VideoContainer" style="width: 100%; height: 100%;"></div>
+    <button id="closedlg" class="AnimmaxBtn" ng-click="ResetWindow()" style="position: absolute; width: 60px; top: 10px; right: 20px;">Close</button>
+    <!--<iframe style="width:100%; height:100%;" ng-src="AuthSvc.VideoUrlStr" frameborder="0" allowfullscreen></iframe>-->
+    <!--<div class="popup-content">
+        <iframe style="width:100%; height:100%;" ng-src="AuthSvc.VideoUrlStr" frameborder="0" allowfullscreen></iframe>
+    </div>-->
+
+</div>

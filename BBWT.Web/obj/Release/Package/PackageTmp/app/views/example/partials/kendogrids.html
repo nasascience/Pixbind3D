@@ -1,0 +1,278 @@
+﻿<h3>Grids</h3>
+<p>Content of the grid should be visible without horizontal scrolling. But you can always discuss it with your manager.</p>
+<div ng-controller="TestCtrl">
+    <div class="k-grid-filter-container">        
+        <div class="row">   
+            <div class="form-group col-sm-3">
+                <input name="productName" id="autocompleteSearch" kendo-auto-complete k-min-length="2" k-data-text-field="'Name'" 
+                        placeholder="Product name" upper-hint ng-model="TestCtrl.Filter.Name"
+                        k-ignore-case="true" k-data-source="GuidelinesCtrl.SearchData" />
+            </div>
+            <div class="form-group col-sm-3">
+                <input name="price" type="text" class="form-control" placeholder="Price" upper-hint ng-model="TestCtrl.Filter.Price" />
+            </div>
+            <div class="col-sm-3">
+                <input type="button" class="k-button margin-right-10" value="Search" ng-click="TestCtrl.ApplyFilter()" />                             
+                <input type="button" class="k-button" value="Clear" ng-click="TestCtrl.ResetFilter()" />                        
+            </div>        
+        </div>
+    </div>    
+    <div kendo-grid k-data-source="TestCtrl.ProductsDS" k-options="TestCtrl.GridOptions"></div>           
+    <button class="k-button margin-bottom-15" ng-click="GuidelinesCtrl.ShowAddProduct()">Add</button>
+
+    <div style="display: none;" id="bbwtAddProduct">
+        <div class="popup-content">
+            <div class="">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="popupProductName" class="col-sm-4 col-sm-offset-1 control-label">Product Name:</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="popupProductName" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="popupPrice" class="col-sm-4 col-sm-offset-1 control-label">Price:</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="popupPrice" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup-footer">
+            <div class="col-sm-5 col-sm-offset-3">
+                <button class="k-button btn-ok col-sm-5 pull-left">OK</button>
+                <button class="k-button btn-cancel col-sm-5 pull-right">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<p>HTML looks like this:</p>
+<pre>
+&lt;div ng-controller=&quot;TestCtrl&quot;&gt;
+    &lt;div class=&quot;k-grid-filter-container&quot;&gt;        
+        &lt;div class=&quot;row&quot;&gt;   
+            &lt;div class=&quot;form-group col-sm-3&quot;&gt;
+                &lt;input name=&quot;productName&quot; id=&quot;Text3&quot; kendo-auto-complete k-min-length=&quot;2&quot; k-data-text-field=&quot;&#39;Name&#39;&quot; 
+                        placeholder=&quot;Product name&quot; upper-hint ng-model=&quot;TestCtrl.Filter.Name&quot;
+                        k-ignore-case=&quot;true&quot; k-data-source=&quot;GuidelinesCtrl.SearchData&quot; /&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group col-sm-3&quot;&gt;
+                &lt;input name=&quot;price&quot; type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Price&quot; upper-hint ng-model=&quot;TestCtrl.Filter.Price&quot; /&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-sm-3&quot;&gt;
+                &lt;input type=&quot;button&quot; class=&quot;k-button margin-right-10&quot; value=&quot;Search&quot; ng-click=&quot;TestCtrl.ApplyFilter()&quot; /&gt;                             
+                &lt;input type=&quot;button&quot; class=&quot;k-button&quot; value=&quot;Clear&quot; ng-click=&quot;TestCtrl.ResetFilter()&quot; /&gt;                        
+            &lt;/div&gt;        
+        &lt;/div&gt;
+    &lt;/div&gt;    
+    &lt;div kendo-grid k-data-source=&quot;TestCtrl.ProductsDS&quot; k-options=&quot;TestCtrl.GridOptions&quot;&gt;&lt;/div&gt;           
+    &lt;button class=&quot;k-button&quot; ng-click=&quot;GuidelinesCtrl.ShowAddProduct()&quot;&gt;Add&lt;/button&gt;
+
+    &lt;div style=&quot;display: none;&quot; id=&quot;Div1&quot;&gt;
+        &lt;div class=&quot;popup-content&quot;&gt;
+            &lt;div class=&quot;&quot;&gt;
+                &lt;div class=&quot;form-horizontal&quot;&gt;
+                    &lt;div class=&quot;form-group&quot;&gt;
+                        &lt;label for=&quot;popupProductName&quot; class=&quot;col-sm-4 col-sm-offset-1 control-label&quot;&gt;Product Name:&lt;/label&gt;
+                        &lt;div class=&quot;col-sm-4&quot;&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;popupProductName&quot; class=&quot;form-control&quot; /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;form-group&quot;&gt;
+                        &lt;label for=&quot;popupPrice&quot; class=&quot;col-sm-4 col-sm-offset-1 control-label&quot;&gt;Price:&lt;/label&gt;
+                        &lt;div class=&quot;col-sm-4&quot;&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;popupPrice&quot; class=&quot;form-control&quot; /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;popup-footer&quot;&gt;
+            &lt;div class=&quot;col-sm-5 col-sm-offset-3&quot;&gt;
+                &lt;button class=&quot;k-button btn-ok col-sm-5 pull-left&quot;&gt;OK&lt;/button&gt;
+                &lt;button class=&quot;k-button btn-cancel col-sm-5 pull-right&quot;&gt;Cancel&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    
+    In the angular controllers:
+    
+    this.ShowAddProduct = () =&gt; {                
+                Dialogs.showCustom({ title: 'Add Product', winId: 'bbwtAddProduct' });
+            };
+
+    this.GridOptions =
+            {
+                pageable: { refresh: true, pageSizes: true },
+                columns: [{ field: &quot;Id&quot;, title: &quot;#&quot;, width: &quot;100px&quot; },
+                    { field: &quot;Name&quot;, title: &quot;Product Name&quot; },
+                    { field: &quot;Price&quot;, title: &quot;Price&quot; },
+                    { command: [{ id: &quot;edit&quot;, name: &quot;edit&quot;, template: &quot;&lt;a&gt;Edit&lt;/a&gt;&amp;nbsp;&amp;nbsp;&quot; }, { id: &quot;delete&quot;, name: &quot;delete&quot;, template: &quot;&lt;a&gt;Delete&lt;/a&gt;&quot; }], title: &quot;&quot;, width: &quot;120px&quot;}],
+                sortable: true,
+                filterable: false,
+                selectable : 'row',
+                editable: 'inline'
+            };
+</pre>
+<p>A grid using multiple selection with checkboxes:</p>
+<div ng-controller="TestCtrl">
+    <div class="k-grid-filter-container">
+        <div class="row">
+            <div class="form-group col-sm-3">
+                <input name="productName" id="Text1" kendo-auto-complete k-min-length="2" k-data-text-field="'Name'"
+                       placeholder="Product name" upper-hint ng-model="TestCtrl.Filter.Name"
+                       k-ignore-case="true" k-data-source="GuidelinesCtrl.SearchData" />
+            </div>
+            <div class="form-group col-sm-3">
+                <input name="price" type="text" class="form-control" placeholder="Price" upper-hint ng-model="TestCtrl.Filter.Price" />
+            </div>
+            <div class="col-sm-3">
+                <input type="button" class="k-button margin-right-10" value="Search" ng-click="TestCtrl.ApplyFilter()" />
+                <input type="button" class="k-button" value="Clear" ng-click="TestCtrl.ResetFilter()" />
+            </div>
+        </div>
+    </div>
+    <div kendo-grid k-data-source="TestCtrl.ProductsDS" k-options="TestCtrl.GridOptions2">        
+    </div>    
+</div>
+<div class="margin-bottom-15">
+    <button class="k-button margin-right-10" ng-click="GuidelinesCtrl.ShowAddProduct()">Add</button> 
+    <button class="k-button" ng-click="GuidelinesCtrl.ShowSelectedIds()">Show Ids</button>
+</div>
+<p>HTML looks like this:</p>
+<pre>
+&lt;div ng-controller=&quot;TestCtrl&quot;&gt;
+     &lt;div class=&quot;k-grid-filter-container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;   
+            &lt;div class=&quot;form-group col-sm-3&quot;&gt;
+                &lt;input name=&quot;productName&quot; id=&quot;Text3&quot; kendo-auto-complete k-min-length=&quot;2&quot; k-data-text-field=&quot;&#39;Name&#39;&quot; 
+                        placeholder=&quot;Product name&quot; upper-hint ng-model=&quot;TestCtrl.Filter.Name&quot;
+                        k-ignore-case=&quot;true&quot; k-data-source=&quot;GuidelinesCtrl.SearchData&quot; /&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group col-sm-3&quot;&gt;
+                &lt;input name=&quot;price&quot; type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Price&quot; upper-hint ng-model=&quot;TestCtrl.Filter.Price&quot; /&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-sm-3&quot;&gt;
+                &lt;input type=&quot;button&quot; class=&quot;k-button margin-right-10&quot; value=&quot;Search&quot; ng-click=&quot;TestCtrl.ApplyFilter()&quot; /&gt;                             
+                &lt;input type=&quot;button&quot; class=&quot;k-button&quot; value=&quot;Clear&quot; ng-click=&quot;TestCtrl.ResetFilter()&quot; /&gt;                        
+            &lt;/div&gt;        
+        &lt;/div&gt;
+    &lt;/div&gt;    
+    &lt;div kendo-grid=&quot;GuidelinesCtrl.checkboxGrid&quot; k-data-source=&quot;TestCtrl.ProductsDS&quot; k-options=&quot;TestCtrl.GridOptions2&quot;&gt;        
+    &lt;/div&gt;    
+&lt;/div&gt;
+&lt;div class=&quot;margin-bottom-15&quot;&gt;
+    &lt;button class=&quot;k-button margin-right-10&quot; ng-click=&quot;GuidelinesCtrl.ShowAddProduct()&quot;&gt;Add&lt;/button&gt; 
+    &lt;button class=&quot;k-button&quot; ng-click=&quot;GuidelinesCtrl.ShowSelectedIds()&quot;&gt;Show Ids&lt;/button&gt;
+&lt;/div&gt;
+    
+In the angular controller:
+    
+this.GridOptions2 =
+            {
+                pageable: { refresh: true, pageSizes: true },
+                columns: [
+                    { field: &quot;&quot;, type: &quot;boolean&quot;, template: &quot;&lt;input ng-model=&quot;dataItem.selected&quot; type=&quot;checkbox&quot;/&gt;&quot;, width: &quot;31px&quot; },
+                    { field: &quot;Id&quot;, title: &quot;#&quot;, width: &quot;100px&quot; },
+                    { field: &quot;Name&quot;, title: &quot;Product Name&quot; },
+                    { field: &quot;Price&quot;, title: &quot;Price&quot; }
+                    ,
+                    {
+                        command: [{ id: &quot;edit&quot;, name: &quot;edit&quot;, template: &quot;&lt;a&gt;Edit&lt;/a&gt;&amp;nbsp;&amp;nbsp;&quot; },
+                            { id: &quot;delete&quot;, name: &quot;delete&quot;, template: &quot;&lt;a&gt;Delete&lt;/a&gt;&quot; }], title: &quot;&quot;, width: &quot;120px&quot;
+                    }
+                ],
+                sortable: true,
+                filterable: false                                
+            };    
+
+this.ShowAddProduct = () =&gt; {                
+                Dialogs.showCustom({ title: 'Add Product', winId: 'bbwtAddProduct' });
+            };    
+
+this.ShowSelectedIds = () =&gt; {
+    var selectedIds = (&lt;any&gt;$scope).GuidelinesCtrl.checkboxGrid.dataSource.data()
+        .filter(function (item) {
+            return item.selected;
+        }).map(function (item) {
+            return item.Id;
+        });
+    Dialogs.showInfo({ message: &quot;Selected Ids: &quot; + selectedIds });
+};
+</pre>
+<p>A grid using single selection:</p>
+<div ng-controller="TestCtrl">
+     <div class="k-grid-filter-container">
+        <div class="row">   
+            <div class="form-group col-sm-3">
+                <input name="productName" id="Text2" kendo-auto-complete k-min-length="2" k-data-text-field="'Name'" 
+                        placeholder="Product name" upper-hint ng-model="TestCtrl.Filter.Name"
+                        k-ignore-case="true" k-data-source="GuidelinesCtrl.SearchData" />
+            </div>
+            <div class="form-group col-sm-3">
+                <input name="price" type="text" class="form-control" placeholder="Price" upper-hint ng-model="TestCtrl.Filter.Price" />
+            </div>
+            <div class="col-sm-3">
+                <input type="button" class="k-button margin-right-10" value="Search" ng-click="TestCtrl.ApplyFilter()" />                             
+                <input type="button" class="k-button" value="Clear" ng-click="TestCtrl.ResetFilter()" />                        
+            </div>        
+        </div>
+    </div>    
+    <div kendo-grid k-data-source="TestCtrl.ProductsDS" k-options="TestCtrl.GridOptions3"></div>
+
+    <button class="k-button margin-bottom-15" ng-click="GuidelinesCtrl.ShowAddProduct()">Add</button>
+</div>
+
+<p>HTML looks like this:</p>
+<pre ng-non-bindable>
+&lt;div ng-controller=&quot;TestCtrl&quot;&gt;
+     &lt;div class=&quot;k-grid-filter-container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;   
+            &lt;div class=&quot;form-group col-sm-3&quot;&gt;
+                &lt;input name=&quot;productName&quot; id=&quot;Text3&quot; kendo-auto-complete k-min-length=&quot;2&quot; k-data-text-field=&quot;&#39;Name&#39;&quot; 
+                        placeholder=&quot;Product name&quot; upper-hint ng-model=&quot;TestCtrl.Filter.Name&quot;
+                        k-ignore-case=&quot;true&quot; k-data-source=&quot;GuidelinesCtrl.SearchData&quot; /&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group col-sm-3&quot;&gt;
+                &lt;input name=&quot;price&quot; type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Price&quot; upper-hint ng-model=&quot;TestCtrl.Filter.Price&quot; /&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-sm-3&quot;&gt;
+                &lt;input type=&quot;button&quot; class=&quot;k-button margin-right-10&quot; value=&quot;Search&quot; ng-click=&quot;TestCtrl.ApplyFilter()&quot; /&gt;                             
+                &lt;input type=&quot;button&quot; class=&quot;k-button&quot; value=&quot;Clear&quot; ng-click=&quot;TestCtrl.ResetFilter()&quot; /&gt;                        
+            &lt;/div&gt;        
+        &lt;/div&gt;
+    &lt;/div&gt;    
+    &lt;div kendo-grid k-data-source=&quot;TestCtrl.ProductsDS&quot; k-options=&quot;TestCtrl.GridOptions3&quot;&gt;&lt;/div&gt;
+
+    &lt;button class=&quot;k-button margin-bottom-15&quot; ng-click=&quot;GuidelinesCtrl.ShowAddProduct()&quot;&gt;Add&lt;/button&gt;
+&lt;/div&gt;
+
+Selected item: {{GuidelinesCtrl.testSelected}}&lt;/p&gt;
+    
+In the angular controller:
+    
+    this.GridOptions3 =
+            {
+                pageable: { refresh: true, pageSizes: true },
+                columns: [
+                    {
+                        field: &quot;&quot;, type: &quot;boolean&quot;, template: &quot;&lt;input type=&quot;radio&quot; name=&quot;gridRadio&quot;&gt;&lt;/input&gt;&quot;, width: &quot;31px&quot;
+                    },
+                    { field: &quot;Id&quot;, title: &quot;#&quot;, width: &quot;100px&quot; },
+                    { field: &quot;Name&quot;, title: &quot;Product Name&quot; },
+                    { field: &quot;Price&quot;, title: &quot;Price&quot; },
+                    {
+                        command: [{ id: &quot;edit&quot;, name: &quot;edit&quot;, template: &quot;&lt;a&gt;Edit&lt;/a&gt;&amp;nbsp;&amp;nbsp;&quot; },
+                            { id: &quot;delete&quot;, name: &quot;delete&quot;, template: &quot;&lt;a&gt;Delete&lt;/a&gt;&quot; }], title: &quot;&quot;, width: &quot;120px&quot;
+                    }],
+                sortable: true,
+                filterable: false,
+                selectable: false,
+                change: e =&gt; {
+                    GuidelinesCtrl.testSelected = data;
+                }
+            };
+
+</pre>

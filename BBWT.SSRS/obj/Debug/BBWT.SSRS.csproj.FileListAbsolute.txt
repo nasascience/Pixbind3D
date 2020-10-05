@@ -1,0 +1,181 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Aninmax\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Animmax\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Animmax\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.mshtml.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.mshtml.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojResolveAssemblyReference.cache
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+C:\Projects\Pixbind\Pixbind\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind My RemoteServer\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\BBWT.SSRS.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\BBWT.SSRS.pdb
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Designer.Controls.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RdlObjectModel.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RichText.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Common.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ReportDesign.Forms.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.ChartWinControl.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.GaugeWinControl.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.QueryDesigners.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.WinMap.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RPLObjectModel.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.RsClient.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.mshtml.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Diagnostics.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.DataExtensions.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.SemanticQueryDesign.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Modeling.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.ReportingServices.Design.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\obj\Debug\BBWT.SSRS.csprojAssemblyReference.cache
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\obj\Debug\BBWT.SSRS.csproj.CopyComplete
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\obj\Debug\BBWT.SSRS.dll
+H:\Nasa\Projects\Pixbind 3D\BBWT.SSRS\obj\Debug\BBWT.SSRS.pdb

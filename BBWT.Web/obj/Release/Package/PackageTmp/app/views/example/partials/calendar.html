@@ -1,0 +1,30 @@
+﻿<h3>Calendar</h3>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="col-xs-10 col-sm-4 control-label" for="calendarTest">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input id="calendarTest" kendo-date-time-picker ng-model="testModel.testDate" k-culture="en-GB" />
+        </div>
+    </div>
+    <div class="form-group form-group-static">
+        <label class="col-xs-12 col-sm-4 control-label control-label-static">Value of date:</label>
+        <div class="label-content col-xs-12 col-sm-6">
+            <span class="form-control form-control-static">{{testModel.testDate}}</span>
+        </div>
+    </div>
+</div>
+<p style="margin-top:25px;">HTML Code:</p>
+<pre ng-non-bindable>
+&lt;div class=&quot;form-group&quot;&gt;
+        &lt;label class=&quot;col-xs-10 col-sm-4 control-label&quot; for=&quot;calendarTest&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-4&quot;&gt;
+            &lt;input id=&quot;Text1&quot; kendo-date-time-picker ng-model=&quot;testModel.testDate&quot; k-culture=&quot;en-GB&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group form-group-static&quot;&gt;
+        &lt;label class=&quot;col-xs-2 col-sm-2 control-label control-label-static&quot;&gt;Value of date:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;span class=&quot;form-control form-control-static&quot;&gt;{{testModel.testDate}}&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>

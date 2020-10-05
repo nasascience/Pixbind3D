@@ -1,0 +1,60 @@
+﻿<h3>Tabs</h3>
+<p>
+    Use tabs to alternate between attributes belonging to, or strongly associated with, an instance of a particular object. Do not use them to navigate to the management of objects that are only associated with the type of your object.
+    <br/><br/>
+    E.g. Imagine that your “reports” have a set of “parameters” associated with each report, i.e. a parameter “Ordering Company” is a filter for the “Banana Orders” report. The reports also have a set of “report users” that are allowed to view any report, i.e. “John Smith” is allowed to see any of the reports. Note that “report users” are associated with “reports” in general, not one particular report. In this case, your Edit Report page might have a tab for parameters, but it should not have a tab for the report users. Instead, there should be a “Manage Report Users” page.
+</p>
+An example of a tab control:
+<div kendo-tab-strip k-animation="false">
+    <ul>
+        <li class="k-state-default k-state-active" k-state-disabled>General</li>
+        <li>Misc</li>
+        <li>Advanced</li>
+    </ul>
+    <div>
+        <div class="panel-body">
+            Tab with general settings.
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            Tab with misc settings.
+        </div>
+    </div>
+    <div>
+        <div class="panel-body">
+            Tab with advanced settings.
+        </div>
+    </div>
+</div>
+The HTML looks like this:
+<pre>
+&lt;div kendo-tab-strip k-animation="false"&gt;
+    &lt;ul&gt;
+        &lt;li class="k-state-default k-state-active" k-state-disabled&gt;General&lt;/li&gt;
+        &lt;li&gt;Misc&lt;/li&gt;
+        &lt;li&gt;Advanced&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div&gt;
+        &lt;div class="panel-body"&gt;
+            Tab with general settings.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div class="panel-body"&gt;
+            Tab with misc settings.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div class="panel-body"&gt;
+            Tab with advanced settings.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<ul>
+    <li>kendo-tab-strip is used to create tabs</li>
+    <li>The tabs are &lt;li&gt; items in a &lt;ul&gt;. </li>
+    <li>Each tab pane is a &lt;div&gt; </li>
+    <li>Javascript is not needed.</li>
+</ul>

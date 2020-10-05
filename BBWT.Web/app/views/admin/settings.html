@@ -1,0 +1,274 @@
+﻿<div permission="ManageCompanies">
+    <div class="page-header">
+        <h1>{{title}}</h1>
+        <span class="small">Use this form to edit application settings</span>
+    </div>
+    <form name="form" novalidate class="form-horizontal">
+        <ul kendo-panel-bar k-options="{expandMode:'single'}">
+            <li class="k-state-active">
+                <span class="k-link k-state-selected">Application Settings</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label for="applicationName" class="control-label col-xs-11 col-sm-4">Application Name:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="applicationName" type="text" class="form-control" ng-model="SettingsCtrl.Settings.App.Name" required maxlength="250" />
+                            </div>
+                            <div class="col-xs-11 col-sm-5 col-sm-offset-4">
+                                <p class="form-control-static text-danger" ng-show="form.applicationName.$dirty && form.applicationName.$error.required">
+                                    Application name is required
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="serverName" class="col-xs-11 col-sm-4 control-label">Server Name:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="serverName" type="text" class="form-control" ng-model="SettingsCtrl.Settings.App.ServerName" maxlength="250" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>            
+            <li>
+                <span>Send Email Configuration</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label for="smtp" class="col-xs-11 col-sm-4 control-label">SMTP:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="smtp" type="text" class="form-control" ng-model="SettingsCtrl.Settings.Email.SMTP" />
+                            </div>
+                            <div class="col-xs-11 col-sm-5 col-sm-offset-4 text-danger form-control-static"></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>Menu Settings</span>
+                <div class="k-pane">
+                    <div class="form-group">
+                        <div class="margin-left-30">
+                            <input class="k-button pull-left" type="button" value="Reset" ng-click="SettingsCtrl.SaveMenuChanges()" />
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>Send Support Mails To</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label for="EmailAddress1" class="col-xs-11 col-sm-4 control-label">Address 1:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="EmailAddress1" type="email" class="form-control" ng-model="SettingsCtrl.Settings.Support.EmailAddress1" placeholder="issue-bbwt@pts.bbconsult.co.uk" />
+                            </div>
+                            <div class="col-xs-11 col-sm-5 col-sm-offset-4">
+                                <p class="form-control-static text-danger " ng-show="form.EmailAddress1.$dirty && form.EmailAddress1.$error.email">
+                                    This is not a valid email.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="EmailAddress2" class="col-xs-11 col-sm-4 control-label">Address 2:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="EmailAddress2" type="email" class="form-control" ng-model="SettingsCtrl.Settings.Support.EmailAddress2" />
+                            </div>
+                            <div class="col-xs-11 col-sm-5 col-sm-offset-4">
+                                <p class="form-control-static text-danger" ng-show="form.EmailAddress2.$dirty && form.EmailAddress2.$error.email">
+                                    This is not a valid email.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="EmailAddress3" class="col-xs-11 col-sm-4 control-label">Address 3:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="EmailAddress3" type="email" class="form-control" ng-model="SettingsCtrl.Settings.Support.EmailAddress3" />
+                            </div>
+                            <div class="col-xs-11 col-sm-5 col-sm-offset-4">
+                                <p class="form-control-static text-danger" ng-show="form.EmailAddress3.$dirty && form.EmailAddress3.$error.email">
+                                    This is not a valid email.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="EmailAddress4" class="col-xs-11 col-sm-4 control-label">Address 4:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="EmailAddress4" type="email" class="form-control" ng-model="SettingsCtrl.Settings.Support.EmailAddress4" />
+                            </div>
+                            <div class="col-xs-11 col-sm-5 col-sm-offset-4">
+                                <p class="form-control-static text-danger" ng-show="form.EmailAddress4.$dirty && form.EmailAddress4.$error.email">
+                                    This is not a valid email.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>Company Registration</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" ng-model="SettingsCtrl.Settings.CompanyRegistration.IsAllowedForEveryone" />
+                                    Allow company registration for everyone
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" ng-model="SettingsCtrl.Settings.CompanyRegistration.IsDirectRegistrationAllowed" />
+                                    Allow direct registration via company registration page
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="CompanyRegistrationURL" class="col-xs-11 col-sm-4 control-label">Company Registration URL:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="CompanyRegistrationURL" type="url" class="form-control" ng-model="SettingsCtrl.Settings.CompanyRegistration.RegistrationURL" ng-disabled="!SettingsCtrl.Settings.CompanyRegistration.IsDirectRegistrationAllowed" />
+                            </div>
+                            <div class="col-xs-11 col-sm-2 col-xs-row">
+                                <input class="k-button" type="button" value="Generate URL" ng-click="SettingsCtrl.GetCompanyRegistrationURL()" ng-disabled="!SettingsCtrl.Settings.CompanyRegistration.IsDirectRegistrationAllowed" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <span>Edit Company Page</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Hide the section "User Registration" on basic details
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>Edit User Page</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Hide "Get Auto-login Url"
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Hide "Roles Added to this User"
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Hide "Permissions Added to this User"
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>Edit Group Page</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Hide "Restrictions"
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Hide "Roles"
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Hide "Effective Permissions"
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>User Registration</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label for="UserRegistrationURL" class="col-xs-11 col-sm-4 control-label">Company:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <select class="form-control">
+                                    <option value="">None</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="UserRegistrationURL" class="col-xs-11 col-sm-4 control-label">User Registration Url:</label>
+                            <div class="label-content col-xs-11 col-sm-5">
+                                <input name="UserRegistrationURL" type="url" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Show "Register Here" link on login page (User Registration)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-7 col-sm-offset-4">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox-inline" />Show "Sign Up" link on login page (Company Registration)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li disabled="disabled">
+                <span>User Password Re-use</span>
+            </li>
+            <li disabled="disabled">
+                <span>Failed Attempts at Password Entry</span>
+            </li>
+            <li>
+                <span>Online Analytics</span>
+                <div class="k-pane">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label for="analyticsCode" class="col-xs-11 col-sm-4 control-label">Analytics Code:</label>
+                            <div class="label-content col-xs-11 col-sm-7">
+                                <textarea class="form-control" name="analyticsCode" style="min-height: 150px;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <br/>
+        <div class="margin-bottom-15">
+            <input class="k-button margin-right-10" type="button" value="Save" ng-disabled="!form.$dirty || form.$invalid" ng-click="SettingsCtrl.Save()" />
+            <input class="k-button" type="button" value="Reset" ng-disabled="!form.$dirty" ng-click="SettingsCtrl.Reset()" />
+        </div>
+    </form>
+</div>

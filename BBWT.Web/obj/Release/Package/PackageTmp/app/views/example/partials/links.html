@@ -1,0 +1,32 @@
+﻿<h3>Links</h3>
+<p>You may want to have links in a form.</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="col-xs-10 col-sm-4 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <span class="form-control form-control-static"><a href="">A link</a></span>
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label class=&quot;label-content col-xs-10 col-sm-4 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;col-xs-10 col-sm-4&quot;&gt;
+            &lt;span class=&quot;form-control-static&quot;&gt;&lt;a href=&quot;&quot;&gt;A link&lt;/a&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>
+    Anchor links (href="#!foo") need special care. You must set 'reloadOnSearch=false' on your route and the value of the href must include the full path even when linking within the page. Example: 
+</p>
+<p>
+    <a href="/example/guidelines#links">Links section</a>
+    <a href="/example/guidelines#widths">Widths section</a>
+</p>
+HTML code for those links looks like:
+<pre>
+&lt;a href=&quot;/example/guidelines#links&quot;&gt;Links section&lt;/a&gt;
+&lt;a href=&quot;/example/guidelines#widths&quot;&gt;Widths section&lt;/a&gt;
+</pre>

@@ -1,0 +1,80 @@
+﻿<div>
+    <div class="page-header">
+        <h1 ng-show="TemplateDetailsCtrl.Template.Id == 0">Create Email Template</h1>
+        <h1 ng-show="TemplateDetailsCtrl.Template.Id != 0">Edit Email Template <small>{{TemplateDetailsCtrl.Template.Code}}</small></h1>
+    </div>
+    <div id="errors" class="alert alert-danger" ng-show="templateEditor.$invalid && templateEditor.$dirty">
+        <!-- Placeholder to show validation summary-->
+        <div ng-show="templateEditor.name.$invalid">Code is required</div>
+        <div ng-show="templateEditor.title.$invalid">Title is required</div>
+        <div ng-show="templateEditor.from.$invalid">From email is required</div>
+        <div ng-show="templateEditor.subject.$invalid">Subject is invalid</div>
+    </div>
+    <form name="templateEditor" class="form-horizontal" novalidate>
+        <div kendo-tab-strip k-animation="false">
+            <ul>
+                <li class="k-state-active">Basic details</li>
+                <li>Parameters</li>
+            </ul>
+            <div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="name" class="col-xs-10 col-sm-4 control-label">Code:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input type="text" class="form-control" name="name" ng-model="TemplateDetailsCtrl.Template.Code" required ng-maxlength="32" ng-show="(TemplateDetailsCtrl.Template.Id == 0) || ((TemplateDetailsCtrl.Template.Id != 0) && !TemplateDetailsCtrl.Template.IsSystem)" />
+                            <div class="form-control" name="name" ng-show="((TemplateDetailsCtrl.Template.Id != 0) && TemplateDetailsCtrl.Template.IsSystem)">{{TemplateDetailsCtrl.Template.Code}}</div>
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="templateEditor.name.$invalid">
+                            Code is required
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="title" class="col-xs-10 col-sm-4 control-label">Title:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input class="form-control" type="text" name="title" ng-model="TemplateDetailsCtrl.Template.Title" required ng-maxlength="256" />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="templateEditor.title.$invalid">
+                            Title is required
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="from" class="col-xs-10 col-sm-4 control-label">From:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input class="form-control" type="text" name="from" ng-model="TemplateDetailsCtrl.Template.From" required ng-maxlength="128" />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="templateEditor.from.$invalid">
+                            From email is required
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="col-xs-10 col-sm-4 control-label">Subject:</label>
+                        <div class="col-xs-10 col-sm-4 label-content">
+                            <input class="form-control" type="text" name="subject" ng-model="TemplateDetailsCtrl.Template.Subject" required ng-maxlength="256" />
+                        </div>
+                        <div class="col-sm-4 text-danger form-control-static" ng-show="templateEditor.subject.$invalid">
+                            Subject is invalid
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="col-xs-10 col-sm-4 control-label">Message:</label>
+                        <div class="col-xs-10 col-sm-8 label-content">
+                            <textarea class="form-control" name="message" kendo-editor rows="16" ng-model="TemplateDetailsCtrl.Template.Message"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="container-fluid">
+                    <div class="col-sm-8">
+                        <div kendo-grid k-options="TemplateDetailsCtrl.GridOptions"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="margin-bottom-15">
+            <input type="button" class="k-button margin-right-10" ng-disabled="templateEditor.$invalid" type="submit" ng-click="TemplateDetailsCtrl.Save(TemplateDetailsCtrl.Template)" value="Save" />
+            <input type="button" class="k-button" ng-click="TemplateDetailsCtrl.Cancel()" value="Cancel" />
+        </div>
+    </form>
+</div>

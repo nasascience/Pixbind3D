@@ -1,0 +1,51 @@
+﻿<div class="page-header">
+    <h1>{{title}}</h1>
+</div>
+
+<form id="formCommonInfo" name="formCommonInfo" class="form-horizontal" novalidate autocomplete="off">
+
+    <!--email-->
+    <div class="form-group">
+        <label for="name" class="col-xs-10 col-sm-4 control-label">Email:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="name" autocomplete="off" class="form-control" type="email"
+                ng-model="SimplePageCtrl.user.name" required validationmessage="Email is required"
+                placeholder="myname@example.net"
+                data-email-msg="Email format is not valid" />
+        </div>
+        <div class="col-xs-10 col-sm-4">
+            <div class="k-invalid-msg" data-for="name"></div>
+        </div>
+    </div>
+
+    <!--firstname-->
+    <div class="form-group">
+        <label for="firstName" class="col-xs-10 col-sm-4 control-label">First Name:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="firstName" autocomplete="off" class="form-control" type="text"
+                ng-model="SimplePageCtrl.user.firstName" validationmessage="First Name is 0..8000 chars"
+                placeholder="First Name" pattern="[a-zA-Z]{0,8000}" />
+        </div>
+        <div class="col-xs-10 col-sm-4">
+            <div class="k-invalid-msg" data-for="firstName"></div>
+        </div>
+    </div>
+
+    <!--surname-->
+    <div class="form-group">
+        <label for="surname" class="col-xs-10 col-sm-4 control-label">Surname:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="surname" autocomplete="off" class="form-control" type="text"
+                ng-model="SimplePageCtrl.user.surname" validationmessage="Surname is 0..8000 chars"
+                placeholder="Surname" pattern="[a-zA-Z]{0,8000}" />
+        </div>
+        <div class="col-xs-10 col-sm-4">
+            <div class="k-invalid-msg" data-for="surname"></div>
+        </div>
+    </div>
+    <div class="margin-bottom-15">                    
+        <button class="k-button margin-right-10" ng-click="SimplePageCtrl.save()">Save</button>                                                
+        <a href="/" class="k-button">Cancel</a>            
+    </div>
+</form>
+

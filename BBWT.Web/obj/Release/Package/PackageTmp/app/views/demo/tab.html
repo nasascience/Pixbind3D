@@ -1,0 +1,133 @@
+﻿<div class="page-header">
+    <h1>Tab</h1>
+    <span class="purpose">This is a sample page used for demonstrating the use of the Tab control.</span>
+</div>
+
+<div id="tabstrip">
+    <ul>
+        <li id="tab1" class="k-state-default k-state-active" k-state-disabled>Common Info</li>
+        <li id="tab2">Security Info</li>
+        <li id="tab3">Personal Info</li>
+    </ul>
+    <div>
+        <!--common info-->
+        <div class="panel-body">
+
+            <form id="formCommonInfo" name="formCommonInfo" class="form-horizontal" novalidate autocomplete="off">
+
+                <!--email-->
+                <div class="form-group">
+                    <label for="name" class="col-xs-10 col-sm-4 control-label">Email:</label>
+                    <div class="label-content col-xs-10 col-sm-4">
+                        <input name="name" autocomplete="off" class="form-control" type="email"
+                            ng-model="TabCtrl.user.name" required validationmessage="Email is required"
+                            placeholder="myname@example.net"
+                            data-email-msg="Email format is not valid" />
+                    </div>
+                    <div class="col-xs-10 col-sm-4">
+                        <div class="k-invalid-msg" data-for="name"></div>
+                    </div>
+                </div>
+
+                <!--firstname-->
+                <div class="form-group">
+                    <label for="firstName" class="col-xs-10 col-sm-4 control-label">First Name:</label>
+                    <div class="label-content col-xs-10 col-sm-4">
+                        <input name="firstName" autocomplete="off" class="form-control" type="text"
+                            ng-model="TabCtrl.user.firstName" validationmessage="First Name is 0..8000 chars"
+                            placeholder="First Name" pattern="[a-zA-Z]{0,8000}" />
+                    </div>
+                    <div class="col-xs-10 col-sm-4">
+                        <div class="k-invalid-msg" data-for="firstName"></div>
+                    </div>
+                </div>
+
+                <!--surname-->
+                <div class="form-group">
+                    <label for="surname" class="col-xs-10 col-sm-4 control-label">Surname:</label>
+                    <div class="label-content col-xs-10 col-sm-4">
+                        <input name="surname" autocomplete="off" class="form-control" type="text"
+                            ng-model="TabCtrl.user.surname" validationmessage="Surname is 0..8000 chars"
+                            placeholder="Surname" pattern="[a-zA-Z]{0,8000}" />
+                    </div>
+                    <div class="col-xs-10 col-sm-4">
+                        <div class="k-invalid-msg" data-for="surname"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <!--security info-->
+        <div class="panel-body">
+
+            <form id="form1" name="formSecurityInfo" class="form-horizontal" novalidate autocomplete="off">
+
+                <div class="form-group">
+                    <label for="pass" class="col-xs-10 col-sm-4 control-label">Password:</label>
+                    <div class="label-content col-xs-10 col-sm-4">
+                        <input id="pass" name="pass" autocomplete="off" class="form-control" type="password"
+                            ng-model="TabCtrl.user.pass"
+                            placeholder="Password"
+                            validationmessage="Password is required" />
+                    </div>
+                    <div class="col-xs-10 col-sm-4">
+                        <div class="k-invalid-msg" data-for="pass"></div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPass" class="col-xs-10 col-sm-4 control-label">Re-enter password:</label>
+                    <div class="label-content col-xs-10 col-sm-4">
+                        <input id="confirmPass"
+                            name="confirmPass"
+                            autocomplete="off" class="form-control" type="password"
+                            ng-model="TabCtrl.user.confirmPass"
+                            required
+                            placeholder="Confirm Password"
+                            match="pass"
+                            validationmessage="Passwords must match" />
+                    </div>
+                    <div class="col-xs-10 col-sm-4">
+                        <div class="k-invalid-msg" data-for="confirmPass"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <!--personal info-->
+        <div class="panel-body">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-xs-10 col-sm-4 control-label" for="calendarTest">Date Of Birth:</label>
+                    <div class="label-content col-xs-10 col-sm-3 col-lg-2">
+                        <input name="calendarTest" id="Text1" kendo-date-picker />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="selectTest" class="col-xs-10 col-sm-4 control-label">Marital Status:</label>
+                    <div class="label-content col-xs-10 col-sm-2">
+                        <select name="selectTest" id="select1" class="form-control" kendo-drop-down-list>
+                            <option value="1">Single</option>
+                            <option value="2">Maried</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="rightCheckbox" class="col-xs-4 col-sm-4 control-label">Children:</label>
+                    <div class="label-content checkbox col-xs-1 col-sm-4">
+                        <input id="rightCheckbox" class="r-checkbox" type="checkbox" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="margin-bottom-15">
+    <button class="k-button margin-right-10" ng-click="TabCtrl.save()">Save</button>            
+    <a href="/" class="k-button">Cancel</a>    
+</div>

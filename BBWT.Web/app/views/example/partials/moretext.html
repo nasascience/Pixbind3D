@@ -1,0 +1,43 @@
+﻿<h3>Disabled Controls</h3>
+<p>
+    To disable a control use the ng-disabled directive. This sets the disabled attribute on an element and adds the 'k-state-disabled' class.
+</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="disabledField" class="col-xs-10 col-sm-4 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="disabledField" type="text" class="form-control" value="Disabled" ng-disabled="true" />
+        </div>
+    </div>    
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;disabledField&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;disabledField&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;Disabled&quot; ng-disabled=&quot;true&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;    
+&lt;/div&gt;
+</pre>
+<p>
+    If your field can never be enabled then it is a read-only field. Please see the Labels and Inputs section for read-only fields.
+</p>
+<div class="form-horizontal">
+    <div class="form-group form-group-static">
+        <label class="col-xs-10 col-sm-4 control-label control-label-static">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <span class="form-control form-control-static">Disabled value</span>
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group form-group-static&quot;&gt;
+        &lt;label class=&quot;col-xs-10 col-sm-4 control-label control-label-static&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;span class="form-control form-control-static"&gt;Disabled value&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>

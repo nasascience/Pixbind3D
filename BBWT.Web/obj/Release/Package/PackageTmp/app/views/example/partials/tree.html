@@ -1,0 +1,25 @@
+﻿<h3>Tree</h3>
+<div kendo-tree-view k-options="GuidelinesCtrl.TreeData"></div>
+<p>HTML looks likes this:</p>
+<pre>
+&lt;div kendo-tree-view k-options=&quot;GuidelinesCtrl.TreeData&quot;&gt;
+</pre>
+<p>Plus data source on your controller:</p>
+<pre>
+var treeItems = {
+    data: [
+        { text: &#39;Tree Item1&#39;, imageUrl: &#39;/Content/images/image_html.png&#39; },
+        {
+            text: &#39;Tree Item2&#39;, imageUrl: &#39;/Content/images/image_folder.png&#39;, items: [
+                { text: &#39;Sub-item 2.1&#39;, imageUrl: &#39;/Content/images/image_html.png&#39; },
+                { text: &quot;Sub-item 2.2&quot;, imageUrl: &#39;/Content/images/image_html.png&#39; }
+            ]
+        },
+        { text: &#39;Tree Item3&#39;, imageUrl: &#39;/Content/images/image_html.png&#39; },
+        { text: &#39;Tree Item4&#39;, imageUrl: &#39;/Content/images/image_html.png&#39; },
+        { text: &#39;Tree Item5&#39;, imageUrl: &#39;/Content/images/image_html.png&#39; },
+        { text: &#39;Tree Item6&#39;, imageUrl: &#39;/Content/images/image_html.png&#39; }
+    ]
+};
+this.TreeData = { dataSource: treeItems };
+</pre>

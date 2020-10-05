@@ -1,0 +1,31 @@
+<style>
+body {
+	background: #050d17;
+}
+
+.TopBar{
+	position: absolute;
+	top: 0;
+	left:0;
+	height: 48px;
+	width:100%;
+	background: #000000;
+}
+
+.videoContainer{
+	position: absolute;
+	left: 5%;
+	top: 55px;
+    width: 640px;
+    height: 390px;
+}
+</style>
+<!--<div class="TopBar"></div>-->
+<!--<div class="videoContainer">
+    <iframe width="640" height="390" ng-src="http://www.youtube.com/embed/{{MainCtrl.VideoUrl}}" frameborder="0" allowfullscreen></iframe>
+</div>-->
+
+<div>
+    <h1>{{VideoUrl}}</h1>
+    <iframe width="auto" height="auto" src="http://www.youtube.com/embed/{{HomeCtrl.VideoUrl}}" allowfullscreen frameborder="0"></iframe>
+</div>

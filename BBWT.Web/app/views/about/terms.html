@@ -1,0 +1,184 @@
+﻿<div class="kk-body">
+    <div class="col-md-12 HeaderContainer">
+        <div class="InnerShadow"></div>
+        <img src="../../../Content/images/Pixbind/bg1.jpg" class="ImgHeader" />
+    </div>
+    <nav class="b-generic-nav" data-role="pagenav" style="box-shadow: 0px 1px 5px #B17E34; z-index: 1;">
+        <!--<input class="px-search" ng-mouseenter="ShowCategoryPanel()" type="text" name="name" placeholder="Search" />-->
+        <!--<img class="px-search-lupa" src="../../../Content/images/Pixbind/lupa.png" />-->
+        <div class="cat-panel" style="display:none" ng-mouseleave="HideCategoryPanel()">
+            <div class="filters-list">
+                <h5>Games Genre</h5>
+                <ul class="list-unstyled">
+                    <li ng-repeat="afilter in Gamesfilters">
+                        <label>
+                            <input type="checkbox" value="{{afilter.Name}}" ng-click="FilterCheck($event)" checked>
+                            <!--<span> </span>-->
+                            <span>{{afilter.Name}}</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="position: absolute; right: 5%; text-align: center; top: 10px; z-index: 10;" ng-if="AuthSvc.User">
+            <span style="position: absolute; color: white; margin-left: -30px; margin-top: 6px; text-align: center; background-color: #A80404; border-radius: 50px; width: 22px; height: 22px; background-color: #E68017; box-shadow: inset 0 0 10px red"></span>
+            <span ng-click="CartView()" style="cursor:pointer; position: absolute; color: white; margin-left: -34px; margin-top: 10px; width: 30px; font-size: 16px;">{{AuthSvc.CartProducts.length}}</span>
+            <img ng-click="CartView()" style="cursor:pointer; /*position: absolute;*/ width: 25px; height: 25px; top: 0; margin-top: 4px; left: 0;" src="../../../Content/images/Pixbind/cart2.png" />
+        </div>
+
+        <div class="b-generic-nav-con" data-role="pagenav-con">
+            <div class="b-generic-nav-main">
+                <ul>
+                    <li>
+                        <a href="/" data-role="people-anchor" data-alias="construction,fitout,quality">Home</a>
+                    </li>
+                    <li>
+                        <a href="/environment" data-role="people-anchor" data-alias="construction,fitout,quality">Environments</a>
+                    </li>
+                    <li>
+                        <a href="/games" data-role="people-anchor" data-alias="construction,fitout,quality">Games</a>
+                    </li>
+                    <li>
+                        <a href="/projects" data-role="people-anchor" data-alias="engineering">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/anim" data-role="people-anchor" data-alias="design">Animations</a>
+                    </li>
+                    <li>
+                        <a href="/assets" data-role="people-anchor" data-alias="business,administrative">Assets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="col-md-12 BodyContainer">
+        <div class="TermsandPolicy">
+            <!--<img class="logo-fundator-terms" src="../../../Content/images/Pixbind/pixbindLogo.png">-->
+            <div class="page-header">
+                <h1 style="font-size: 2.8em;">Terms & Conditions</h1>
+            </div>
+            These terms and conditions (the “Terms”) set out the rights and obligations of the user (“you, your”) and Pixbind (“we, us, our”) in connection with your use of the Pixbind Online System (“the service”). It has been produced to protect both parties under relevant legislation and by logging into the system you confirm that you have read and understood these Terms and agree to them.
+            <p>
+                <ol>
+                    <li>
+                        <strong style=" font-size: 1.4em;">Use of the Service</strong>
+                        <p>
+                            1.1. You should only access the service if you are a registered user with Pixbind meaning that:
+                            <ul>
+                                <li>
+                                    You agree to these terms and conditions by logging in and by doing so you acknowledge and warrant that you have authority to bind the Recognised Centre.
+                                </li>
+                            </ul>
+                        </p>
+                 </li>
+            <li>
+                <strong style ="font-size: 1.4em;">Instructions</strong>
+                <p>2.1. Please follow the User guidance made available to you on the Web Portal and on the Pixbind website (http://www.Pixbind.com)</p>
+                <p>2.2. Pixbind may vary these Terms from time to time at its discretion and will notify you of any changes to the service. You must implement all such changes promptly.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">Your responsibilities for security</strong>
+                <p>3.1. You must comply with the following security measures to ensure that you are able to access and give instructions on your data using the service.</p>
+                <ul>
+                    <li>
+                        You must not allow anyone else to operate the service on your behalf.
+                    </li>
+                    <li>
+                        You must not leave your system unattended whilst online to the service.
+                    </li>
+                    <li>
+                        You must not allow anybody to use or copy your passwords or access the service pretending to be you or another authorised user.
+                    </li>
+                    <li>
+                        You must take all necessary measures to protect the security of your use of the service.
+                    </li>
+                </ul>
+                <p>3.2. We will give you a unique user name and password. These are your login details and both will be used to identify you whenever you access the service. You must take all reasonable steps to ensure that your password stays secure. You must not disclose any details of your password to any other person (even within your centre, or to Pixbind staff). If you discover, or suspect that your password is known to someone else, you must immediately notify us, we will then reset your password.</p>
+                <p>3.3. If you become aware of any transaction (Booking an Exam or submitting candidates) relating to your centre that has not been authorised by you or data you believe to be incorrect, you must notify us immediately.</p>
+                <p>If Pixbind suspect that any Registered User is misusing the service or a Registered User has not accessed the service for a period of 12 months or more, that Registered User’s access may be suspended at any time at the discretion of Pixbind.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">Data protection obligations</strong>
+                <p>4.1. You warrant that in your use of the online system you shall comply at all times with the Data Protection Act 1998 (as may be amended from time to time) and the Pixbind Centre Agreement.</p>
+                <p>4.2. You must inform individuals who provide you with their personal data of the purpose for which the data will be used and obtain their consent for its use by us. Standard text is available for this is available on the Learning Records Service     website:     http://www.learningrecordsservice.org.uk/documentlibrary/documents/privacy-notices-eng.htm) </p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">Your authority to Pixbind to carry out your instructions</strong>
+                <p>5.1. You agree that the use of your password is adequate identification of you. We are therefore entitled to act on your electronic instructions without obtaining any further written or other confirmation from you even if those instructions are not actually given or authorised by you (see section 3.1 above).</p>
+                <p>5.2. You are responsible for the inputting and accuracy of data. We accept no responsibility for data incorrectly entered.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">The service</strong>
+                <p>6.1. Each time you access the service will be through a web browser. It is your responsibility to ensure that your IT system can access the service and that your use of the service does not in any way corrupt Pixbind online system.</p>
+                <p>6.2. You must ensure that any computer or other device through which you access the service is free of any computer virus, adequately maintained in every way and is protected against acquiring a virus.</p>
+                <p>6.3. By supplying you with the password, we are granting you access to the service for the purpose of the service only and for no other purpose. Any and all other information supplied to you in connection with the service belongs to us.</p>
+                <p>You must not:</p>
+                <ul>
+                    <li>Use them except in connection with operating the service.</li>
+                    <li>Take copies, sell, assign, lease, license or otherwise transfer to any third party.</li>
+                    <li>Decompile, reverse engineer, input, compile or change in any way any of the service.</li>
+                </ul>
+                <p>6.4. Where controlled assessment material is provided to you through the service it must be stored securely at all times as per Pixbind policies and procedures. It must not be made available to candidates in advance of the date and time specified in the assessment material and/or in the subject specification.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">The extent of our liability for your loss or damage</strong>
+                <p>7.1. We shall not be liable to you for any loss, damage, costs, expenses or other claims for compensation arising from any instructions supplied by you which are incomplete, inaccurate, illegible, out of sequence or in the wrong format or arising from their late or non-arrival or from any other fault of yours.</p>
+                <p>7.2. The service has no facility for you to let us know that it is especially important to you that an instruction is carried out by a particular time. You should contact a member of the Customer Service team should you need to discuss special arrangements for a particular service.</p>
+                <p>7.3. Except in respect of death or personal injury caused by our negligence, or as expressly provided in this agreement,  we shall not be liable to you by reason of any representation (unless fraudulent), or breach of any implied warranty, condition or other term, or any duty at common law, or under the express terms of this agreement, for any loss of profit or any indirect, special or consequential loss, damage, costs, expenses or other claims (whether caused by the negligence of us, our staff or contractors or otherwise) which arise out of or in connection with this agreement. This includes (but is not limited to) loss or damage resulting from:</p>
+                <ul>
+                    <li>An incompatibility between your system and the service.</li>
+                    <li>Any circumstances beyond our control that leads either to the service being totally or partially unavailable or to instructions given via the service not being acted upon promptly or at all.</li>
+                    <li>Any misuse of your system by you or anyone else.</li>
+                    <li>Any access to your data that is obtained by a third party as a result of your use of the service (except where that access is obtained as a result of our negligence or willful default).</li>
+                </ul>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">Service availability</strong>
+                <p>8.1. The service will usually be available for use 24 hours a day. You accept, however, that routine maintenance requirements, excess demand on the systems and circumstances beyond our control may mean it is not always possible for the service to be available during its normal operating hours.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">Ending your use of the service</strong>
+                <p>9.1. Your access will be withdrawn under the following circumstances:</p>
+                <ul>
+                    <li>You cease to be employed by the Recognised Centre.</li>
+                    <li>The Recognised Centre is withdrawn from Pixbind.</li>
+                    <li>You or your centre breaches the terms of this agreement or the centre agreement.</li>
+                    <li>The centre hasn’t booked any examinations within the last two academic years.</li>
+                </ul>
+                <p>9.2. You may cancel your use of the service at any time by emailing the Customer Service team (customerservice@Pixbinduk.org)</p>
+                <p>9.3. In connection with the service, we are entitled at any time to:</p>
+                <ul>
+                    <li>Change the mode of operation or the facilities available.</li>
+                    <li>End the service.</li>
+                    <li>End or suspend your use of the service or to vary access at any time. Pixbind shall not be responsible for any costs incurred by you as a result of ending the service.</li>
+                </ul>
+                <p>9.4. If we decide to change or end the service, we will give you adequate notice.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">Our right to make changes to this agreement</strong>
+                <p>10.1. We will communicate promptly any changes to the service.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">The validity of the terms of this agreement</strong>
+                <p>11.1. If any, or part, of the terms of this agreement proves to be legally unsound or unenforceable in any way, this will not affect the validity of the remaining terms in any way.</p>
+            </li>
+            <li>
+                <strong style=" font-size: 1.4em;">Communication between us</strong>
+                <p>12.1. Contacting us – You will find up to date contact details at www.Pixbinduk.org</p>
+                <p>12.2. Contacting you - If we need to send you a notice, we will use the contact details you have given us most recently.</p>
+            </li>
+            </ol>
+            <p>These terms are governed by English law. Both parties agree to submit to the exclusive jurisdiction of the English courts in connection with any dispute.</p>
+            <br />
+            <br />
+        </div>
+       
+    </div>
+</div>
+
+
+
+

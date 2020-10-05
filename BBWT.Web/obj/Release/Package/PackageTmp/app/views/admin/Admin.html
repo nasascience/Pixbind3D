@@ -1,0 +1,115 @@
+﻿<div class="kk-body">
+    <!--<div style="position:absolute; right: 10%; text-align:center; top:180px; z-index:10;" ng-if="AuthSvc.User">
+        <span style="position: absolute; color: white; margin-left: -30px; margin-top: 6px; text-align: center; background-color: #A80404; border-radius: 50px; width: 22px; height: 22px; background-color: #E68017; box-shadow: inset 0 0 10px red"></span>
+        <span ng-click="CartView()" style="cursor:pointer; position: absolute; color: white; margin-left: -34px; margin-top: 4px; width: 30px; font-size: 16px;">{{AuthSvc.CartProducts.length}}</span>
+        <img ng-click="CartView()" style="cursor:pointer; /*position: absolute;*/ width: 25px; height: 25px; top: 0; margin-top: 4px; left: 0;" src="../../../Content/images/AnimMax/cart2.png" />
+    </div>-->
+    <div class="kk-container">
+        <!--<ul ng-show="AuthSvc.User" id="mainMenu" ng-controller="MenuCtrl"></ul>-->
+        <ul id="mainMenu" ng-controller="MenuCtrl"></ul>
+    </div>
+
+    <div class="logo-container">
+        <img ng-click="GoHome()" class="logo-img" src="../../../Content/images/AnimMax/PixbindLogo1.jpg" />
+        <!--<div ng-click="GoHome()" class="logo-company-name">Pixbind</div>
+        <div ng-click="GoHome()" class="logo-slogan">Game Development</div>-->
+    </div>
+    <searchbar></searchbar>
+    <div class="MainDiv2" style="margin-top: 240px; margin-left: 100px;">
+
+        <div class="page-header">
+            <h1>New Product</h1>
+        </div>
+        <form name="form" novalidate class="form-horizontal">
+
+            <div class="form-horizontal">
+                <div class="form-group" style="width:95%;">
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="TitletextField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Title</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input name="TitletextField" type="text" class="form-control" ng-model="Product.Title" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="selectType" class="col-xs-10 col-sm-4 control-label" style="text-align: left;">Product Type</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <select ng-change="FilterCategory(Product.Type)" name="selectType" id="selectType" class="form-control" kendo-drop-down-list k-data-source="TypeList" k-data-text-field="'Name'" k-data-value-field="'Name'" ng-model="Product.Type">
+                                </select>
+                            </div>
+                        </div>
+                        <!--<div class="form-group" style="position: absolute; margin-top: -47px; margin-left: 410px;">
+                            <label for="selectType" class="col-xs-10 col-sm-4 control-label" style="text-align: left;">New Type</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0" style="margin-left: -40px; margin-top: -7px;">
+                                <input name="TitletextField" type="text" class="form-control" ng-model="New.Type" style="width: 150px;" />
+                            </div>
+                            <button class="RegisterBtn" ng-click="NewType(New)" style="position: absolute; top: 0px; left: 300px;">Add</button>
+                        </div>-->
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="selectCategory" class="col-xs-10 col-sm-4 control-label" style=" text-align: left;">Product Category</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <select name="selectCategory" id="selectCategory" class="form-control" kendo-drop-down-list k-data-source="CategoriesList" k-data-text-field="'Name'" k-data-value-field="'Name'" ng-model="Product.Category">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group" style="position: absolute; margin-top: -47px; margin-left: 410px;">
+                            <label for="selectType" class="col-xs-10 col-sm-4 control-label" style="text-align: left;">New Category</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0" style="margin-left: -40px; margin-top: -7px;">
+                                <input name="TitletextField" type="text" class="form-control" ng-model="New.Category" style="width: 150px;" />
+                            </div>
+                            <button class="RegisterBtn" ng-click="NewCategory(New)" style="position: absolute; top: 0px; left: 300px;">Add</button>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="PricetextField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Price</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input name="PricetextField" type="number" class="form-control" ng-model="Product.Price" min="0" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="VideoCodeField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Video Code(No Url)</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <input name="VideoCodetextField" type="text" class="form-control" ng-model="Product.VideoCode" placeholder="If no, then leave in blank"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="PricetextField" class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label" style="text-align: left;">Description (Max 250 Char)</label>
+                            <div class="label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0">
+                                <textarea name="PricetextField" class="form-control" ng-model="Product.Description" maxlength="250" style="resize: none; height:110px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <input id="productUpload" name="files"
+                           type="file"
+                           kendo-upload
+                           k-async="{ saveUrl: '/upload/save', removeUrl: '/upload/remove', autoUpload: true }"
+                           k-select="onSelect" />
+                            <button class="k-button" ng-click="Cancel()" style="position: absolute; top: 751px; left: 380px;">Close</button>
+                </div>
+
+                <!--<button class="k-button btn-pad-right" ng-click="Save()">Save</button>-->
+                
+            </div>
+        </form>
+
+    </div>
+</div>

@@ -1,0 +1,66 @@
+﻿<div class="page-header">
+    <h1>Disabled Controls Testing</h1>
+</div>
+<div>
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label for="dataField" class="col-sm-4 control-label">Label:</label>
+            <div class="label-content col-sm-4">
+                <input name="dataField" type="text" class="form-control" value="Data field, readonly" disabled="disabled" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="selectTest" class="col-sm-4 control-label">Select:</label>
+            <div class="label-content col-sm-4">
+                <select name="selectTest" class="form-control" disabled="disabled" kendo-drop-down-list>
+                    <option value="UK">United Kingdom</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div kendo-tab-strip k-animation="false">
+                    <ul>
+                        <li class="k-state-disabled k-state-default k-state-active" k-state-disabled>Disabled</li>
+                        <li class="k-state-disabled">Also Disabled</li>
+                    </ul>
+                    <div>
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <button class="k-button k-state-disabled" disabled="disabled">Button</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <input id="newsletter" type="checkbox" disabled="disabled" class="disabled checkbox-inline" />
+                <label for="newsletter" class="k-state-disabled">Receive daily newsletter</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="dataArea" class="col-sm-4 control-label">Comments:</label>
+            <div class="label-content col-sm-4">
+                <textarea name="dataArea" class="form-control" disabled="disabled" style="min-height: 300px;">Disabled field</textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <input id="over18" type="radio" disabled="disabled" class="disabled radio-inline" />
+                <label for="over18" class="k-state-disabled">I'm over 18</label>
+            </div>
+        </div>
+    </div>
+</div>

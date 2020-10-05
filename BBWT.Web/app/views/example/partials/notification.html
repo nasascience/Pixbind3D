@@ -1,0 +1,72 @@
+﻿<h3>Notifications</h3>
+
+<div ng-controller="GuidelineNotificationCtrl">
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label class="col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 control-label">Show Notification:</label>
+            <div class="col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">
+                <button class="form-control" ng-click="GuidelineNotificationCtrl.ShowInfo()">Info Notification</button><br />
+                <button class="form-control" ng-click="GuidelineNotificationCtrl.ShowSuccess()">Success Notification</button><br />
+                <button class="form-control" ng-click="GuidelineNotificationCtrl.ShowError()">Error Notification</button><br />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 control-label">Hide Notification:</label>
+            <div class="col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">
+                <button class="form-control" ng-click="GuidelineNotificationCtrl.HideAll()">Hide All Notifications</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<p>HTML looks like this:</p>
+<pre>
+    &lt;div ng-controller=&quot;GuidelineNotificationCtrl&quot;&gt;
+    &lt;div class=&quot;form-horizontal&quot;&gt;
+        &lt;div class=&quot;form-group&quot;&gt;
+            &lt;label class=&quot;col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 control-label&quot;&gt;Show Notification:&lt;/label&gt;
+            &lt;div class=&quot;col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0&quot;&gt;
+                &lt;button class=&quot;form-control&quot; ng-click=&quot;GuidelineNotificationCtrl.ShowInfo()&quot;&gt;Info Notification&lt;/button&gt;&lt;br /&gt;
+                &lt;button class=&quot;form-control&quot; ng-click=&quot;GuidelineNotificationCtrl.ShowSuccess()&quot;&gt;Success Notification&lt;/button&gt;&lt;br /&gt;
+                &lt;button class=&quot;form-control&quot; ng-click=&quot;GuidelineNotificationCtrl.ShowError()&quot;&gt;Error Notification&lt;/button&gt;&lt;br /&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-group&quot;&gt;
+            &lt;label class=&quot;col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 control-label&quot;&gt;Hide Notification:&lt;/label&gt;
+            &lt;div class=&quot;col-xs-10 col-sm-4 col-lg-4 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0&quot;&gt;
+                &lt;button class=&quot;form-control&quot; ng-click=&quot;GuidelineNotificationCtrl.HideAll()&quot;&gt;Hide All Notifications&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+<p>And controller code:</p>
+<pre>
+module Controllers {
+    export class GuidelineNotificationCtrl {
+        ShowInfo: () => void;
+        ShowSuccess: () => void;
+        ShowError: () => void;
+        HideAll: () => void;
+        static $inject: Array&lt;string&gt; = ['$scope', '$location', '$http'];
+        constructor($scope: ng.IScope, $location: ng.ILocationService, $http: ng.IHttpService) {
+            $scope['GuidelineNotificationCtrl'] = this;
+            this.ShowInfo = () => {
+                Dialogs.showInfoNotification({ title: 'Welcome', message: 'Hi BBWT2!' });
+            }
+            this.ShowSuccess = () => {
+                Dialogs.showSuccessNotification({ title: 'Welcome', message: 'Hi BBWT2!' });
+            }
+            this.ShowError = () => {
+                Dialogs.showErrorNotification({ title: 'Error', message: 'Hi BBWT2!' });
+            }
+            this.HideAll = () => {
+                Dialogs.hideAllNotifications();
+            }
+        }
+    }
+}
+</pre>

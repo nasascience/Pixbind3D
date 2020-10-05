@@ -1,0 +1,31 @@
+﻿<h3>Disabled Controls</h3>
+<p>If there's text in the textfield, 'Test button' will become disabled:</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="disabilngTextField" class="col-xs-10 col-sm-4 control-label">Label:</label>
+        <div class="label-content col-xs-11 col-sm-4">
+            <input name="disabilngTextField" type="text" class="form-control" ng-model="testModel.disablingText" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-11 col-sm-8">
+            <button class="k-button pull-right" ng-disabled="testModel.disablingText">Test Button</button>
+        </div>
+    </div>
+</div>
+<p>HTML:</p>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;disabilngTextField&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-11 col-sm-4&quot;&gt;
+            &lt;input name=&quot;disabilngTextField&quot; type=&quot;text&quot; class=&quot;form-control&quot; ng-model=&quot;testModel.disablingText&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;div class=&quot;col-xs-11 col-sm-8&quot;&gt;
+            &lt;button class=&quot;k-button pull-right&quot; ng-disabled=&quot;testModel.disablingText&quot;&gt;Test button&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>

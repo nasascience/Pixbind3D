@@ -1,0 +1,90 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\phantomjs.exe
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Phantom.js
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\phantomjs-license.txt
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.Services.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.Services.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.Domain.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.DTO.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.SSRS.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Common.Logging.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\EntityFramework.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\WebMatrix.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\WebMatrix.WebData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.Domain.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.DTO.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\BBWT.SSRS.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Common.Logging.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\Common.Logging.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\EntityFramework.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\WebMatrix.Data.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\bin\Release\WebMatrix.WebData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\obj\Release\BBWT.Services.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\obj\Release\BBWT.Services.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Services\obj\Release\BBWT.Services.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\phantomjs.exe
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Phantom.js
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\phantomjs-license.txt
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.Services.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.Services.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.DTO.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.SSRS.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Common.Logging.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\EntityFramework.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.Designer.Controls.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.RichText.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\WebMatrix.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\WebMatrix.WebData.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.ReportDesign.Common.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.ReportDesign.Forms.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.ChartWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.GaugeWinControl.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.QueryDesigners.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.WinMap.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.RPLObjectModel.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.RsClient.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.Interfaces.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.Diagnostics.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.DataExtensions.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.SemanticQueryDesign.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.Modeling.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Microsoft.ReportingServices.Design.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.DTO.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\BBWT.SSRS.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\Common.Logging.xml
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\EntityFramework.xml
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\WebMatrix.Data.xml
+D:\Nasa\Projects\Pixbind\BBWT.Services\bin\Release\WebMatrix.WebData.xml
+D:\Nasa\Projects\Pixbind\BBWT.Services\obj\Release\BBWT.Services.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.Services\obj\Release\BBWT.Services.dll
+D:\Nasa\Projects\Pixbind\BBWT.Services\obj\Release\BBWT.Services.pdb

@@ -1,0 +1,21 @@
+﻿<div permission="ManageCompanies">
+    <div class="page-header">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="k-grid-filter-container">
+        <div class="row">
+            <div class="col-sm-6">
+                <input name="companyName" type="text" class="form-control" placeholder="Company name" upper-hint ng-model="CompaniesCtrl.Filter.Name" />
+            </div>
+            <div class="col-sm-3 col-xs-row">
+                <input type="button" class="k-button margin-right-10" value="Search" ng-click="CompaniesCtrl.ApplyFilter()" />
+                <input type="button" class="k-button" value="Clear" ng-click="CompaniesCtrl.ResetFilter()" />
+            </div>
+        </div>
+    </div>
+    <div kendo-grid k-data-source="CompaniesCtrl.CompaniesDS" k-options="CompaniesCtrl.GridOptions">
+    </div>
+    <div class="margin-bottom-15">
+        <button class="k-button" ng-click="CompaniesCtrl.ViewDetails(0)">Create Company</button>
+    </div>
+</div>

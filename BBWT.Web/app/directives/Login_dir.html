@@ -1,0 +1,37 @@
+﻿<span ng-click="LoginCtrl.Cancel()" class="CloseX">x</span>
+    <h1 style="color: #C50000; margin-top: 25px; margin-bottom: -15px; font-size: 3.4em; padding-bottom: 20px;">Login</h1>
+    </br>
+
+<div ng-show="LoginCtrl.IsAuthError" style="position: absolute; margin: auto; left: 0; right: 0; margin-top: -25px;">
+    <span class="text-danger">Email or password are incorrect.</span>
+    <div>&nbsp;</div>
+</div>
+<form class="form-horizontal loginform">
+    <div style="margin-left:-50px">
+        <div class="form-group">
+            <label for="username" class="col-sm-2 control-label">Email:</label>
+            <div class="label-content col-sm-4 col-lg-3">
+                <input name="username" Id="username" autocomplete="off" class="form-control" type="text" ng-model="data.name" />
+            </div>
+        </div>
+        <div style="z-index:10" class="form-group">
+            <label for="pass" class="col-sm-2 control-label">Password:</label>
+            <div class="label-content col-sm-4 col-lg-3" style="z-index: 10;">
+                <input name="pass" id="userpass" autocomplete="off" class="form-control" type="password" ng-model="data.pass" />
+            </div>
+        </div>
+        <div style="z-index:10; margin-left:100px" class="form-group">
+            <div class="col-sm-4 col-lg-3 col-sm-offset-2" style="width: 200px;   height: 60px; margin-top: -35px; margin-bottom: 10px;">
+                <button Id="LoginBtn" style="left: 150px;" class="RegisterBtn col-xs-12" ng-click="LoginCtrl.Login(data)" ng-disabled="LoginCtrl.IsLockOnRequest">Log In</button>
+            </div>
+        </div>
+        <div class="form-group" style="margin-left: -43px;">
+            <div class="">
+                <a href="/recoverpassword" style="margin-right: -70px; font-size: 1.4em;">forgot your password?</a>
+                <br />
+            </div>
+        </div>
+    </div>
+    <br />
+</form>
+<div ng-show="AuthSvc.LoginSpin" class="LoginSpin ng-hide"></div>

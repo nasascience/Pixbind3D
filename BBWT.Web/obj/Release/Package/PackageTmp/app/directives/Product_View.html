@@ -1,0 +1,19 @@
+﻿<span ng-click="CloseProductView()" class="CloseX">x</span>
+<img class="ProductImage" ng-src="../../Content/images/Uploads/{{AuthSvc.SelectedProduct.File}}" />
+<span style="  position: absolute; color: #D70606; top: 290px; font-size: 30px; left: 35px;">{{AuthSvc.SelectedProduct.Title}}</span>
+<span style="  position: absolute; color: #D70606; top: 50px; Left: 350px; font-size: 20px;">Price: {{AuthSvc.SelectedProduct.Price}}$</span>
+<span style="  position: absolute; color: #D70606; top: 80px; Left: 350px; font-size: 20px;">Downloads: {{AuthSvc.SelectedProduct.Downloads + AuthSvc.SelectedProduct.FakeDownloads }}</span> <!--ng-if="{AuthSvc.SelectedProduct.Downloads > 0"-->
+<textarea style="resize: none; position: absolute; top: 340px; width: 425px; left: 35px; border-radius: 3px; height: 70px;" readonly>{{AuthSvc.SelectedProduct.Description}}</textarea>
+<hr style="margin-bottom: 12px; position: absolute; bottom: 136px; width: 488px;" />
+<button class="AnimmaxBtn" ng-click="AddToCart(AuthSvc.SelectedProduct)" style="position: absolute; width: 120px; top: 420px; right: 35px;">Add to Cart</button>
+<img ng-show="AuthSvc.VideoUrlBl" ng-click="ShowVideo()" class="youtubeIcon" src="../../Content/images/AnimMax/Youtube_Icon.png" />
+
+<div style="display: none; overflow:hidden;" id="YoutubeDlg">
+    <div id="VideoContainer" style="width: 100%; height: 100%;"></div>
+    <button id="closedlg" class="AnimmaxBtn" ng-click="ResetWindow()" style="position: absolute; width: 120px; bottom: 30px; right: 30px;">Close</button>
+    <!--<iframe style="width:100%; height:100%;" ng-src="AuthSvc.VideoUrlStr" frameborder="0" allowfullscreen></iframe>-->
+    <!--<div class="popup-content">
+        <iframe style="width:100%; height:100%;" ng-src="AuthSvc.VideoUrlStr" frameborder="0" allowfullscreen></iframe>
+    </div>-->
+
+</div>

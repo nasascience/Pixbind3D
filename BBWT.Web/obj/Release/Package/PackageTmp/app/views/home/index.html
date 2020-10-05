@@ -1,0 +1,178 @@
+﻿<div class="kk-body">
+    <div class="kk-container">
+        <!--<ul ng-show="AuthSvc.User" id="mainMenu" ng-controller="MenuCtrl"></ul>-->
+        <ul id="mainMenu" ng-controller="MenuCtrl"></ul>
+    </div>
+
+    <div class="logo-container">
+        <img ng-click="GoHome()" class="logo-img" src="../../../Content/images/AnimMax/PixbindLogo1.jpg" />
+        <!--<div ng-click="GoHome()" class="logo-company-name">Pixbind</div>
+    <div ng-click="GoHome()" class="logo-slogan">Game Development</div>-->
+
+    </div>
+
+    <div class="kk-in-container1" ng-mouseenter="ShowArrows()" ng-mouseleave="HideArrows()">
+        <div class="kk-left-arrow" ng-click="PrevSlide()">
+            <img class="kk-left-arrow-icon" src="../../../Content/images/AnimMax/left-arrow.png" />
+        </div>
+        <div class="kk-right-arrow" ng-click="NextSlide()">
+            <img class="kk-right-arrow-icon" src="../../../Content/images/AnimMax/right-arrow.png" />
+        </div>
+
+
+        <div class="kk-slide1">
+            <video class="kk-slide1-video1" autoplay loop muted>
+                <source src="../../../Content/videos/Assault%20City.mp4" type="video/mp4" />
+            </video>
+            <!--<img class="kk-environment1" src="../../../Content/images/AnimMax/Environment1.png" />
+            <img class="kk-environment2" src="../../../Content/images/AnimMax/Environment2.png" />
+            <img class="kk-environment3" src="../../../Content/images/AnimMax/Environment3.png" />
+            <div class="kk-slide1-tag1">3d Environments in High Resolution</div>
+            <div class="kk-slide1-tag2">For Multiple Engines</div>-->
+        </div>
+        <div class="kk-slide2">
+            <img class="kk-slide2-characters" src="../../../Content/images/AnimMax/CharactersFull2.png" />
+            <h1 class="kk-slide2-tag1">3D rigged characters ready to animate</h1>
+            <h1 class="kk-slide2-tag2">Animations supported for every game engine</h1>
+        </div>
+        <div class="kk-slide3">
+
+        </div>
+    </div>
+
+
+    <div class="kk-in-container2">
+        <div class="kk-Content">
+            <img class="kk-content-img" src="../../../Content/images/AnimMax/icon_11.png" />
+            <h1 class="">Environments</h1>
+            <div class="kk-content-text">
+                <p>Stop Modeling your environments yourself. Let us do this job for you and save time in your projects.</p>
+                <p class="kk-paragraph">High Quality Landscapes, Cities, War, Urban, Horror and other Environments you can find among the products we offer. All the environments are designed to give to your project a very good looking appareace.</p>
+            </div>
+        </div>
+        <div class="kk-Content">
+            <img class="kk-content-img" src="../../../Content/images/AnimMax/icon_2.png" />
+            <h1 class="">Characters & Animations</h1>
+            <div class="kk-content-text">
+                <p class="kk-paragraph">Do you need Characters for your project? Dont worry. Pixbind offers you Characters that are already rigged and ready to annimate.</p>
+                <p class="kk-paragraph">Here you can find also High-quality animations that are compatible to your 3D character and ready to use into your game.</p>
+            </div>
+        </div>
+        <div class="kk-Content">
+            <img class="kk-content-img" src="../../../Content/images/AnimMax/icon_3.png" />
+            <h1 class="">Other</h1>
+            <div class="kk-content-text">
+               <p>More than 3D modeling and animations. Pixbind offers you a variaety of more competitive products. Video Animation Effects, Web Applications, Desktop Applications, Mobile Applications and Web Services.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="About" class="kk-promotional-signup">
+        <div class="kk-promotional-text">Found out what products <span style="font-weight: bold;">Pixbind</span> offers you.</div>
+        <div class="kk-signup-black">
+            <div ng-click="AuthSvc.RegisterFn()" class="kk-signup-text">Sign up</div>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="kk-in-container3">
+        <div class="kk-tabs-line"></div>
+
+        <div kendo-tab-strip k-content-urls="[ null, null]" class="kk-tabs">
+
+            <!-- tab list -->
+            <ul>
+                <li class="k-state-active">About Us</li>
+                <li>What We Offer</li>
+                <li>Why Choose Us</li>
+            </ul>
+
+            <div style="padding: 1em; height: 350px;">
+                <p>We are a team of professionals who have over 8 years of experience in developing web, mobile, desktop applications, video games, design and 2D/3D animation.</p>
+                <p>Our passion is producing high quality art for both our clients and 3D model store.
+                    We are specialized in environments, structures, background music, special effect, video presentations. 3D animations and charactersthat. Our work is designed to be sold in both Unity Asset Store and Unreal Marketplace.
+                    Innovation, excellence and quality is one of our concerns.</p>
+            </div>
+
+            <div style="padding: 1em; height: 350px;">
+                <p>We offer a variety of products via web. On request and ready to buy from our store.</p>
+                <ul>
+                    <li class="kk-offer-li">Game Environments</li>
+                    <li class="kk-offer-li">3D Modeling</li>
+                    <li class="kk-offer-li">High Quality Textures with Normals and Decals</li>
+                    <li class ="kk-offer-li">3d Rigged Characters</li>
+                    <li class="kk-offer-li">Character Animations</li>
+                    <li class="kk-offer-li">Video Animation Effects</li>
+                    <li class="kk-offer-li">Web Applications</li>
+                    <li class="kk-offer-li">Desktop Applications</li>
+                    <li class="kk-offer-li">Mobile Applications</li>
+                    <li class="kk-offer-li">Web Services</li>
+                </ul>
+            </div>
+            <div style="padding: 1em; height: 350px;">
+                <p>Pixbind offers a great service in the design, development and programming for your projects.</p>
+
+                <p>We strive to offer the best solution for your games and impartial advice at an honest price. We are constantly working with new technologies.</p>
+
+                <p>We love what we do, some might say a bit too much, and we bring enthusiasm and commitment to every project we work on.</p>
+
+                <p>Put simply, if you want good quality in your projects choose Pixbind.</p>
+            </div>
+        </div>
+        <div class="kk-about-fundator">
+            <p style="padding-top: 10%; padding-right: 10%; padding-left: 10%">
+                Team:
+            </p>
+            <p style="padding-right: 10%; padding-left: 10%">
+                Johan Perez
+                Telecommunications and Computer engineer, passionate about technology and lead developer, designer, animator.
+            </p>
+            <p style="padding-right: 10%; padding-left: 10%">
+                Jose Sanchez
+                Computer engineering, performs the task of supplying content to the site and coordinate the development of its sections.
+            </p>
+            <img class="logo-fundator" src="../../../Content/images/AnimMax/PixbindLogo1.jpg" />
+        </div>
+
+
+
+    </div>
+
+    <div id="Contact" class="kk-in-container4">
+        <div class="kk_form_title">Contact Us</div>
+        <div class="kk-form-container">
+            <div class="kk-form-details">
+                <input name="Name" type="text" maxlength="100" class="form-control kk-input-form" ng-model="FormName" required placeholder="Name" /><span class="kk-MandatoryFlag">*</span>
+            </div>
+            <div class="kk-form-details">
+                <input name="Name" type="text" maxlength="100" class="form-control kk-input-form" ng-model="FormEmail" required placeholder="Email Adress" /><span class="kk-MandatoryFlag">*</span>
+            </div>
+            <div class="kk-form-details">
+                <input name="Name" type="text" maxlength="100" class="form-control kk-input-form" ng-model="FormSubject" required placeholder="Subject" /><span class="kk-MandatoryFlag">*</span>
+            </div>
+            <div>
+                <div class="kk-form-details">
+                    <textarea name="Description" style="" class="form-control kk-textarea-form" ng-model="FormDescription" maxlength="500" placeholder="Description" required /><span class="kk-textarea-MandatoryFlag">*</span>
+                </div>
+            </div>
+            <div class="kk-btn-container">
+                <button ng-click="SubmitForm()" class="kk_btn_submit AnimmaxBtn">Submit</button>
+                <button ng-click="ResetForm()" class="kk_btn_reset AnimmaxBtn">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="space" class="kk-in-container5">
+        <img class="logo-fundator-footer" src="../../../Content/images/AnimMax/PixbindLogo1.jpg">
+        <div class="kk-footer-links">
+            <a href="/about/terms">Terms & Conditions</a> &nbsp;|&nbsp;
+            <a href="/about/privacy">Privacy Policy</a> &nbsp;|&nbsp;
+            <span>Copyright © 2015. All rights reserved.</span> 
+        </div>
+    </div>
+
+    <!--<div class="kk-in-container6"></div>-->
+    <hr style="margin-top: 1240px;" />
+</div>

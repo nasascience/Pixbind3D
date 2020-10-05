@@ -1,0 +1,162 @@
+﻿<div>
+    <div class="page-header" style="margin-left: 20%; margin-top: 130px;">
+        <h1>Profile</h1>
+    </div>
+
+    <div style="margin-top: 10px; width: 60%; margin-left: 20%;">
+        <form id="form" name="form" class="form-horizontal" novalidate="" autocomplete="off">
+            <div kendo-tab-strip k-animation="false">
+                <ul>
+                    <li class="k-state-default k-state-active" k-state-disabled>General</li>
+                    <li>Preferences</li>
+                </ul>
+                <div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="name" class="control-label col-xs-2">Email:</label>
+                            <div class="col-xs-4">
+                                <input name="name" autocomplete="off" class="form-control" type="email"
+                                       ng-model="data.name" required validationmessage="Email is required"
+                                       placeholder="myname@example.net"
+                                       data-email-msg="Email format is not valid" />
+                            </div>
+                            <span ng-show="form.name.$invalid"
+                                  class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                                  role="alert">
+                                <span class="k-icon k-warning"> </span>  Please enter "Email"
+                            </span>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName" class="control-label col-xs-2">First name:</label>
+                            <div class="col-xs-4">
+                                <input name="firstName" autocomplete="off" class="form-control" type="text"
+                                       ng-model="data.firstName" validationmessage="First Name is 0..8000 chars"
+                                       placeholder="First Name" pattern="[a-zA-Z]{0,8000}" />
+                            </div>
+                            <span ng-show="form.firstName.$invalid"
+                                  class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                                  role="alert">
+                                <span class="k-icon k-warning"> </span>  Please enter "First Name"
+                            </span>
+                        </div>
+                        <div class="form-group">
+                            <label for="surname" class="control-label col-xs-2">Surname:</label>
+                            <div class="col-xs-4">
+                                <input name="surname" autocomplete="off" class="form-control" type="text"
+                                       ng-model="data.surname" required validationmessage="Surname is 0..8000 chars"
+                                       placeholder="Surname" pattern="[a-zA-Z]{0,8000}" />
+                            </div>
+                            <span ng-show="form.surname.$invalid"
+                                  class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                                  role="alert">
+                                <span class="k-icon k-warning"> </span>  Please enter "Surname"
+                            </span>
+                        </div>
+
+                        <button class="k-button" ng-click="showChangePassowrdDialog()">Change Password</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="languageId" class="control-label col-xs-2">Language:</label>
+                            <div class="col-xs-4">
+                                <select name="languageId"
+                                        class="form-control"
+                                        kendo-drop-down-list
+                                        ng-model="data.languageId"
+                                        k-data-source="languagesSource"
+                                        k-data-value-field="'Id'"
+                                        k-data-text-field="'Name'"></select>
+                            </div>
+                            <span class="k-widget k-tooltip k-tooltip-validation k-invalid-msg" role="alert">
+                                <span class="k-icon k-warning"></span>
+                                Not implemented yet
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+        <div>
+            <button class="k-button" ng-click="save()" ng-disabled="form.$invalid">Save</button>
+
+            <a href="/" class="k-button">Cancel</a>
+        </div>
+    </div>
+</div>
+
+<div id="changePasswordInputDlg" style="display: none;">
+    <div class="popup-content">
+        <form id="passwordForm" name="passwordForm" novalidate="">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="currentPassword" class="control-label col-xs-4">Current password:</label>
+                    <div class="col-xs-4">
+                        <input id="currentPassword"
+                               name="currentPassword"
+                               autocomplete="off"
+                               class="form-control"
+                               type="password"
+                               required
+                               ng-model="passwordData.currentPassword"
+                               placeholder="Password" />
+                    </div>
+                    <span ng-show="passwordForm.currentPassword.$invalid"
+                          class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                          role="alert">
+                        <span class="k-icon k-warning"> </span>  Password is required
+                    </span>
+                </div>
+
+                <div class="form-group">
+                    <label for="newPassword" class="control-label col-xs-4">New password:</label>
+                    <div class="col-xs-4">
+                        <input id="newPassword"
+                               name="newPassword"
+                               autocomplete="off"
+                               class="form-control"
+                               type="password"
+                               required
+                               ng-model="passwordData.newPassword"
+                               placeholder="Password" />
+                    </div>
+
+                    <span ng-show="passwordForm.newPassword.$invalid"
+                          class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                          role="alert">
+                        <span class="k-icon k-warning"> </span>  New password is required
+                    </span>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmNewPassword" class="control-label col-xs-4">Re-enter new password:</label>
+                    <div class="col-xs-4">
+                        <input id="confirmNewPassword"
+                               name="confirmNewPassword"
+                               autocomplete="off"
+                               class="form-control"
+                               type="password"
+                               ng-model="passwordData.confirmNewPassword"
+                               match="newPassword"
+                               placeholder="Confirm password"
+                               validationmessage="Passwords must match" />
+                    </div>
+                    <span ng-show="passwordForm.confirmNewPassword.$error.match"
+                          class="k-widget k-tooltip k-tooltip-validation k-invalid-msg"
+                          role="alert">
+                        <span class="k-icon k-warning"> </span> Passwords must match
+                    </span>
+
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="popup-footer">
+        <div class="col-sm-5 col-sm-offset-3">
+            <button class="k-button col-sm-5 pull-left btn-ok" ng-click="changePassword()" ng-disabled="passwordForm.$invalid">Update</button>
+            <button class="k-button col-sm-5 pull-right btn-cancel">Cancel</button>
+        </div>
+    </div>
+</div>

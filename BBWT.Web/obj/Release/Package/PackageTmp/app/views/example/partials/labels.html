@@ -1,0 +1,170 @@
+﻿<h3>Labels and Inputs</h3>
+We use the following:
+<ul>
+    <li>Label: Dark grey, #474747</li>
+    <li>Input Text: Light grey, #6f6f6f</li>
+    <li>Disabled Text: Grey, #b5b5bb5</li>
+    <li>Space from end of prompt/label to start of element: 15px</li>
+    <li>Inner margin inside elements: 12px</li>
+</ul>
+<p>
+    The controls should be aligned at a distance from the left hand side equal to 1/6th of the container's width. The labels for the controls should be right-aligned.
+</p>
+<div class="form-horizontal">
+    <div class="form-group">                
+        <label for="textField" class="col-xs-10 col-sm-4 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="textField" type="text" class="form-control" value="Text field" />
+        </div>
+
+    </div>
+</div>
+<p>The label takes the default width of 1/6th of the containter and the input the default width of 1/4th</p>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;        
+        &lt;label for=&quot;textField&quot; class=&quot;col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4 col-xs-offset-0 col-sm-offset-0&quot;&gt;
+            &lt;input name=&quot;textField&quot; type=&quot;text&quot; class=&quot;form-control&quot; value=&quot;Text field&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>Similarly for checkboxes, radios, select controls and textareas:</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <div class="col-sm-4 col-xs-offset-1 col-sm-offset-4">
+            <label class="checkbox">
+                <input type="checkbox" />
+                Label
+            </label>
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;div class=&quot;col-sm-4 col-xs-offset-1 col-sm-offset-4&quot;&gt;
+            &lt;label class=&quot;checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; /&gt;
+                Label
+            &lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<div class="form-horizontal">
+    <div class="form-group">
+        <div class="col-sm-4 col-xs-offset-1 col-sm-offset-4">
+            <label class="radio">
+                <input type="radio" />
+                Label
+            </label>
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;div class=&quot;col-sm-4 col-xs-offset-1 col-sm-offset-4&quot;&gt;
+            &lt;label class=&quot;radio&quot;&gt;
+                &lt;input type=&quot;radio&quot; /&gt;
+                Label
+            &lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="selectTest" class="col-xs-10 col-sm-4 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <select name="selectTest" id="selectTest" class="form-control" kendo-drop-down-list>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+            </select>
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;selectTest&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;select name=&quot;selectTest&quot; id=&quot;select1&quot; class=&quot;form-control&quot; kendo-drop-down-list&gt;
+                &lt;option value=&quot;1&quot;&gt;One&lt;/option&gt;
+                &lt;option value=&quot;2&quot;&gt;Two&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="dataArea" class="col-xs-10 col-sm-4 control-label">Label:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <textarea name="dataArea" class="form-control" style="min-height: 300px;">Sample</textarea>
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;dataArea&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;Label:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;textarea name=&quot;dataArea&quot; class=&quot;form-control&quot; style=&quot;min-height: 300px;&quot;&gt;Sample&lt;/textarea&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>Multiline labels:</p>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="textFieldWithLongLabel" class="col-xs-10 col-sm-4 control-label control-label-2">This is an extraordinarily long label and long labels should be avoided wherever possible:</label>
+        <div class="label-content col-xs-10 col-sm-4">
+            <input name="textFieldWithLongLabel" type="text" class="form-control" placeholder="Text field with multiline label" />
+        </div>
+    </div>
+</div>
+<pre>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;textFieldWithLongLabel&quot; class=&quot;col-xs-10 col-sm-4 control-label&quot;&gt;This is an extraordinarily long label and long labels should be avoided wherever possible:&lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;input name=&quot;textFieldWithLongLabel&quot; type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Text field with multiline label&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>On a page displaying read-only controls only, align the controls to the left. Try and avoid mixing editable and read-only controls on the same pane. Where this is not possible prefer showing all the controls centrally aligned.</p>
+<div class="form-horizontal">
+    <div class="form-group form-group-static">
+        <label class="col-xs-12 col-sm-4 control-label control-label-static">Label of Text Value 1: </label>
+        <div class="label-content col-xs-12 col-sm-4">
+            <span class="form-control form-control-static">Text Value 1</span>
+        </div>
+    </div>
+    <div class="form-group form-group-static">
+        <label class="col-xs-12 col-sm-4 control-label control-label-static">Label of Text Value 2: </label>
+        <div class="label-content col-xs-12 col-sm-4">
+            <span class="form-control form-control-static">Text Value 2</span>
+        </div>
+    </div>
+</div>
+<p style="margin-top:25px;">Code for this:</p>
+<pre ng-non-bindable>
+&lt;div class=&quot;form-horizontal&quot;&gt;
+    &lt;div class=&quot;form-group form-group-static&quot;&gt;
+        &lt;label class=&quot;col-xs-4 col-sm-2 control-label control-label-static&quot;&gt;Label of Text Value 1: &lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;span class=&quot;form-control form-control-static&quot;&gt;Text Value 1&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group form-group-static&quot;&gt;
+        &lt;label class=&quot;col-xs-4 col-sm-2 control-label control-label-static&quot;&gt;Label of Text Value 2: &lt;/label&gt;
+        &lt;div class=&quot;label-content col-xs-10 col-sm-4&quot;&gt;
+            &lt;span class=&quot;form-control form-control-static&quot;&gt;Text Value 2&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>

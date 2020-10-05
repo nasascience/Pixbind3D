@@ -1,0 +1,130 @@
+﻿<div class="kk-body">
+    <div class="col-md-12 HeaderContainer">
+        <div class="InnerShadow"></div>
+        <img src="../../../Content/images/Pixbind/games.jpg" class="ImgHeader" />
+    </div>
+    <nav class="b-generic-nav" data-role="pagenav" style="box-shadow: 0px 1px 5px #B17E34; z-index: 1;">
+        <input class="px-search" ng-mouseenter="ShowCategoryPanel()" type="text" name="name" placeholder="Search" />
+        <img class="px-search-lupa" src="../../../Content/images/Pixbind/lupa.png" />
+        <div class="cat-panel" style="display:none" ng-mouseleave="HideCategoryPanel()">
+            <div class="filters-list">
+                <h5>Games Genre</h5>
+                <ul class="list-unstyled">
+                    <li ng-repeat="afilter in Gamesfilters">
+                        <label>
+                            <input type="checkbox" value="{{afilter.Name}}" ng-click="FilterCheck($event)" checked>
+                            <!--<span> </span>-->
+                            <span>{{afilter.Name}}</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="position: absolute; right: 5%; text-align: center; top: 10px; z-index: 10;" ng-if="AuthSvc.User">
+            <span style="position: absolute; color: white; margin-left: -30px; margin-top: 6px; text-align: center; background-color: #A80404; border-radius: 50px; width: 22px; height: 22px; background-color: #E68017; box-shadow: inset 0 0 10px red"></span>
+            <span ng-click="CartView()" style="cursor:pointer; position: absolute; color: white; margin-left: -34px; margin-top: 10px; width: 30px; font-size: 16px;">{{AuthSvc.CartProducts.length}}</span>
+            <img ng-click="CartView()" style="cursor:pointer; /*position: absolute;*/ width: 25px; height: 25px; top: 0; margin-top: 4px; left: 0;" src="../../../Content/images/Pixbind/cart2.png" />
+        </div>
+
+        <div class="b-generic-nav-con" data-role="pagenav-con">
+            <div class="b-generic-nav-main">
+                <ul>
+                    <li>
+                        <a href="/" data-role="people-anchor" data-alias="construction,fitout,quality">Home</a>
+                    </li>
+                    <li>
+                        <a href="/environment" data-role="people-anchor" data-alias="construction,fitout,quality">Environments</a>
+                    </li>
+                    <li class="_Selected">
+                        <a href="/games" data-role="people-anchor" data-alias="construction,fitout,quality">Games</a>
+                    </li>
+                    <li>
+                        <a href="/projects" data-role="people-anchor" data-alias="engineering">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/anim" data-role="people-anchor" data-alias="design">Animations</a>
+                    </li>
+                    <li>
+                        <a href="/assets" data-role="people-anchor" data-alias="business,administrative">Assets</a>
+                    </li>
+                    <li ng-if="AuthSvc.User">
+                        <a href="/myitems" data-role="people-anchor" data-alias="mytems">My Items</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="col-md-12 BodyContainer">
+
+        <div kendo-list-view id="games-listView" k-data-source="GamesSource">
+            <div class="games-product" k-template>
+                <div style="text-align: end; position: absolute; right: 0; width: 100%; bottom: 20px; height: 40px; z-index: 2;">
+                    <img title="Watch to Youtube" ng-show="{{dataItem.Youtube}}" ng-click="ShowVideo(dataItem)" style="cursor:pointer; width: 100px !important; height: 40px !important; margin-right: 10px;" src="../../Content/images/Pixbind/YouTube-logo-light.png" />                 
+                    <img title="Windows" ng-show="{{dataItem.PC}}" ng-click="ShowVideo()" class="GameAvailabilityIcons" src="../../Content/images/Pixbind/pc.png" />
+                    <img title="MacOs" ng-show="{{dataItem.Mac}}" ng-click="ShowVideo()" class="GameAvailabilityIcons" src="../../Content/images/Pixbind/apple-logo-white-hi.png" />
+                    <img title="Linux" ng-show="{{dataItem.Linux}}" ng-click="ShowVideo()" class="GameAvailabilityIcons" src="../../Content/images/Pixbind/white-linux-256.png" />
+                    <img title="Android" ng-show="{{dataItem.Android}}" ng-click="ShowVideo()" class="GameAvailabilityIcons" src="../../Content/images/Pixbind/Android_Logo.png" />
+                    <img title="iOS" ng-show="{{dataItem.iOS}}" ng-click="ShowVideo()" class="GameAvailabilityIcons" src="../../Content/images/Pixbind/IOS_Logo.png" />
+                </div>
+                <!--<div style="height: 100%; position: absolute; right: 0; background: rgb(255, 255, 255); width: 100%; box-shadow: 0 0 100px white; "></div>-->
+                <img style="display: block; height: 100%; position: absolute; right: 0; top: 0; width: 100%; " src="../../../Content/images/Pixbind/light%20green.png" />
+                <img style="display: none; height: 100%; position: absolute; right: 0; top: 0; width: 100%; " src="../../../Content/images/Pixbind/brown.png" />
+                <img style="display: none; height: 100%; position: absolute; right: 0; top: 0; width: 100%; " src="../../../Content/images/Pixbind/olive.png" />
+                <img style="display: none; height: 100%; position: absolute; right: 0; top: 0; width: 100%; " src="../../../Content/images/Pixbind/orange.png" />
+
+                <img style="height: 75px; position: absolute; left: 0; bottom: 20px; width: 50%;" src="../../../Content/images/Pixbind/transp%20line.png" />
+
+                <img ng-src="../../../Content/images/Uploads/{{dataItem.File}}" alt=" {{dataItem.Title}} image" />
+
+                <h1 style="position: absolute; bottom: 35px; left: 20px; font-size: 4em; color: white; text-shadow: 0px 0px 10px rgb(154, 159, 113);">{{ dataItem.Title }}</h1>
+                <h1 style="position: absolute; top: 80px; width: 40%; border: none; right: 25px; font-size: 2.7em; text-align: left; color: black; text-shadow: 0px 0px 10px rgb(96, 90, 81);">{{ dataItem.Title }}</h1>
+                <textarea style="text-shadow: 0px 0px 10px rgb(96, 90, 81); position: absolute; top: 110px; border: none; background: rgba(240, 248, 255, 0); right: 20px; width: 40%; height: 150px; font-size: 1.6em; color: black; resize: none;">{{ dataItem.Description }}</textarea>
+                
+
+                <div ng-show="{{dataItem.Complete}} && {{dataItem.IsGame}}" class="games-price ng-hide">
+                    {{ dataItem.Price | currency }}
+                </div>
+                <div ng-show="!{{dataItem.Complete}} && {{dataItem.IsGame}}" class="projesct-completed-label ng-hide">
+                    This Game is in process
+                </div>
+                <div ng-show="{{dataItem.HasDemo}} && !{{dataItem.Complete}} && {{dataItem.IsGame}}" class="projects-download-demo-btn ng-hide" ng-click="DownloadDemo(dataItem)">
+                    Download Demo
+                </div>
+                <div ng-show="{{dataItem.Complete}} && {{dataItem.IsGame}}" class="games-buy-btn ng-hide" ng-click="AuthSvc.DirectPay(dataItem)">
+                    Buy
+                </div>
+                <div ng-show="{{dataItem.Complete}} && {{dataItem.IsGame}}" class="games-add-btn ng-hide" ng-click="AddToCart(dataItem)">
+                    Add
+                    <img style="position: absolute; width: 20px !important; height: 20px !important; right: 12px; top: 6px;" src="../../../Content/images/Pixbind/cart1.png" />
+                </div>
+                <!--<span ng-show="({dataItem.Price}} > 0)">{ dataItem.Price | currency }}</span>
+                <span ng-show="({dataItem.Price}} <= 0)">Free</span>
+
+                <div class="env-short-desc">
+                    <i style="font-size: 1.1em; color: dimgrey;">{ dataItem.Title }} - </i>{ dataItem.Description }}
+                </div>
+                <div class="item-add-to-cart" style="text-align: start; height: 30px; padding-top: 10px; font-size: 1.5em;" ng-click="AddToCart(dataItem)">
+                    <div class="cartDiv" style=" margin-left: 60px; margin-right: 8px;">
+                        <div class="cartImg"></div>
+                    </div>
+                    Add
+                </div>
+                <div class="item-buy" style="height: 30px; padding-top: 10px; font-size: 1.5em;">Buy</div>-->
+            </div>
+        </div>
+        <div kendo-pager k-data-source="GamesSource"></div>
+    </div>
+</div>
+
+<form id="PaydirectForm" action='https://www.2checkout.com/checkout/purchase' method='post' style="display:none">
+    <input type='hidden' name='sid' value='202853627' />
+    <input type='hidden' name='mode' value='2CO' />
+    <input type='hidden' name='li_0_type' value='product' />
+    <input type='hidden' name='li_0_name' value='xxxx' />
+    <input type='hidden' name='li_0_price' value='12.5' />
+    <input type='hidden' name='email' value='nasa@ho.com' />
+    <input type='submit' value='Checkout' />
+</form>

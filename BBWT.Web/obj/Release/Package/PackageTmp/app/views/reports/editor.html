@@ -1,0 +1,190 @@
+﻿<div class="page-header">
+    <h1>Edit report</h1>
+    <span class="purpose">Report editor will be here</span>
+</div>
+
+<div>
+    <div class="wizard-containter">
+        <div class="wizard-header">
+            <span><b> {{ ReportEditorCtrl.getTabLabel(); }}</b></span>
+        </div>
+        <div class="wizard-step-container">
+            <!--step 0-->
+            <div ng-show="ReportEditorCtrl.step == 0">
+                <div class="wizard-step-content">
+                    <form class="form-horizontal" name="ReportDefinition" novalidate autocomplete="off">
+                        <div class="form-group">
+                            <label for="name" class="col-xs-10 col-sm-4 control-label">Name:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="name" autocomplete="off" class="form-control" type="text"
+                                       ng-model="ReportEditorCtrl.Report.ReportName" required validationmessage="Report Name is required" 
+                                       placeholder="Report Name" data-email-msg="Report Name is required" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="name"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="description" class="col-xs-10 col-sm-4 control-label">Description:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="description" autocomplete="off" class="form-control" type="text"
+                                       ng-model="ReportEditorCtrl.Report.ReportDescription" placeholder="Report Description" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0">
+                                <div class="k-invalid-msg" data-for="description"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--step 1-->
+            <div ng-show="ReportEditorCtrl.step == 1">
+                <div class="wizard-step-content">
+                    <form class="form-horizontal" name="ReportLayout" novalidate autocomplete="off">
+                        <div class="form-group">
+                            <label for="name" class="col-xs-10 col-sm-4 control-label">Section name:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <input name="sectionname" autocomplete="off" class="form-control" type="text"
+                                       required validationmessage="Section Name is required" 
+                                       placeholder="Section Name" data-email-msg="Section Name is required" />
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="sectionname"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="query" class="col-xs-10 col-sm-4 control-label">Query:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <textarea name="query" ng-model="ReportEditorCtrl.Report.Query" class="form-control" readonly="readonly"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="query" class="col-xs-10 col-sm-4 control-label">&nbsp;</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <button class="k-button" ng-click="ReportEditorCtrl.ShowSqlBrowser()" title="Show Sql Browser">Sql Browser</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="query" class="col-xs-10 col-sm-4 control-label">Parameters:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <div class="row" ng-repeat="parameter in ReportEditorCtrl.ReportParameters">
+                                    <div class="col-sm-8">
+                                        @{{parameter.Name}}
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <a class="btn-link" ng-click="ReportEditorCtrl.ShowEditParameterDialog()">Edit</a>
+                                        <a class="btn-link" ng-click="ReportEditorCtrl.RemoveParameter(parameter)">Remove</a>
+                                    </div>
+                                </div>
+                                <button class="k-button" ng-click="ReportEditorCtrl.ShowEditParameterDialog()" title="Show Sql Browser">Add</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="sectiontype" class="col-xs-10 col-sm-4 control-label">Section Type:</label>
+                            <div class="label-content col-xs-10 col-sm-4">
+                                <select name="sectiontype" class="form-control">
+                                    <option value="1">Table</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-10 col-sm-4">
+                                <div class="k-invalid-msg" data-for="sectiontype"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wizard-action-bar">
+        <div class="row">
+            <div class="pull-left">
+                <a href="/" class="k-button">Cancel</a>
+            </div>            
+            <div class="pull-right">                
+                <button class="k-button" ng-click="ReportEditorCtrl.handleNext()" ng-disabled="!ReportEditorCtrl.pageIsValid()">{{ ReportEditorCtrl.getNextLabel() }}</button>                                    
+            </div>
+            <div class="pull-right">
+                <button class="k-button btn-pre" ng-click="ReportEditorCtrl.handlePrevious()" ng-show="!ReportEditorCtrl.isFirstStep()">Previous</button>
+            </div>            
+        </div>       
+    </div>
+    
+    <div style="display: none;" id="SqlBrowserDialog">
+        <div class="popup-content">
+            <div class="form-horizontal">
+                <div class="row" style="height: 300px;">
+                    <div class="col-sm-4">
+                        <div style="height: 300px; overflow: auto;" kendo-tree-view="ReportEditorCtrl.DatabasesTreeControl" k-options="ReportEditorCtrl.DatabasesTree" k-rebind="ReportEditorCtrl.DatabasesTree" k-on-expand="ReportEditorCtrl.OnDatabaseNodeExpand(kendoEvent)" k-on-change="ReportEditorCtrl.OnDatabaseNodeChange(kendoEvent)"></div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="form-group">
+                                    <label for="sqlbrowserquery" class="col-xs-10 col-sm-4 control-label">Current Db:</label>
+                                    <div class="label-content col-xs-8 col-sm-8">
+                                        <input class="form-control" readonly="readonly" ng-model="ReportEditorCtrl.SqlBrowser.CurrentDatabase"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sqlbrowserquery" class="col-xs-10 col-sm-4 control-label">Query:</label>
+                                    <div class="label-content col-xs-8 col-sm-8">
+                                        <textarea name="sqlbrowserquery" ng-model="ReportEditorCtrl.SqlBrowser.Query" class="form-control" rows="7" style="max-height: 250px;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="height: 200px;">
+                    <div class="col-sm-11">
+                        <div class="form-group" data-ng-show="ReportEditorCtrl.SqlBrowser.ExecutionResult.Executed && ReportEditorCtrl.SqlBrowser.ExecutionResult.Exception == ''">
+                            <table class="table table-responsive" style="height: 200px!important; overflow: auto;">
+                                <thead>
+                                    <tr>
+                                        <th ng-repeat="column in ReportEditorCtrl.SqlBrowser.ExecutionResult.Columns">
+                                            {{column}}
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="row in ReportEditorCtrl.SqlBrowser.ExecutionResult.Rows">
+                                        <td ng-repeat="cell in row.Cells">{{cell.Value}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="form-group" data-ng-show="ReportEditorCtrl.SqlBrowser.ExecutionResult.Executed && ReportEditorCtrl.SqlBrowser.ExecutionResult.Exception != ''">
+                            <div class="text-danger">{{ReportEditorCtrl.SqlBrowser.ExecutionResult.Exception}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup-footer">
+            <div class="text-center">
+                <button class="k-button" ng-click="ReportEditorCtrl.RunQueryClickHandler()" ng-disabled="ReportEditorCtrl.IsEmptyQuery()">Run Query</button>
+                <button class="k-button btn-ok" ng-click="ReportEditorCtrl.ApplyQueryClickHandler()">Apply</button>
+                <button class="k-button btn-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+    <div style="display: none;" id="EditParameterDialog">
+        <div class="popup-content">
+            <div class="form-horizontal">
+               
+            </div>
+        </div>
+        <div class="popup-footer">
+            <div class="text-center">                
+                <button class="k-button btn-ok" ng-click="ReportEditorCtrl.ApplyQueryClickHandler()">Apply</button>
+                <button class="k-button btn-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

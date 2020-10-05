@@ -1,0 +1,10 @@
+﻿@using MvcReportViewer
+
+@if (@ViewBag.Parameters != null)
+{
+    @Html.MvcReportViewerFluent((string)@ViewBag.Path).ControlSettings(new ControlSettings() { ShowParameterPrompts = false }).ReportParameters((IEnumerable<KeyValuePair<string, object>>)@ViewBag.Parameters).Attributes(new { Class = "col-sm-12", scrolling = "no", style = "width:100%; height:1000px; border:none;" })
+}
+else
+{
+    @Html.MvcReportViewerFluent((string)@ViewBag.Path).ControlSettings(new ControlSettings() { ShowParameterPrompts = false }).Attributes(new { Class = "col-sm-12", scrolling = "no", style = "width:100%; height:1000px; border:none;" })
+}

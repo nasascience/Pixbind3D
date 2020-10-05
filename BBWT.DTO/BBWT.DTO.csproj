@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06DFF84D-0BAA-45B6-BEEB-82C653ADB334}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BBWT.DTO</RootNamespace>
+    <AssemblyName>BBWT.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckBoxItemDTO.cs" />
+    <Compile Include="Content\CustomContentItemDTO.cs" />
+    <Compile Include="Content\CustomContentDTO.cs" />
+    <Compile Include="Demo\CartDto.cs" />
+    <Compile Include="Demo\CategoryDTO.cs" />
+    <Compile Include="Demo\CustomerDTO.cs" />
+    <Compile Include="Demo\NewTypeCategoryDTO.cs" />
+    <Compile Include="Demo\OrderDTO.cs" />
+    <Compile Include="Demo\OrderDetailDTO.cs" />
+    <Compile Include="Demo\ProductCategoryDTO.cs" />
+    <Compile Include="Demo\ProductDataDTO.cs" />
+    <Compile Include="Demo\ProductDTO.cs" />
+    <Compile Include="DAD\PublicacionDTO.cs" />
+    <Compile Include="Demo\ProductTypeDTO.cs" />
+    <Compile Include="Demo\RegionDTO.cs" />
+    <Compile Include="Demo\TerritoryDTO.cs" />
+    <Compile Include="Demo\UserOrderProducsDTO.cs" />
+    <Compile Include="Dictionary\LanguageDto.cs" />
+    <Compile Include="Demo\FormDTO.cs" />
+    <Compile Include="Membership\AccountDTO.cs" />
+    <Compile Include="Membership\ChangePasswordDto.cs" />
+    <Compile Include="Membership\CompanyDTO.cs" />
+    <Compile Include="Membership\CompanyListItemDTO.cs" />
+    <Compile Include="Membership\RecoverPasswordDTO.cs" />
+    <Compile Include="Membership\ResetRegisterTicketDTO.cs" />
+    <Compile Include="Membership\GroupDTO.cs" />
+    <Compile Include="Membership\GroupsListItemDTO.cs" />
+    <Compile Include="Membership\LoginDTO.cs" />
+    <Compile Include="Membership\PermissionDetailsDTO.cs" />
+    <Compile Include="Membership\PermissionDTO.cs" />
+    <Compile Include="Membership\RegisterCompanyDTO.cs" />
+    <Compile Include="Membership\RegisterUserDTO.cs" />
+    <Compile Include="Membership\RoleDTO.cs" />
+    <Compile Include="Membership\RolePermissionsDTO.cs" />
+    <Compile Include="Membership\RolesListItemDTO.cs" />
+    <Compile Include="Membership\SelectedUserDTO.cs" />
+    <Compile Include="Membership\UpdateUserDTO.cs" />
+    <Compile Include="Membership\UserDTO.cs" />
+    <Compile Include="Membership\UserSettingsDto.cs" />
+    <Compile Include="MenuItemDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\CreateReportModelDTO.cs" />
+    <Compile Include="Reports\ExecuteReportDTO.cs" />
+    <Compile Include="Reports\ParameterDTO.cs" />
+    <Compile Include="Reports\ParameterValuesDTO.cs" />
+    <Compile Include="Reports\ReportDTO.cs" />
+    <Compile Include="Reports\SqlBrowser\ColumnDescriptorDTO.cs" />
+    <Compile Include="Reports\SqlBrowser\DatabaseDescriptorDTO.cs" />
+    <Compile Include="Reports\SqlBrowser\QueryExecutionResultCellDTO.cs" />
+    <Compile Include="Reports\SqlBrowser\QueryExecutionResultDTO.cs" />
+    <Compile Include="Reports\SqlBrowser\QueryExecutionResultRowDTO.cs" />
+    <Compile Include="Reports\SqlBrowser\RunQueryDTO.cs" />
+    <Compile Include="Template\EmailTemplateDetailsDTO.cs" />
+    <Compile Include="Template\EmailTemplateDTO.cs" />
+    <Compile Include="Template\TemplateParameterDTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BBWT.Data\BBWT.Data.csproj">
+      <Project>{6083A1FE-CBC2-4308-9756-8F9D7F172AFE}</Project>
+      <Name>BBWT.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Animmax\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

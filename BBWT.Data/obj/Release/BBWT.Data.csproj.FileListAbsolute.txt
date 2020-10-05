@@ -1,0 +1,10 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\bin\Release\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\bin\Release\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\obj\Release\BBWT.Data.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\obj\Release\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Data\obj\Release\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Data\bin\Release\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Data\bin\Release\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Data\obj\Release\BBWT.Data.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.Data\obj\Release\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Data\obj\Release\BBWT.Data.pdb

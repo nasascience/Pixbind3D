@@ -1,0 +1,33 @@
+﻿<div class="page-header">
+    <h1>Crear Publicacion</h1>
+</div>
+<form name="form" novalidate class="form-horizontal">
+    <div>
+        <input name="files"
+               type="file"
+               kendo-upload
+               k-async="{ saveUrl: '/upload/save', removeUrl: '/upload/remove', autoUpload: false }"
+               k-select="onSelect" />
+    </div>
+    <div class="form-horizontal">
+        <div class="form-group" style="width:95%;">
+            <label style="margin-left:5%" for="testText">Título:</label>
+            <div style="margin-left:5%">
+                <input name="titulo" id="testText" ng-model="VideoData.VideoTitulo" class="form-control" type="text" maxlength="73" />
+            </div>
+
+            <label style="margin-left:5%" for="testText">Video Url:</label>
+            <div style="margin-left:5%">
+                <input name="VideoUrl" id="testText" ng-model="VideoData.VideoURL" class="form-control" type="text" maxlength="73" />
+            </div>
+
+            <label style="margin-left:5%" for="dataArea">Descripción:</label>
+            <div style="margin-left:5%">
+                <textarea name="descripcion" ng-model="VideoData.VideoDescripcion" class="form-control" style="min-height: 300px;"></textarea>
+            </div>
+        </div>
+
+        <button class="k-button btn-pad-right" ng-click="Save(VideoData)">Save</button>
+        <button class="k-button" ng-click="Cancel()">Close</button>
+    </div>
+</form>

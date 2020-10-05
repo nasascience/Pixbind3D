@@ -1,0 +1,35 @@
+﻿<div class="page-header">
+    <h1>View report<span> {{ReportViewerCtrl.ReportName}}</span></h1>
+    <span class="purpose">{{ReportViewerCtrl.ReportDescription}}</span>
+</div>
+
+<form name="executeForm" data-ng-submit="ReportViewerCtrl.Execute()">
+    <input type="hidden" name="path" value="{{ReportViewerCtrl.ReportPath}}">
+    <div class="form-horizontal">
+        <div class="form-group" ng-repeat="param in ReportViewerCtrl.ReportParameters| filter:{ IsHidden: false }">
+            <label for="{{param.Name}}" class="col-xs-10 col-sm-3 col-lg-3 control-label">{{param.Prompt}}:</label>
+            <div ng-if="!param.HasPredefinedValues" class="label-content col-xs-10 col-sm-7 col-lg-7">
+                <input name="{{param.Name}}" class="form-control"  ng-model="param.Value" />
+            </div>
+            <div ng-if="param.HasPredefinedValues" class="label-content col-xs-10 col-sm-7 col-lg-7">
+                <select ng-model="param.Value" name="{{param.Name}}" id="{{param.Name}}" class="form-control" kendo-drop-down-list ng-options="value.Label for value in param.ValidValues">
+                    <option value="" disabled>{{param.Prompt}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="form-horizontal" ng-show ="ReportViewerCtrl.ExecuteBtnVisible()">
+        <button class="k-button" type="submit">View</button>
+    </div>
+    
+    <div class="hidden" ng-repeat="p in ReportViewerCtrl.ReportParameters">
+        <input type="hidden" name="parameters[{{$index}}].Name" value="{{p.Name}}" >
+        <input type="hidden" name="parameters[{{$index}}].Value" value="{{p.Value.Value}}" >
+    </div>
+</form>
+<iframe frameborder="0" scrolling="no" style="border: none; height: 1000px;" class="col-sm-12" ng-src="{{ReportViewerCtrl.ReportExecutionUrl}}"></iframe>
+
+
+
+

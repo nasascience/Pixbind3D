@@ -1,0 +1,54 @@
+﻿<div permission="ManageRoles">
+    <div class="page-header">
+        <h1 ng-show="Role.Id == 0">Create Role</h1>
+        <h1 ng-show="Role.Id != 0">Edit Role <small>{{Role.Name}}</small></h1>
+        <span class="small">Use this form to edit role details</span>
+    </div>
+    <div id="errors" class="alert alert-danger" ng-show="form.$invalid && form.$dirty">
+        <!-- Placeholder to show validation summary-->
+        <div ng-show="form.role.$invalid">Name is required</div>
+    </div>
+    <form name="form" novalidate class="form-horizontal">
+        <div class="row">
+            <div class="form-group">
+                <label for="role" class="col-xs-10 col-sm-4 control-label">Role Name:</label>
+                <div class="col-xs-10 col-sm-4 label-content">
+                    <input type="text" class="form-control" name="role" ng-model="Role.Name" required />
+                </div>
+                <div class="col-xs-10 col-sm-4 text-danger form-control-static" ng-show="form.role.$invalid">
+                    Name is required
+                </div>
+            </div>
+        </div>
+
+        <div kendo-tab-strip k-animation="false">
+            <ul>
+                <li class="k-state-active">Permissions</li>
+                <li>Users</li>
+            </ul>
+            <div class="row">
+                <div class="panel-body">
+                    <h2>Permissions</h2>
+                    <label>Has permission: </label>
+                    <select ng-model="FilterPermissionsValue" ng-change="FilterPermissions(FilterPermissionsValue)">
+                        <option selected="selected" value=""></option>
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                    <div id="permissionsGrid" kendo-grid k-data-source="PermissionsGridDS" k-options="PermissionsGridOptions"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel-body">
+                    <h2>Users</h2>
+                    <div class="info">Note: Users may be in more than one role</div>
+                    <div id="usersGrid" kendo-grid k-data-source="UsersGridDS" k-options="UsersGridOptions"></div>
+                </div>
+            </div>
+        </div>
+        <div class="margin-bottom-15">
+            <input type="button" class="k-button margin-right-10" ng-disabled="form.$invalid" ng-click="Save(Role)" value="Save" />
+            <input type="button" class="k-button" ng-click="Cancel()" value="Cancel" />
+        </div>
+    </form>
+</div>

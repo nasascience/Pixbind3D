@@ -1,0 +1,44 @@
+﻿<div class="kk-body">
+    <div style="position:absolute; right: 10%; text-align:center; top:180px; z-index:10;" ng-if="AuthSvc.User">
+        <span style="position: absolute; color: white; margin-left: -30px; margin-top: 6px; text-align: center; background-color: #A80404; border-radius: 50px; width: 22px; height: 22px; background-color: #E68017; box-shadow: inset 0 0 10px red"></span>
+        <span ng-click="CartView()" style="cursor:pointer; position: absolute; color: white; margin-left: -34px; margin-top: 4px; width: 30px; font-size: 16px;">{{AuthSvc.CartProducts.length}}</span>
+        <img ng-click="CartView()" style="cursor:pointer; /*position: absolute;*/ width: 25px; height: 25px; top: 0; margin-top: 4px; left: 0;" src="../../../Content/images/AnimMax/cart2.png" />
+    </div>
+    <div class="kk-container">
+        <!--<ul ng-show="AuthSvc.User" id="mainMenu" ng-controller="MenuCtrl"></ul>-->
+        <ul id="mainMenu" ng-controller="MenuCtrl"></ul>
+    </div>
+
+    <div class="logo-container">
+        <img ng-click="GoHome()" class="logo-img" src="../../../Content/images/AnimMax/PixbindLogo1.jpg" />
+        <!--<div ng-click="GoHome()" class="logo-company-name">Pixbind</div>
+    <div ng-click="GoHome()" class="logo-slogan">Game Development</div>-->
+    </div>
+    <searchbar></searchbar>
+    <div class="MainDiv2">
+        <h1 style=" margin-top: 35px; margin-left: 5%;">Animations</h1>
+        <div id="AnimView" style="position: absolute; left: 10%; top:170px; margin-top: -5px; z-index: 100; ">
+            <input id="AnimItems" data-role="multiselectbox" style="width: 300px; margin-top: 17px;" data-option-label="" data-text-field="Name" data-value-field="Id" data-bind="source: testItemSource, value: testItems" />
+            <img ng-click="FilterSearch(AnimVM.testItems)" style="position: absolute; margin-right: -20px; margin-top: -20px; right: 0;" class="showtrayBtn" src="../../Content/images/AnimMax/magnifying-glass.png" />
+        </div>
+
+        <div class="VideoList">
+            <h1 style="text-align: center; font-size: 38px; color: #717171;" ng-hide="filteredAnim.length > 0">There are not items in this stock yet.</h1>
+            <div ng-repeat="product in filteredAnim = (AnimProducts | filterWithOr:{Category:filterConditions })" class="VideoInList">
+                <!--<div ng-repeat="product in AnimProducts | filterWithOr:({Category:filterConditions })" class="VideoInList">-->               
+                <!-- <li ng-repeat="item in list | filterWithOr:{name:['Jack','Chuck']}"> -->
+                <div class="cartDiv" ng-click="AddToCart(product)">
+                    <div class="cartImg"></div>
+                    <span style="font-size: 12px; color: red !important; font-weight: bold; background-color: rgba(255, 255, 255, 0.68); border-radius: 4px; margin-left: -8px;">{{product.Price}}$</span>
+                </div>
+                <div class="ItemOverlay" ng-click="ProducDetails(product)"></div>
+                <div ng-if="AuthSvc.IsAdmin" ng-click="AuthSvc.DeleteProduct(product.Id)" class="kk-delete"></div>
+                <!--<img class="VideoImg" ng-src="../../../Content/images/Uploads/{{product.Category}}/{{product.File}}" />-->
+                <img class="VideoImg" ng-src="../../../Content/images/Uploads/{{product.File}}" />
+                <div class="VideoTitle">
+                    <span class="ProductTitle">{{product.Title}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

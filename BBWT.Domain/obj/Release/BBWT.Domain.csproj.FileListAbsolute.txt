@@ -1,0 +1,42 @@
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\BBWT.Domain.dll.config
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\BBWT.Domain.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\BBWT.Domain.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\BBWT.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\Common.Logging.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\EntityFramework.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\WebMatrix.Data.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\WebMatrix.WebData.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\BBWT.Data.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\Common.Logging.pdb
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\Common.Logging.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\EntityFramework.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\WebMatrix.Data.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\bin\Release\WebMatrix.WebData.xml
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Release\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Release\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Release\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Release\BBWT.Domain.dll
+D:\Nasa\Projects\Dia a Dia\BBWT.Domain\obj\Release\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\BBWT.Domain.dll.config
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\BBWT.Domain.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\BBWT.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\Common.Logging.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\EntityFramework.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\EntityFramework.SqlServer.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\WebMatrix.Data.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\WebMatrix.WebData.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\BBWT.Data.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\Common.Logging.pdb
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\Common.Logging.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\EntityFramework.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\EntityFramework.SqlServer.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\WebMatrix.Data.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\bin\Release\WebMatrix.WebData.xml
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Release\BBWT.Domain.csprojResolveAssemblyReference.cache
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Release\BBWT.Domain.Notifications.resources
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Release\BBWT.Domain.csproj.GenerateResource.Cache
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Release\BBWT.Domain.dll
+D:\Nasa\Projects\Pixbind\BBWT.Domain\obj\Release\BBWT.Domain.pdb
